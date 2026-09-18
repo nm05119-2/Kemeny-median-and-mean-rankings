@@ -1,0 +1,1019 @@
+Loading instance...
+Median ranking: [7, 12, 15, 8, 13, 2, 5, 1, 11, 3, 9, 4, 10, 14, 6]
+Mean ranking: [7, 8, 12, 5, 13, 1, 3, 11, 4, 10, 15, 9, 2, 14, 6]
+Actual error: 0.00300634083860174
+Weighted Kendall distance: 198.5
+Normalized distance: 0.17723214285714287
+nss, 455 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (2 rounds: 2 fast, 2 medium, 1 exhaustive):
+ 0 deleted vars, 910 deleted constraints, 455 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 105 variables (0 bin, 0 int, 105 cont) and 455 constraints
+    455 constraints of type <linear>
+Presolving Time: 0.01
+transformed 3/3 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+* 0.0s|     1 |     0 |    11 |     - |    LP  |   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+  0.0s|     1 |     0 |    11 |     - |  3584k |   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.01
+Solving Nodes      : 1
+Primal Bound       : +1.40000000000000e+02 (4 solutions)
+Dual Bound         : +1.40000000000000e+02
+Gap                : 0.00 %
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 4.000000e+00
+presolving:
+   (0.0s) running MILP presolver
+   (0.0s) MILP presolver (2 rounds): 0 aggregations, 0 fixings, 0 bound changes
+(round 1, medium)     0 del vars, 910 del conss, 455 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.0s) probing: 51/105 (48.6%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.0s) probing aborted: 50/50 successive totally useless probings
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (2 rounds: 2 fast, 2 medium, 1 exhaustive):
+ 0 deleted vars, 910 deleted constraints, 455 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 105 variables (105 bin, 0 int, 0 cont) and 455 constraints
+    455 constraints of type <linear>
+transformed objective value is always integral (scale: 2)
+Presolving Time: 0.01
+transformed 2/2 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     0 |     - |   locks|   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.480000e+02 | 8.600000e+01 |  72.09%| unknown
+i 0.0s|     1 |     0 |     0 |     - |  oneopt|   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.480000e+02 | 1.100000e+02 |  34.55%| unknown
+* 0.0s|     1 |     0 |    11 |     - |    LP  |   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+  0.0s|     1 |     0 |    11 |     - |  3669k |   0 | 105 | 455 | 455 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.01
+Solving Nodes      : 1
+Primal Bound       : +1.40000000000000e+02 (5 solutions)
+Dual Bound         : +1.40000000000000e+02
+Gap                : 0.00 %
+feasible solution found by trivial heuristic after 0.0 seconds, objective value -9.999960e+05
+presolving:
+(round 1, fast)       0 del vars, 0 del conss, 0 add conss, 20 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.1s) running MILP presolver
+   (0.1s) MILP presolver (2 rounds): 0 aggregations, 0 fixings, 0 bound changes
+(round 2, medium)     0 del vars, 1960 del conss, 1505 add conss, 20 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.2s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.2s) no symmetry present (symcode time: 0.00)
+presolving (3 rounds: 3 fast, 2 medium, 1 exhaustive):
+ 0 deleted vars, 1960 deleted constraints, 1505 added constraints, 20 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (0 bin, 0 int, 115 cont) and 1505 constraints
+   1505 constraints of type <linear>
+Presolving Time: 0.21
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 0.2s|     1 |     0 |     0 |     - | trivial|   0 | 115 |1505 |   0 |   0 |  0 |   0 |   0 | 1.480000e+02 |-5.210000e+02 |    Inf | unknown
+* 0.3s|     1 |     0 |   192 |     - |    LP  |   0 | 115 |1505 |1505 |   0 |  0 |   0 |   0 |-7.270374e+01 |-7.270374e+01 |   0.00%| unknown
+  0.3s|     1 |     0 |   192 |     - |    86M |   0 | 115 |1505 |1505 |   0 |  0 |   0 |   0 |-7.270374e+01 |-7.270374e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.26
+Solving Nodes      : 1
+Primal Bound       : -7.27037440930570e+01 (3 solutions)
+Dual Bound         : -7.27037440930570e+01
+Gap                : 0.00 %
+feasible solution found by trivial heuristic after 0.0 seconds, objective value -9.999960e+05
+presolving:
+(round 1, fast)       0 del vars, 0 del conss, 0 add conss, 20 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.1s) running MILP presolver
+   (0.1s) MILP presolver (2 rounds): 0 aggregations, 0 fixings, 0 bound changes
+(round 2, medium)     0 del vars, 1960 del conss, 1505 add conss, 20 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs, 0 implints
+   (0.2s) probing: 51/105 (48.6%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.2s) probing aborted: 50/50 successive totally useless probings
+   (0.2s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.2s) no symmetry present (symcode time: 0.00)
+presolving (3 rounds: 3 fast, 2 medium, 1 exhaustive):
+ 0 deleted vars, 1960 deleted constraints, 1505 added constraints, 20 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 1505 constraints
+   1505 constraints of type <linear>
+Presolving Time: 0.21
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 0.2s|     1 |     0 |     0 |     - | trivial|   0 | 115 |1505 |   0 |   0 |  0 |   0 |   0 | 1.480000e+02 |-5.210000e+02 |    Inf | unknown
+p 0.3s|     1 |     0 |    10 |     - |   locks|   0 | 115 |1505 |1505 |   0 |  0 |   0 |   0 | 1.480000e+02 |-2.088143e+02 |    Inf | unknown
+  0.3s|     1 |     0 |   202 |     - |    87M |   0 | 115 |1505 |1505 |   0 |  0 |   0 |   0 |-7.270374e+01 |-2.088143e+02 | 187.21%| unknown
+r 0.3s|     1 |     0 |   202 |     - |shifting|   0 | 115 |1505 |1505 |   0 |  0 |   0 |   0 |-7.270374e+01 |-8.267059e+01 |  13.71%| unknown
+  0.3s|     1 |     0 |   213 |     - |    87M |   0 | 115 |1505 |1506 |   1 |  1 |   0 |   0 |-7.274174e+01 |-8.267059e+01 |  13.65%| unknown
+  0.4s|     1 |     0 |   220 |     - |    87M |   0 | 115 |1506 |1507 |   2 |  2 |   1 |   0 |-7.275131e+01 |-8.267059e+01 |  13.63%| unknown
+  0.4s|     1 |     0 |   245 |     - |    88M |   0 | 115 |1506 |1510 |   5 |  3 |   1 |   0 |-7.278116e+01 |-8.267059e+01 |  13.59%| unknown
+  0.5s|     1 |     0 |   255 |     - |    88M |   0 | 115 |1506 |1511 |   6 |  4 |   1 |   0 |-7.279044e+01 |-8.267059e+01 |  13.57%| unknown
+  0.5s|     1 |     0 |   263 |     - |    88M |   0 | 115 |1506 |1512 |   7 |  5 |   1 |   0 |-7.279393e+01 |-8.267059e+01 |  13.57%| unknown
+  0.5s|     1 |     0 |   270 |     - |    89M |   0 | 115 |1506 |1513 |   8 |  6 |   1 |   0 |-7.279551e+01 |-8.267059e+01 |  13.57%| unknown
+  0.6s|     1 |     0 |   277 |     - |    89M |   0 | 115 |1506 |1514 |   9 |  7 |   1 |   0 |-7.279650e+01 |-8.267059e+01 |  13.56%| unknown
+  0.6s|     1 |     0 |   286 |     - |    89M |   0 | 115 |1506 |1515 |  10 |  8 |   1 |   0 |-7.279683e+01 |-8.267059e+01 |  13.56%| unknown
+  0.7s|     1 |     0 |   289 |     - |    89M |   0 | 115 |1506 |1516 |  11 |  9 |   1 |   0 |-7.279696e+01 |-8.267059e+01 |  13.56%| unknown
+  0.7s|     1 |     0 |   317 |     - |    89M |   0 | 115 |1506 |1517 |  12 | 10 |   1 |   0 |-7.279933e+01 |-8.267059e+01 |  13.56%| unknown
+  0.8s|     1 |     0 |   319 |     - |    89M |   0 | 115 |1506 |1518 |  13 | 11 |   1 |   0 |-7.279947e+01 |-8.267059e+01 |  13.56%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.8s|     1 |     0 |   336 |     - |    90M |   0 | 115 |1506 |1519 |  14 | 12 |   1 |   0 |-7.280738e+01 |-8.267059e+01 |  13.55%| unknown
+  0.8s|     1 |     0 |   339 |     - |    90M |   0 | 115 |1506 |1520 |  15 | 13 |   1 |   0 |-7.280877e+01 |-8.267059e+01 |  13.54%| unknown
+  0.8s|     1 |     0 |   348 |     - |    90M |   0 | 115 |1506 |1521 |  16 | 14 |   1 |   0 |-7.281343e+01 |-8.267059e+01 |  13.54%| unknown
+  0.9s|     1 |     0 |   354 |     - |    90M |   0 | 115 |1506 |1522 |  17 | 15 |   1 |   0 |-7.281474e+01 |-8.267059e+01 |  13.54%| unknown
+  0.9s|     1 |     0 |   369 |     - |    90M |   0 | 115 |1506 |1522 |  18 | 16 |   1 |   0 |-7.281898e+01 |-8.267059e+01 |  13.53%| unknown
+  0.9s|     1 |     0 |   376 |     - |    90M |   0 | 115 |1506 |1523 |  19 | 17 |   1 |   0 |-7.282017e+01 |-8.267059e+01 |  13.53%| unknown
+  1.0s|     1 |     0 |   380 |     - |    90M |   0 | 115 |1506 |1524 |  20 | 18 |   1 |   0 |-7.282041e+01 |-8.267059e+01 |  13.53%| unknown
+  1.0s|     1 |     0 |   394 |     - |    91M |   0 | 115 |1506 |1525 |  21 | 19 |   1 |   0 |-7.282285e+01 |-8.267059e+01 |  13.52%| unknown
+d 1.1s|     1 |     0 |   494 |     - |farkasdi|   0 | 115 |1506 |1525 |   0 | 20 |   1 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+  1.2s|     1 |     0 |   573 |     - |    91M |   0 | 115 |1512 |1525 |  21 | 20 |   7 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+  1.2s|     1 |     0 |   573 |     - |    91M |   0 | 115 |1512 |1259 |  21 | 20 |   7 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+  1.2s|     1 |     0 |   573 |     - |    91M |   0 | 115 |1110 |1259 |  21 | 21 |   7 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+(run 1, node 1) restarting after 61 global fixings of integer variables
+
+(restart) converted 20 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       61 del vars, 0 del conss, 0 add conss, 0 chg bounds, 111 chg sides, 44 chg coeffs, 0 upgd conss, 0 impls, 96 clqs, 0 implints
+(round 2, fast)       61 del vars, 0 del conss, 0 add conss, 10 chg bounds, 111 chg sides, 44 chg coeffs, 0 upgd conss, 0 impls, 96 clqs, 0 implints
+   (1.3s) running MILP presolver
+   (1.3s) MILP presolver (3 rounds): 0 aggregations, 0 fixings, 10 bound changes
+(round 3, medium)     61 del vars, 0 del conss, 0 add conss, 20 chg bounds, 111 chg sides, 44 chg coeffs, 0 upgd conss, 0 impls, 96 clqs, 0 implints
+(round 4, fast)       61 del vars, 4 del conss, 0 add conss, 20 chg bounds, 126 chg sides, 88 chg coeffs, 0 upgd conss, 0 impls, 96 clqs, 0 implints
+(round 5, exhaustive) 61 del vars, 4 del conss, 0 add conss, 20 chg bounds, 126 chg sides, 88 chg coeffs, 96 upgd conss, 0 impls, 96 clqs, 0 implints
+(round 6, exhaustive) 61 del vars, 4 del conss, 0 add conss, 20 chg bounds, 126 chg sides, 89 chg coeffs, 96 upgd conss, 0 impls, 96 clqs, 0 implints
+presolving (7 rounds: 7 fast, 4 medium, 3 exhaustive):
+ 61 deleted vars, 4 deleted constraints, 0 added constraints, 20 tightened bounds, 0 added holes, 126 changed sides, 89 changed coefficients
+ 0 implications, 96 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 54 variables (44 bin, 0 int, 10 cont) and 1126 constraints
+     96 constraints of type <setppc>
+   1025 constraints of type <linear>
+      5 constraints of type <logicor>
+Presolving Time: 0.28
+transformed 21/26 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  1.4s|     1 |     0 |   758 |     - |    96M |   0 |  54 |1128 |1119 |   0 |  0 |   8 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+  1.4s|     1 |     0 |   758 |     - |    96M |   0 |  54 |1128 |1116 |   0 |  0 |   8 |   0 |-7.282285e+01 |-7.325238e+01 |   0.59%| unknown
+  1.5s|     1 |     0 |   778 |     - |    96M |   0 |  54 |1125 |1117 |   1 |  1 |   8 |   0 |-7.282718e+01 |-7.325238e+01 |   0.58%| unknown
+  1.6s|     1 |     0 |   794 |     - |    96M |   0 |  54 |1125 |1118 |   2 |  2 |   8 |   0 |-7.283365e+01 |-7.325238e+01 |   0.57%| unknown
+  1.6s|     1 |     0 |   794 |     - |    96M |   0 |  54 |1125 |1108 |   2 |  2 |   8 |   0 |-7.283365e+01 |-7.325238e+01 |   0.57%| unknown
+  1.6s|     1 |     0 |   795 |     - |    96M |   0 |  54 |1116 |1109 |   3 |  3 |   8 |   0 |-7.283367e+01 |-7.325238e+01 |   0.57%| unknown
+  1.7s|     1 |     0 |   822 |     - |    96M |   0 |  54 |1116 |1110 |   4 |  4 |   8 |   0 |-7.283970e+01 |-7.325238e+01 |   0.57%| unknown
+  1.8s|     1 |     0 |   841 |     - |    96M |   0 |  54 |1116 |1111 |   5 |  5 |   8 |   0 |-7.284324e+01 |-7.325238e+01 |   0.56%| unknown
+  1.9s|     1 |     0 |   846 |     - |    97M |   0 |  54 |1116 |1112 |   6 |  6 |   8 |   0 |-7.284335e+01 |-7.325238e+01 |   0.56%| unknown
+  2.0s|     1 |     0 |   852 |     - |    97M |   0 |  54 |1116 |1113 |   7 |  7 |   8 |   0 |-7.284337e+01 |-7.325238e+01 |   0.56%| unknown
+  2.1s|     1 |     0 |   863 |     - |    97M |   0 |  54 |1116 |1114 |   8 |  8 |   9 |   0 |-7.284363e+01 |-7.325238e+01 |   0.56%| unknown
+  2.2s|     1 |     0 |   866 |     - |    97M |   0 |  54 |1116 |1115 |   9 |  9 |   9 |   0 |-7.284366e+01 |-7.325238e+01 |   0.56%| unknown
+  2.2s|     1 |     0 |   870 |     - |    97M |   0 |  54 |1116 |1116 |  10 | 10 |   9 |   0 |-7.284369e+01 |-7.325238e+01 |   0.56%| unknown
+  2.3s|     1 |     0 |   874 |     - |    97M |   0 |  54 |1116 |1117 |  11 | 11 |   9 |   0 |-7.284370e+01 |-7.325238e+01 |   0.56%| unknown
+  2.4s|     1 |     0 |   888 |     - |    97M |   0 |  54 |1116 |1118 |  12 | 12 |   9 |   0 |-7.284444e+01 |-7.325238e+01 |   0.56%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  2.4s|     1 |     0 |   888 |     - |    97M |   0 |  54 |1106 |1118 |  12 | 12 |   9 |   0 |-7.284444e+01 |-7.325238e+01 |   0.56%| unknown
+  2.5s|     1 |     0 |   898 |     - |    97M |   0 |  54 |1106 |1120 |  14 | 13 |   9 |   0 |-7.284505e+01 |-7.325238e+01 |   0.56%| unknown
+  2.6s|     1 |     0 |   914 |     - |    97M |   0 |  54 |1106 |1106 |  15 | 14 |   9 |   0 |-7.284534e+01 |-7.325238e+01 |   0.56%| unknown
+  2.7s|     1 |     0 |   917 |     - |    97M |   0 |  54 |1106 |1107 |  16 | 15 |   9 |   0 |-7.284535e+01 |-7.325238e+01 |   0.56%| unknown
+  2.7s|     1 |     0 |   931 |     - |    98M |   0 |  54 |1106 |1108 |  17 | 16 |   9 |   0 |-7.284567e+01 |-7.325238e+01 |   0.56%| unknown
+  2.8s|     1 |     0 |   946 |     - |    98M |   0 |  54 |1106 |1110 |  19 | 17 |   9 |   0 |-7.284593e+01 |-7.325238e+01 |   0.56%| unknown
+  2.9s|     1 |     0 |   951 |     - |    98M |   0 |  54 |1106 |1111 |  20 | 18 |   9 |   0 |-7.284603e+01 |-7.325238e+01 |   0.56%| unknown
+  3.0s|     1 |     0 |   952 |     - |    98M |   0 |  54 |1106 |1112 |  21 | 19 |   9 |   0 |-7.284604e+01 |-7.325238e+01 |   0.56%| unknown
+  3.0s|     1 |     0 |   956 |     - |    98M |   0 |  54 |1107 |1110 |  22 | 20 |  10 |   0 |-7.284621e+01 |-7.325238e+01 |   0.56%| unknown
+(run 2, node 1) restarting after 3 global fixings of integer variables
+
+(restart) converted 18 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       3 del vars, 0 del conss, 0 add conss, 0 chg bounds, 27 chg sides, 41 chg coeffs, 0 upgd conss, 0 impls, 91 clqs, 0 implints
+(round 2, fast)       3 del vars, 0 del conss, 0 add conss, 4 chg bounds, 27 chg sides, 41 chg coeffs, 0 upgd conss, 0 impls, 91 clqs, 0 implints
+(round 3, exhaustive) 3 del vars, 0 del conss, 0 add conss, 4 chg bounds, 27 chg sides, 41 chg coeffs, 6 upgd conss, 0 impls, 91 clqs, 0 implints
+(round 4, exhaustive) 3 del vars, 0 del conss, 0 add conss, 4 chg bounds, 27 chg sides, 44 chg coeffs, 6 upgd conss, 0 impls, 91 clqs, 0 implints
+presolving (5 rounds: 5 fast, 3 medium, 3 exhaustive):
+ 3 deleted vars, 0 deleted constraints, 0 added constraints, 4 tightened bounds, 0 added holes, 27 changed sides, 44 changed coefficients
+ 0 implications, 91 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 51 variables (41 bin, 0 int, 10 cont) and 1126 constraints
+     91 constraints of type <setppc>
+   1027 constraints of type <linear>
+      8 constraints of type <logicor>
+Presolving Time: 0.32
+transformed 42/47 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  3.2s|     1 |     0 |  1251 |     - |   102M |   0 |  51 |1126 |1115 |   0 |  0 |  11 |   0 |-7.284621e+01 |-7.325238e+01 |   0.56%| unknown
+  3.3s|     1 |     0 |  1257 |     - |   102M |   0 |  51 |1126 |1116 |   1 |  1 |  11 |   0 |-7.284642e+01 |-7.325238e+01 |   0.56%| unknown
+  3.4s|     1 |     0 |  1311 |     - |   102M |   0 |  51 |1126 |1118 |   3 |  2 |  11 |   0 |-7.287081e+01 |-7.325238e+01 |   0.52%| unknown
+  3.5s|     1 |     0 |  1351 |     - |   102M |   0 |  51 |1126 |1119 |   4 |  3 |  11 |   0 |-7.287684e+01 |-7.325238e+01 |   0.52%| unknown
+  3.6s|     1 |     0 |  1357 |     - |   102M |   0 |  51 |1126 |1120 |   5 |  4 |  11 |   0 |-7.287718e+01 |-7.325238e+01 |   0.51%| unknown
+  3.7s|     1 |     0 |  1383 |     - |   102M |   0 |  51 |1126 |1121 |   6 |  5 |  11 |   0 |-7.288169e+01 |-7.325238e+01 |   0.51%| unknown
+  3.7s|     1 |     0 |  1392 |     - |   102M |   0 |  51 |1126 |1122 |   7 |  6 |  11 |   0 |-7.288332e+01 |-7.325238e+01 |   0.51%| unknown
+  3.8s|     1 |     0 |  1418 |     - |   102M |   0 |  51 |1126 |1123 |   8 |  7 |  11 |   0 |-7.288737e+01 |-7.325238e+01 |   0.50%| unknown
+  3.9s|     1 |     0 |  1445 |     - |   102M |   0 |  51 |1126 |1124 |   9 |  8 |  11 |   0 |-7.289080e+01 |-7.325238e+01 |   0.50%| unknown
+  4.0s|     1 |     0 |  1459 |     - |   102M |   0 |  51 |1127 |1125 |  10 |  9 |  12 |   0 |-7.289133e+01 |-7.325238e+01 |   0.50%| unknown
+  4.1s|     1 |     0 |  1469 |     - |   102M |   0 |  51 |1127 |1126 |  11 | 10 |  12 |   0 |-7.289153e+01 |-7.325238e+01 |   0.50%| unknown
+  4.2s|     1 |     0 |  1476 |     - |   102M |   0 |  51 |1127 |1127 |  12 | 11 |  12 |   0 |-7.289207e+01 |-7.325238e+01 |   0.49%| unknown
+  4.2s|     1 |     0 |  1485 |     - |   103M |   0 |  51 |1127 |1107 |  13 | 12 |  12 |   0 |-7.289248e+01 |-7.325238e+01 |   0.49%| unknown
+  4.3s|     1 |     0 |  1585 |     - |   103M |   0 |  51 |1122 |1107 |  13 | 12 |  13 |   1 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.3s|     1 |     0 |  1598 |     - |   103M |   0 |  51 |1122 |1108 |  14 | 13 |  13 |   1 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  4.4s|     1 |     0 |  1601 |     - |   103M |   0 |  51 |1122 |1107 |  15 | 14 |  13 |   1 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.4s|     1 |     0 |  1610 |     - |   103M |   0 |  51 |1122 |1107 |  15 | 14 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+(run 3, node 1) restarting after 3 global fixings of integer variables
+
+(restart) converted 15 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       3 del vars, 19 del conss, 0 add conss, 0 chg bounds, 109 chg sides, 192 chg coeffs, 0 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 2, fast)       3 del vars, 19 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 192 chg coeffs, 0 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 3, exhaustive) 3 del vars, 19 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 192 chg coeffs, 15 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 4, fast)       3 del vars, 20 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 192 chg coeffs, 15 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 5, exhaustive) 3 del vars, 23 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 192 chg coeffs, 15 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 6, exhaustive) 3 del vars, 23 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 194 chg coeffs, 15 upgd conss, 0 impls, 88 clqs, 0 implints
+(round 7, exhaustive) 3 del vars, 24 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 194 chg coeffs, 15 upgd conss, 0 impls, 89 clqs, 0 implints
+(round 8, exhaustive) 3 del vars, 24 del conss, 0 add conss, 6 chg bounds, 109 chg sides, 195 chg coeffs, 15 upgd conss, 0 impls, 89 clqs, 0 implints
+presolving (9 rounds: 9 fast, 6 medium, 6 exhaustive):
+ 3 deleted vars, 24 deleted constraints, 0 added constraints, 6 tightened bounds, 0 added holes, 109 changed sides, 195 changed coefficients
+ 0 implications, 89 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 48 variables (38 bin, 0 int, 10 cont) and 1113 constraints
+      4 constraints of type <knapsack>
+     88 constraints of type <setppc>
+   1015 constraints of type <linear>
+      6 constraints of type <logicor>
+Presolving Time: 0.38
+transformed 47/63 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  4.4s|     1 |     0 |  1763 |     - |   107M |   0 |  48 |1113 |1105 |   0 |  0 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.5s|     1 |     0 |  1763 |     - |   107M |   0 |  48 |1113 |1080 |   0 |  0 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.5s|     1 |     0 |  1778 |     - |   107M |   0 |  48 |1092 |1081 |   1 |  1 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.6s|     1 |     0 |  1788 |     - |   107M |   0 |  48 |1092 |1082 |   2 |  2 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.7s|     1 |     0 |  1794 |     - |   107M |   0 |  48 |1092 |1083 |   3 |  3 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.7s|     1 |     0 |  1815 |     - |   107M |   0 |  48 |1092 |1084 |   4 |  4 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.8s|     1 |     0 |  1821 |     - |   107M |   0 |  48 |1092 |1085 |   5 |  5 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  4.9s|     1 |     0 |  1838 |     - |   107M |   0 |  48 |1092 |1086 |   6 |  6 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.0s|     1 |     0 |  1853 |     - |   107M |   0 |  48 |1092 |1087 |   7 |  7 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.0s|     1 |     0 |  1865 |     - |   108M |   0 |  48 |1092 |1088 |   8 |  8 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.1s|     1 |     0 |  1878 |     - |   108M |   0 |  48 |1092 |1089 |   9 |  9 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.2s|     1 |     0 |  1904 |     - |   109M |   0 |  48 |1092 |1057 |  10 | 10 |  15 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.2s|     1 |     0 |  1932 |     - |   109M |   0 |  48 |1093 |1058 |  11 | 11 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.3s|     1 |     0 |  1941 |     - |   109M |   0 |  48 |1093 |1059 |  12 | 12 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.3s|     1 |     0 |  1941 |     - |   109M |   0 |  48 |1079 |1059 |  12 | 12 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  5.4s|     1 |     0 |  1943 |     - |   109M |   0 |  48 |1079 |1060 |  13 | 13 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.4s|     1 |     0 |  1946 |     - |   109M |   0 |  48 |1079 |1061 |  14 | 14 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.5s|     1 |     0 |  1950 |     - |   109M |   0 |  48 |1079 |1062 |  15 | 15 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+  5.6s|     1 |     0 |  1952 |     - |   109M |   0 |  48 |1079 |1056 |  16 | 16 |  16 |   2 |-7.294172e+01 |-7.325238e+01 |   0.43%| unknown
+d 5.6s|     1 |     0 |  2067 |     - |conflict|   0 |  48 |1080 |1056 |   0 | 17 |  17 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+(run 4, node 1) restarting after 3 global fixings of integer variables
+
+(restart) converted 13 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       3 del vars, 0 del conss, 0 add conss, 0 chg bounds, 91 chg sides, 140 chg coeffs, 0 upgd conss, 0 impls, 72 clqs, 0 implints
+(round 2, fast)       3 del vars, 0 del conss, 0 add conss, 5 chg bounds, 91 chg sides, 140 chg coeffs, 0 upgd conss, 0 impls, 72 clqs, 0 implints
+   (5.7s) running MILP presolver
+   (5.7s) MILP presolver (3 rounds): 0 aggregations, 0 fixings, 13 bound changes
+(round 3, medium)     3 del vars, 0 del conss, 0 add conss, 18 chg bounds, 91 chg sides, 140 chg coeffs, 0 upgd conss, 0 impls, 72 clqs, 0 implints
+(round 4, fast)       3 del vars, 6 del conss, 0 add conss, 18 chg bounds, 91 chg sides, 140 chg coeffs, 0 upgd conss, 0 impls, 72 clqs, 0 implints
+(round 5, exhaustive) 3 del vars, 6 del conss, 0 add conss, 18 chg bounds, 91 chg sides, 140 chg coeffs, 3 upgd conss, 0 impls, 72 clqs, 0 implints
+presolving (6 rounds: 6 fast, 3 medium, 2 exhaustive):
+ 3 deleted vars, 6 deleted constraints, 0 added constraints, 18 tightened bounds, 0 added holes, 91 changed sides, 140 changed coefficients
+ 0 implications, 72 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 45 variables (35 bin, 0 int, 10 cont) and 1087 constraints
+      4 constraints of type <knapsack>
+     71 constraints of type <setppc>
+   1005 constraints of type <linear>
+      7 constraints of type <logicor>
+Presolving Time: 0.43
+transformed 65/81 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  5.7s|     1 |     0 |  2215 |     - |   113M |   0 |  45 |1087 |1078 |   0 |  0 |  17 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  5.8s|     1 |     0 |  2252 |     - |   113M |   0 |  45 |1087 |1079 |   1 |  1 |  17 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  5.9s|     1 |     0 |  2261 |     - |   113M |   0 |  45 |1088 |1080 |   2 |  2 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  5.9s|     1 |     0 |  2271 |     - |   113M |   0 |  45 |1088 |1081 |   3 |  3 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.0s|     1 |     0 |  2284 |     - |   113M |   0 |  45 |1088 |1082 |   4 |  4 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.1s|     1 |     0 |  2303 |     - |   113M |   0 |  45 |1088 |1083 |   5 |  5 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.2s|     1 |     0 |  2316 |     - |   113M |   0 |  45 |1088 |1084 |   6 |  6 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.2s|     1 |     0 |  2324 |     - |   113M |   0 |  45 |1088 |1085 |   7 |  7 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.3s|     1 |     0 |  2330 |     - |   113M |   0 |  45 |1088 |1086 |   8 |  8 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.4s|     1 |     0 |  2339 |     - |   113M |   0 |  45 |1088 |1087 |   9 |  9 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.4s|     1 |     0 |  2356 |     - |   113M |   0 |  45 |1088 |1088 |  10 | 10 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.5s|     1 |     0 |  2377 |     - |   113M |   0 |  45 |1088 |1039 |  11 | 11 |  18 |   2 |-7.294172e+01 |-7.317619e+01 |   0.32%| unknown
+  6.5s|     1 |     0 |  2475 |     - |   113M |   0 |  45 |1088 |1039 |  11 | 11 |  22 |   3 |-7.314762e+01 |-7.317619e+01 |   0.04%| unknown
+(run 5, node 1) restarting after 6 global fixings of integer variables
+
+(restart) converted 11 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       8 del vars, 60 del conss, 0 add conss, 11 chg bounds, 61 chg sides, 85 chg coeffs, 0 upgd conss, 0 impls, 55 clqs, 0 implints
+(round 2, fast)       8 del vars, 80 del conss, 0 add conss, 11 chg bounds, 78 chg sides, 139 chg coeffs, 0 upgd conss, 0 impls, 56 clqs, 0 implints
+(round 3, fast)       8 del vars, 80 del conss, 0 add conss, 20 chg bounds, 78 chg sides, 139 chg coeffs, 0 upgd conss, 0 impls, 56 clqs, 0 implints
+   (6.6s) running MILP presolver
+   (6.6s) MILP presolver (4 rounds): 0 aggregations, 0 fixings, 8 bound changes
+(round 4, medium)     8 del vars, 83 del conss, 4 add conss, 28 chg bounds, 85 chg sides, 150 chg coeffs, 0 upgd conss, 0 impls, 56 clqs, 0 implints
+(round 5, fast)       8 del vars, 90 del conss, 4 add conss, 28 chg bounds, 99 chg sides, 177 chg coeffs, 0 upgd conss, 0 impls, 56 clqs, 0 implints
+(round 6, exhaustive) 8 del vars, 90 del conss, 4 add conss, 28 chg bounds, 99 chg sides, 177 chg coeffs, 19 upgd conss, 0 impls, 56 clqs, 0 implints
+(round 7, fast)       8 del vars, 91 del conss, 4 add conss, 28 chg bounds, 99 chg sides, 177 chg coeffs, 19 upgd conss, 0 impls, 56 clqs, 0 implints
+presolving (8 rounds: 8 fast, 3 medium, 2 exhaustive):
+ 8 deleted vars, 91 deleted constraints, 4 added constraints, 28 tightened bounds, 0 added holes, 99 changed sides, 177 changed coefficients
+ 0 implications, 56 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 37 variables (27 bin, 0 int, 10 cont) and 1012 constraints
+      2 constraints of type <knapsack>
+     56 constraints of type <setppc>
+    952 constraints of type <linear>
+      2 constraints of type <logicor>
+Presolving Time: 0.46
+transformed 1/94 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  6.6s|     1 |     0 |  2571 |     - |   116M |   0 |  37 |1012 |1008 |   0 |  0 |  22 |   3 |-7.314762e+01 |-7.317619e+01 |   0.04%| unknown
+  6.6s|     1 |     0 |  2571 |     - |   116M |   0 |  37 |1012 | 956 |   0 |  0 |  22 |   3 |-7.314762e+01 |-7.317619e+01 |   0.04%| unknown
+  6.6s|     1 |     0 |  2577 |     - |   116M |   0 |  37 | 983 | 922 |   1 |  1 |  22 |   3 |-7.315238e+01 |-7.317619e+01 |   0.03%| unknown
+  6.6s|     1 |     0 |  2579 |     - |   116M |   0 |  37 | 969 | 923 |   2 |  2 |  22 |   3 |-7.315714e+01 |-7.317619e+01 |   0.03%| unknown
+  6.6s|     1 |     0 |  2580 |     - |   116M |   0 |  37 | 969 | 924 |   3 |  3 |  22 |   3 |-7.315714e+01 |-7.317619e+01 |   0.03%| unknown
+  6.6s|     1 |     0 |  2580 |     - |   116M |   0 |  37 | 729 | 924 |   3 |  4 |  22 |   3 |-7.315714e+01 |-7.317619e+01 |   0.03%| unknown
+d 6.6s|     1 |     0 |  2580 |     - |conflict|   0 |  37 | 729 | 924 |   0 |  5 |  22 |   3 |-7.315714e+01 |-7.315714e+01 |   0.00%| unknown
+  6.6s|     1 |     0 |  2580 |     - |   116M |   0 |  37 | 729 | 924 |   3 |  5 |  22 |   3 |-7.315714e+01 |-7.315714e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 6.62
+Solving Nodes      : 1 (total of 6 nodes in 6 runs)
+Primal Bound       : -7.31571428571428e+01 (98 solutions)
+Dual Bound         : -7.31571428571428e+01
+Gap                : 0.00 %
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 0.000000e+00
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) symmetry computation finished: 9 generators found (max: 1500, log10 of symmetry group size: 6.56) (symcode time: 0.00)
+dynamic symmetry handling statistics:
+   orbitopal reduction:       no components
+   orbital reduction:         no components
+   lexicographic reduction:   no permutations
+handled 1 out of 1 symmetry components
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 919 constraints
+    919 constraints of type <linear>
+Presolving Time: 0.00
+transformed 2/2 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+t 0.0s|     1 |     0 |     0 |     - | trivial|   0 | 115 | 910 |   0 |   0 |  0 |   0 |   0 | 1.480000e+02 | 4.000000e+00 |3600.00%| unknown
+p 0.0s|     1 |     0 |     0 |     - |   locks|   0 | 115 | 910 | 910 |   0 |  0 |   0 |   0 | 1.480000e+02 | 4.600000e+01 | 221.74%| unknown
+i 0.0s|     1 |     0 |     0 |     - |  oneopt|   0 | 115 | 910 | 910 |   0 |  0 |   0 |   0 | 1.480000e+02 | 1.160000e+02 |  27.59%| unknown
+* 0.0s|     1 |     0 |    11 |     - |    LP  |   0 | 115 | 910 | 910 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+  0.0s|     1 |     0 |    11 |     - |  4698k |   0 | 115 | 910 | 910 |   0 |  0 |   0 |   0 | 1.400000e+02 | 1.400000e+02 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +1.40000000000000e+02 (6 solutions)
+Dual Bound         : +1.40000000000000e+02
+Gap                : 0.00 %
+  [linear] <c911>: <x106>[C] (+0) -0.633333333<x1>[B] (+0) -0.633333333<x2>[B] (+1) -0.633333333<x3>[B] (+1) -0.633333333<x4>[B] (+0) -0.633333333<x5>[B] (+1) +0.633333333<x6>[B] (+0) +0.633333333<x7>[B] (+0) -0.633333333<x8>[B] (+1) +0.633333333<x9>[B] (+1) +0.633333333<x10>[B] (+1) +0.633333333<x11>[B] (+0) -0.633333333<x12>[B] (+0) -0.633333333<x13>[B] (+1) -0.633333333<x14>[B] (+0) +0.633333333<x15>[B] (+1) +0.633333333<x16>[B] (+1) -0.633333333<x17>[B] (+1) +0.633333333<x18>[B] (+1) +0.633333333<x19>[B] (+0) +0.633333333<x20>[B] (+0) +0.633333333<x21>[B] (+1) +0.633333333<x22>[B] (+1) +0.633333333<x23>[B] (+1) +0.633333333<x24>[B] (+0) +0.633333333<x25>[B] (+0) +0.633333333<x26>[B] (+1) +0.633333333<x27>[B] (+0) -0.633333333<x28>[B] (+1) -0.633333333<x29>[B] (+0) -0.633333333<x30>[B] (+1) +0.633333333<x31>[B] (+0) +0.633333333<x32>[B] (+0) +0.633333333<x33>[B] (+1) +0.633333333<x34>[B] (+1) +0.633333333<x35>[B] (+0) +0.633333333<x36>[B] (+0) +0.633333333<x37>[B] (+0) +0.633333333<x38>[B] (+1) +0.633333333<x39>[B] (+0) -0.633333333<x40>[B] (+0) -0.633333333<x41>[B] (+1) +0.633333333<x42>[B] (+0) +0.633333333<x43>[B] (+0) +0.633333333<x44>[B] (+0) +0.633333333<x45>[B] (+1) +0.633333333<x46>[B] (+0) +0.633333333<x47>[B] (+0) +0.633333333<x48>[B] (+0) +0.633333333<x49>[B] (+1) +0.633333333<x50>[B] (+0) +0.633333333<x51>[B] (+1) +0.633333333<x52>[B] (+0) +0.633333333<x53>[B] (+0) +0.633333333<x54>[B] (+1) +0.633333333<x55>[B] (+1) +0.633333333<x56>[B] (+1) +0.633333333<x57>[B] (+0) +0.633333333<x58>[B] (+0) +0.633333333<x59>[B] (+1) +0.633333333<x60>[B] (+0) +0.633333333<x61>[B] (+0) +0.633333333<x62>[B] (+0) +0.633333333<x63>[B] (+0) +0.633333333<x64>[B] (+0) +0.633333333<x65>[B] (+0) +0.633333333<x66>[B] (+0) +0.633333333<x67>[B] (+0) +0.633333333<x68>[B] (+0) +0.633333333<x69>[B] (+0) -0.633333333<x70>[B] (+1) -0.633333333<x71>[B] (+1) -0.633333333<x72>[B] (+1) -0.633333333<x73>[B] (+1) -0.633333333<x74>[B] (+1) -0.633333333<x75>[B] (+1) -0.633333333<x76>[B] (+1) -0.633333333<x77>[B] (+1) -0.633333333<x78>[B] (+1) -0.633333333<x79>[B] (+1) -0.633333333<x80>[B] (+1) -0.633333333<x81>[B] (+0) -0.633333333<x82>[B] (+1) -0.633333333<x83>[B] (+1) -0.633333333<x84>[B] (+0) +0.633333333<x85>[B] (+1) +0.633333333<x86>[B] (+0) +0.633333333<x87>[B] (+0) -0.633333333<x88>[B] (+0) -0.633333333<x89>[B] (+1) -0.633333333<x90>[B] (+0) -0.633333333<x91>[B] (+0) +0.633333333<x92>[B] (+0) -0.633333333<x93>[B] (+0) -0.633333333<x94>[B] (+1) -0.633333333<x95>[B] (+0) +0.633333333<x96>[B] (+0) -0.633333333<x97>[B] (+0) -0.633333333<x98>[B] (+1) -0.633333333<x99>[B] (+0) -0.633333333<x100>[B] (+1) -0.633333333<x101>[B] (+1) -0.633333333<x102>[B] (+1) +0.633333333<x103>[B] (+1) -0.633333333<x104>[B] (+0) -0.633333333<x105>[B] (+0) >= 16.9428571428571;
+;
+violation: left hand side is violated by 21.3761904761905
+  [linear] <c911>: <x106>[C] (+0) -0.633333333<x1>[B] (+1) -0.633333333<x2>[B] (+1) -0.633333333<x3>[B] (+1) -0.633333333<x4>[B] (+0) -0.633333333<x5>[B] (+1) +0.633333333<x6>[B] (+0) +0.633333333<x7>[B] (+0) -0.633333333<x8>[B] (+1) +0.633333333<x9>[B] (+1) +0.633333333<x10>[B] (+1) +0.633333333<x11>[B] (+1) -0.633333333<x12>[B] (+1) -0.633333333<x13>[B] (+1) -0.633333333<x14>[B] (+1) +0.633333333<x15>[B] (+0) +0.633333333<x16>[B] (+1) -0.633333333<x17>[B] (+0) +0.633333333<x18>[B] (+1) +0.633333333<x19>[B] (+0) +0.633333333<x20>[B] (+0) +0.633333333<x21>[B] (+0) +0.633333333<x22>[B] (+0) +0.633333333<x23>[B] (+0) +0.633333333<x24>[B] (+1) +0.633333333<x25>[B] (+0) +0.633333333<x26>[B] (+1) +0.633333333<x27>[B] (+1) -0.633333333<x28>[B] (+1) -0.633333333<x29>[B] (+0) -0.633333333<x30>[B] (+1) +0.633333333<x31>[B] (+0) +0.633333333<x32>[B] (+0) +0.633333333<x33>[B] (+1) +0.633333333<x34>[B] (+1) +0.633333333<x35>[B] (+1) +0.633333333<x36>[B] (+1) +0.633333333<x37>[B] (+0) +0.633333333<x38>[B] (+1) +0.633333333<x39>[B] (+1) -0.633333333<x40>[B] (+0) -0.633333333<x41>[B] (+1) +0.633333333<x42>[B] (+0) +0.633333333<x43>[B] (+0) +0.633333333<x44>[B] (+0) +0.633333333<x45>[B] (+0) +0.633333333<x46>[B] (+0) +0.633333333<x47>[B] (+0) +0.633333333<x48>[B] (+0) +0.633333333<x49>[B] (+1) +0.633333333<x50>[B] (+1) +0.633333333<x51>[B] (+1) +0.633333333<x52>[B] (+0) +0.633333333<x53>[B] (+0) +0.633333333<x54>[B] (+1) +0.633333333<x55>[B] (+1) +0.633333333<x56>[B] (+1) +0.633333333<x57>[B] (+1) +0.633333333<x58>[B] (+1) +0.633333333<x59>[B] (+1) +0.633333333<x60>[B] (+1) +0.633333333<x61>[B] (+0) +0.633333333<x62>[B] (+0) +0.633333333<x63>[B] (+0) +0.633333333<x64>[B] (+0) +0.633333333<x65>[B] (+0) +0.633333333<x66>[B] (+0) +0.633333333<x67>[B] (+0) +0.633333333<x68>[B] (+0) +0.633333333<x69>[B] (+0) -0.633333333<x70>[B] (+1) -0.633333333<x71>[B] (+1) -0.633333333<x72>[B] (+1) -0.633333333<x73>[B] (+1) -0.633333333<x74>[B] (+1) -0.633333333<x75>[B] (+1) -0.633333333<x76>[B] (+1) -0.633333333<x77>[B] (+1) -0.633333333<x78>[B] (+1) -0.633333333<x79>[B] (+1) -0.633333333<x80>[B] (+1) -0.633333333<x81>[B] (+1) -0.633333333<x82>[B] (+1) -0.633333333<x83>[B] (+1) -0.633333333<x84>[B] (+1) +0.633333333<x85>[B] (+0) +0.633333333<x86>[B] (+0) +0.633333333<x87>[B] (+1) -0.633333333<x88>[B] (+0) -0.633333333<x89>[B] (+1) -0.633333333<x90>[B] (+1) -0.633333333<x91>[B] (+1) +0.633333333<x92>[B] (+1) -0.633333333<x93>[B] (+0) -0.633333333<x94>[B] (+1) -0.633333333<x95>[B] (+1) +0.633333333<x96>[B] (+1) -0.633333333<x97>[B] (+0) -0.633333333<x98>[B] (+1) -0.633333333<x99>[B] (+1) -0.633333333<x100>[B] (+0) -0.633333333<x101>[B] (+1) -0.633333333<x102>[B] (+1) +0.633333333<x103>[B] (+1) -0.633333333<x104>[B] (+1) -0.633333333<x105>[B] (+1) >= 16.9428571428571;
+;
+violation: left hand side is violated by 22.6428571428571
+  [linear] <c911>: <x106>[C] (+0) -0.633333333<x1>[B] (+1) -0.633333333<x2>[B] (+1) -0.633333333<x3>[B] (+1) -0.633333333<x4>[B] (+0) -0.633333333<x5>[B] (+1) +0.633333333<x6>[B] (+1) +0.633333333<x7>[B] (+1) -0.633333333<x8>[B] (+1) +0.633333333<x9>[B] (+1) +0.633333333<x10>[B] (+1) +0.633333333<x11>[B] (+1) -0.633333333<x12>[B] (+1) -0.633333333<x13>[B] (+1) -0.633333333<x14>[B] (+1) +0.633333333<x15>[B] (+0) +0.633333333<x16>[B] (+1) -0.633333333<x17>[B] (+0) +0.633333333<x18>[B] (+1) +0.633333333<x19>[B] (+0) +0.633333333<x20>[B] (+0) +0.633333333<x21>[B] (+1) +0.633333333<x22>[B] (+0) +0.633333333<x23>[B] (+0) +0.633333333<x24>[B] (+1) +0.633333333<x25>[B] (+1) +0.633333333<x26>[B] (+1) +0.633333333<x27>[B] (+1) -0.633333333<x28>[B] (+1) -0.633333333<x29>[B] (+0) -0.633333333<x30>[B] (+1) +0.633333333<x31>[B] (+1) +0.633333333<x32>[B] (+1) +0.633333333<x33>[B] (+1) +0.633333333<x34>[B] (+1) +0.633333333<x35>[B] (+1) +0.633333333<x36>[B] (+1) +0.633333333<x37>[B] (+1) +0.633333333<x38>[B] (+1) +0.633333333<x39>[B] (+1) -0.633333333<x40>[B] (+0) -0.633333333<x41>[B] (+1) +0.633333333<x42>[B] (+0) +0.633333333<x43>[B] (+0) +0.633333333<x44>[B] (+1) +0.633333333<x45>[B] (+0) +0.633333333<x46>[B] (+0) +0.633333333<x47>[B] (+1) +0.633333333<x48>[B] (+0) +0.633333333<x49>[B] (+0) +0.633333333<x50>[B] (+1) +0.633333333<x51>[B] (+1) +0.633333333<x52>[B] (+1) +0.633333333<x53>[B] (+1) +0.633333333<x54>[B] (+1) +0.633333333<x55>[B] (+1) +0.633333333<x56>[B] (+1) +0.633333333<x57>[B] (+1) +0.633333333<x58>[B] (+1) +0.633333333<x59>[B] (+1) +0.633333333<x60>[B] (+1) +0.633333333<x61>[B] (+0) +0.633333333<x62>[B] (+0) +0.633333333<x63>[B] (+0) +0.633333333<x64>[B] (+0) +0.633333333<x65>[B] (+0) +0.633333333<x66>[B] (+1) +0.633333333<x67>[B] (+0) +0.633333333<x68>[B] (+0) +0.633333333<x69>[B] (+1) -0.633333333<x70>[B] (+1) -0.633333333<x71>[B] (+1) -0.633333333<x72>[B] (+0) -0.633333333<x73>[B] (+1) -0.633333333<x74>[B] (+1) -0.633333333<x75>[B] (+1) -0.633333333<x76>[B] (+1) -0.633333333<x77>[B] (+1) -0.633333333<x78>[B] (+1) -0.633333333<x79>[B] (+0) -0.633333333<x80>[B] (+1) -0.633333333<x81>[B] (+1) -0.633333333<x82>[B] (+1) -0.633333333<x83>[B] (+1) -0.633333333<x84>[B] (+1) +0.633333333<x85>[B] (+0) +0.633333333<x86>[B] (+0) +0.633333333<x87>[B] (+1) -0.633333333<x88>[B] (+0) -0.633333333<x89>[B] (+0) -0.633333333<x90>[B] (+1) -0.633333333<x91>[B] (+1) +0.633333333<x92>[B] (+1) -0.633333333<x93>[B] (+1) -0.633333333<x94>[B] (+1) -0.633333333<x95>[B] (+1) +0.633333333<x96>[B] (+1) -0.633333333<x97>[B] (+1) -0.633333333<x98>[B] (+1) -0.633333333<x99>[B] (+1) -0.633333333<x100>[B] (+0) -0.633333333<x101>[B] (+0) -0.633333333<x102>[B] (+1) +0.633333333<x103>[B] (+1) -0.633333333<x104>[B] (+1) -0.633333333<x105>[B] (+1) >= 16.9428571428571;
+;
+violation: left hand side is violated by 13.7761904761905
+  [linear] <c911>: <x106>[C] (+0) -0.633333333<x1>[B] (+1) -0.633333333<x2>[B] (+1) -0.633333333<x3>[B] (+1) -0.633333333<x4>[B] (+1) -0.633333333<x5>[B] (+1) +0.633333333<x6>[B] (+1) +0.633333333<x7>[B] (+1) -0.633333333<x8>[B] (+1) +0.633333333<x9>[B] (+1) +0.633333333<x10>[B] (+1) +0.633333333<x11>[B] (+1) -0.633333333<x12>[B] (+1) -0.633333333<x13>[B] (+1) -0.633333333<x14>[B] (+1) +0.633333333<x15>[B] (+1) +0.633333333<x16>[B] (+1) -0.633333333<x17>[B] (+1) +0.633333333<x18>[B] (+1) +0.633333333<x19>[B] (+1) +0.633333333<x20>[B] (+1) +0.633333333<x21>[B] (+1) +0.633333333<x22>[B] (+1) +0.633333333<x23>[B] (+1) +0.633333333<x24>[B] (+1) +0.633333333<x25>[B] (+1) +0.633333333<x26>[B] (+1) +0.633333333<x27>[B] (+1) -0.633333333<x28>[B] (+1) -0.633333333<x29>[B] (+1) -0.633333333<x30>[B] (+1) +0.633333333<x31>[B] (+1) +0.633333333<x32>[B] (+1) +0.633333333<x33>[B] (+1) +0.633333333<x34>[B] (+1) +0.633333333<x35>[B] (+1) +0.633333333<x36>[B] (+1) +0.633333333<x37>[B] (+1) +0.633333333<x38>[B] (+1) +0.633333333<x39>[B] (+1) -0.633333333<x40>[B] (+1) -0.633333333<x41>[B] (+1) +0.633333333<x42>[B] (+1) +0.633333333<x43>[B] (+1) +0.633333333<x44>[B] (+1) +0.633333333<x45>[B] (+1) +0.633333333<x46>[B] (+1) +0.633333333<x47>[B] (+1) +0.633333333<x48>[B] (+1) +0.633333333<x49>[B] (+1) +0.633333333<x50>[B] (+1) +0.633333333<x51>[B] (+1) +0.633333333<x52>[B] (+1) +0.633333333<x53>[B] (+1) +0.633333333<x54>[B] (+1) +0.633333333<x55>[B] (+1) +0.633333333<x56>[B] (+1) +0.633333333<x57>[B] (+1) +0.633333333<x58>[B] (+1) +0.633333333<x59>[B] (+1) +0.633333333<x60>[B] (+1) +0.633333333<x61>[B] (+1) +0.633333333<x62>[B] (+1) +0.633333333<x63>[B] (+1) +0.633333333<x64>[B] (+1) +0.633333333<x65>[B] (+1) +0.633333333<x66>[B] (+1) +0.633333333<x67>[B] (+1) +0.633333333<x68>[B] (+1) +0.633333333<x69>[B] (+1) -0.633333333<x70>[B] (+1) -0.633333333<x71>[B] (+1) -0.633333333<x72>[B] (+1) -0.633333333<x73>[B] (+1) -0.633333333<x74>[B] (+1) -0.633333333<x75>[B] (+1) -0.633333333<x76>[B] (+1) -0.633333333<x77>[B] (+1) -0.633333333<x78>[B] (+1) -0.633333333<x79>[B] (+1) -0.633333333<x80>[B] (+1) -0.633333333<x81>[B] (+1) -0.633333333<x82>[B] (+1) -0.633333333<x83>[B] (+1) -0.633333333<x84>[B] (+1) +0.633333333<x85>[B] (+1) +0.633333333<x86>[B] (+1) +0.633333333<x87>[B] (+1) -0.633333333<x88>[B] (+1) -0.633333333<x89>[B] (+1) -0.633333333<x90>[B] (+1) -0.633333333<x91>[B] (+1) +0.633333333<x92>[B] (+1) -0.633333333<x93>[B] (+1) -0.633333333<x94>[B] (+1) -0.633333333<x95>[B] (+1) +0.633333333<x96>[B] (+1) -0.633333333<x97>[B] (+1) -0.633333333<x98>[B] (+1) -0.633333333<x99>[B] (+1) -0.633333333<x100>[B] (+1) -0.633333333<x101>[B] (+1) -0.633333333<x102>[B] (+1) +0.633333333<x103>[B] (+1) -0.633333333<x104>[B] (+1) -0.633333333<x105>[B] (+1) >= 16.9428571428571;
+;
+violation: left hand side is violated by 7.44285714285715
+  [linear] <c911>: <x106>[C] (+0) -0.633333333<x1>[B] (+0) -0.633333333<x2>[B] (+0) -0.633333333<x3>[B] (+0) -0.633333333<x4>[B] (+0) -0.633333333<x5>[B] (+0) +0.633333333<x6>[B] (+0) +0.633333333<x7>[B] (+0) -0.633333333<x8>[B] (+0) +0.633333333<x9>[B] (+0) +0.633333333<x10>[B] (+0) +0.633333333<x11>[B] (+0) -0.633333333<x12>[B] (+0) -0.633333333<x13>[B] (+0) -0.633333333<x14>[B] (+0) +0.633333333<x15>[B] (+0) +0.633333333<x16>[B] (+0) -0.633333333<x17>[B] (+0) +0.633333333<x18>[B] (+0) +0.633333333<x19>[B] (+0) +0.633333333<x20>[B] (+0) +0.633333333<x21>[B] (+0) +0.633333333<x22>[B] (+0) +0.633333333<x23>[B] (+0) +0.633333333<x24>[B] (+0) +0.633333333<x25>[B] (+0) +0.633333333<x26>[B] (+0) +0.633333333<x27>[B] (+0) -0.633333333<x28>[B] (+0) -0.633333333<x29>[B] (+0) -0.633333333<x30>[B] (+0) +0.633333333<x31>[B] (+0) +0.633333333<x32>[B] (+0) +0.633333333<x33>[B] (+0) +0.633333333<x34>[B] (+0) +0.633333333<x35>[B] (+0) +0.633333333<x36>[B] (+0) +0.633333333<x37>[B] (+0) +0.633333333<x38>[B] (+0) +0.633333333<x39>[B] (+0) -0.633333333<x40>[B] (+0) -0.633333333<x41>[B] (+0) +0.633333333<x42>[B] (+0) +0.633333333<x43>[B] (+0) +0.633333333<x44>[B] (+0) +0.633333333<x45>[B] (+0) +0.633333333<x46>[B] (+0) +0.633333333<x47>[B] (+0) +0.633333333<x48>[B] (+0) +0.633333333<x49>[B] (+0) +0.633333333<x50>[B] (+0) +0.633333333<x51>[B] (+0) +0.633333333<x52>[B] (+0) +0.633333333<x53>[B] (+0) +0.633333333<x54>[B] (+0) +0.633333333<x55>[B] (+0) +0.633333333<x56>[B] (+0) +0.633333333<x57>[B] (+0) +0.633333333<x58>[B] (+0) +0.633333333<x59>[B] (+0) +0.633333333<x60>[B] (+0) +0.633333333<x61>[B] (+0) +0.633333333<x62>[B] (+0) +0.633333333<x63>[B] (+0) +0.633333333<x64>[B] (+0) +0.633333333<x65>[B] (+0) +0.633333333<x66>[B] (+0) +0.633333333<x67>[B] (+0) +0.633333333<x68>[B] (+0) +0.633333333<x69>[B] (+0) -0.633333333<x70>[B] (+0) -0.633333333<x71>[B] (+0) -0.633333333<x72>[B] (+0) -0.633333333<x73>[B] (+0) -0.633333333<x74>[B] (+0) -0.633333333<x75>[B] (+0) -0.633333333<x76>[B] (+0) -0.633333333<x77>[B] (+0) -0.633333333<x78>[B] (+0) -0.633333333<x79>[B] (+0) -0.633333333<x80>[B] (+0) -0.633333333<x81>[B] (+0) -0.633333333<x82>[B] (+0) -0.633333333<x83>[B] (+0) -0.633333333<x84>[B] (+0) +0.633333333<x85>[B] (+0) +0.633333333<x86>[B] (+0) +0.633333333<x87>[B] (+0) -0.633333333<x88>[B] (+0) -0.633333333<x89>[B] (+0) -0.633333333<x90>[B] (+0) -0.633333333<x91>[B] (+0) +0.633333333<x92>[B] (+0) -0.633333333<x93>[B] (+0) -0.633333333<x94>[B] (+0) -0.633333333<x95>[B] (+0) +0.633333333<x96>[B] (+0) -0.633333333<x97>[B] (+0) -0.633333333<x98>[B] (+0) -0.633333333<x99>[B] (+0) -0.633333333<x100>[B] (+0) -0.633333333<x101>[B] (+0) -0.633333333<x102>[B] (+0) +0.633333333<x103>[B] (+0) -0.633333333<x104>[B] (+0) -0.633333333<x105>[B] (+0) >= 16.9428571428571;
+;
+violation: left hand side is violated by 16.9428571428571
+1/6 feasible solution given by solution candidate storage, new primal bound -9.999960e+05
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 920 constraints
+    920 constraints of type <linear>
+Presolving Time: 0.00
+transformed 1/1 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     1 |     - |   locks|   0 | 115 | 920 | 920 |   0 |  0 |   0 |   0 | 1.480000e+02 |-1.695048e+02 |    Inf | unknown
+* 0.0s|     1 |     0 |   122 |     - |    LP  |   0 | 115 | 920 | 920 |   0 |  0 |   0 |   0 |-6.951905e+01 |-6.951905e+01 |   0.00%| unknown
+  0.0s|     1 |     0 |   122 |     - |  5365k |   0 | 115 | 920 | 920 |   0 |  0 |   0 |   0 |-6.951905e+01 |-6.951905e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.01
+Solving Nodes      : 1
+Primal Bound       : -6.95190476190476e+01 (4 solutions)
+Dual Bound         : -6.95190476190476e+01
+Gap                : 0.00 %
+  [linear] <c921>: <x106>[C] (+27.7095238) -0.728571429<x1>[B] (+1) -0.728571429<x2>[B] (+1) -0.728571429<x3>[B] (+0) -0.728571429<x4>[B] (+1) -0.728571429<x5>[B] (+1) +0.728571429<x6>[B] (+0) +0.728571429<x7>[B] (+0) -0.728571429<x8>[B] (+1) +0.728571429<x9>[B] (+1) +0.728571429<x10>[B] (+0) +0.728571429<x11>[B] (+0) -0.728571429<x12>[B] (+1) -0.728571429<x13>[B] (+1) -0.728571429<x14>[B] (+1) +0.728571429<x15>[B] (+0) +0.728571429<x16>[B] (+0) -0.728571429<x17>[B] (+0) +0.728571429<x18>[B] (+1) +0.728571429<x19>[B] (+0) +0.728571429<x20>[B] (+0) +0.728571429<x21>[B] (+0) +0.728571429<x22>[B] (+0) +0.728571429<x23>[B] (+0) +0.728571429<x24>[B] (+0) +0.728571429<x25>[B] (+0) +0.728571429<x26>[B] (+1) +0.728571429<x27>[B] (+1) -0.728571429<x28>[B] (+0) -0.728571429<x29>[B] (+0) -0.728571429<x30>[B] (+1) +0.728571429<x31>[B] (+0) +0.728571429<x32>[B] (+0) +0.728571429<x33>[B] (+1) +0.728571429<x34>[B] (+1) +0.728571429<x35>[B] (+0) +0.728571429<x36>[B] (+0) +0.728571429<x37>[B] (+0) +0.728571429<x38>[B] (+1) +0.728571429<x39>[B] (+1) -0.728571429<x40>[B] (+1) -0.728571429<x41>[B] (+1) +0.728571429<x42>[B] (+0) +0.728571429<x43>[B] (+0) +0.728571429<x44>[B] (+1) +0.728571429<x45>[B] (+1) +0.728571429<x46>[B] (+0) +0.728571429<x47>[B] (+0) +0.728571429<x48>[B] (+1) +0.728571429<x49>[B] (+1) +0.728571429<x50>[B] (+1) +0.728571429<x51>[B] (+1) +0.728571429<x52>[B] (+0) +0.728571429<x53>[B] (+0) +0.728571429<x54>[B] (+1) +0.728571429<x55>[B] (+1) +0.728571429<x56>[B] (+0) +0.728571429<x57>[B] (+0) +0.728571429<x58>[B] (+0) +0.728571429<x59>[B] (+1) +0.728571429<x60>[B] (+1) +0.728571429<x61>[B] (+0) +0.728571429<x62>[B] (+0) +0.728571429<x63>[B] (+0) +0.728571429<x64>[B] (+0) +0.728571429<x65>[B] (+0) +0.728571429<x66>[B] (+0) +0.728571429<x67>[B] (+0) +0.728571429<x68>[B] (+0) +0.728571429<x69>[B] (+0) -0.728571429<x70>[B] (+1) -0.728571429<x71>[B] (+1) -0.728571429<x72>[B] (+1) -0.728571429<x73>[B] (+1) -0.728571429<x74>[B] (+1) -0.728571429<x75>[B] (+1) -0.728571429<x76>[B] (+1) -0.728571429<x77>[B] (+1) -0.728571429<x78>[B] (+1) -0.728571429<x79>[B] (+1) -0.728571429<x80>[B] (+0) -0.728571429<x81>[B] (+1) -0.728571429<x82>[B] (+1) -0.728571429<x83>[B] (+1) -0.728571429<x84>[B] (+1) +0.728571429<x85>[B] (+0) +0.728571429<x86>[B] (+0) +0.728571429<x87>[B] (+0) -0.728571429<x88>[B] (+0) -0.728571429<x89>[B] (+1) -0.728571429<x90>[B] (+1) -0.728571429<x91>[B] (+0) +0.728571429<x92>[B] (+0) -0.728571429<x93>[B] (+0) -0.728571429<x94>[B] (+1) -0.728571429<x95>[B] (+1) +0.728571429<x96>[B] (+1) -0.728571429<x97>[B] (+1) -0.728571429<x98>[B] (+1) -0.728571429<x99>[B] (+1) -0.728571429<x100>[B] (+1) -0.728571429<x101>[B] (+1) -0.728571429<x102>[B] (+1) +0.728571429<x103>[B] (+1) -0.728571429<x104>[B] (+1) -0.728571429<x105>[B] (+1) >= 15.847619047619;
+;
+violation: left hand side is violated by 0.523809523809518
+  [linear] <c922>: <x107>[C] (+0) -0.557142857<x1>[B] (+1) -0.557142857<x2>[B] (+1) -0.557142857<x3>[B] (+0) +0.557142857<x4>[B] (+1) -0.557142857<x5>[B] (+0) +0.557142857<x6>[B] (+1) -0.557142857<x7>[B] (+1) -0.557142857<x8>[B] (+0) -0.557142857<x9>[B] (+1) -0.557142857<x10>[B] (+0) -0.557142857<x11>[B] (+1) +0.557142857<x12>[B] (+0) -0.557142857<x13>[B] (+0) +0.557142857<x14>[B] (+1) -0.557142857<x15>[B] (+1) -0.557142857<x16>[B] (+0) +0.557142857<x17>[B] (+1) -0.557142857<x18>[B] (+0) +0.557142857<x19>[B] (+1) -0.557142857<x20>[B] (+1) -0.557142857<x21>[B] (+0) -0.557142857<x22>[B] (+1) +0.557142857<x23>[B] (+0) -0.557142857<x24>[B] (+1) +0.557142857<x25>[B] (+0) -0.557142857<x26>[B] (+0) +0.557142857<x27>[B] (+1) -0.557142857<x28>[B] (+0) +0.557142857<x29>[B] (+1) -0.557142857<x30>[B] (+0) +0.557142857<x31>[B] (+1) -0.557142857<x32>[B] (+1) -0.557142857<x33>[B] (+0) -0.557142857<x34>[B] (+1) +0.557142857<x35>[B] (+0) +0.557142857<x36>[B] (+1) +0.557142857<x37>[B] (+0) -0.557142857<x38>[B] (+0) +0.557142857<x39>[B] (+1) +0.557142857<x40>[B] (+1) -0.557142857<x41>[B] (+0) +0.557142857<x42>[B] (+1) +0.557142857<x43>[B] (+1) +0.557142857<x44>[B] (+1) -0.557142857<x45>[B] (+1) +0.557142857<x46>[B] (+1) +0.557142857<x47>[B] (+1) +0.557142857<x48>[B] (+1) +0.557142857<x49>[B] (+1) +0.557142857<x50>[B] (+1) -0.557142857<x51>[B] (+0) -0.557142857<x52>[B] (+1) -0.557142857<x53>[B] (+1) -0.557142857<x54>[B] (+0) -0.557142857<x55>[B] (+1) -0.557142857<x56>[B] (+0) -0.557142857<x57>[B] (+1) -0.557142857<x58>[B] (+0) -0.557142857<x59>[B] (+0) +0.557142857<x60>[B] (+1) +0.557142857<x61>[B] (+1) +0.557142857<x62>[B] (+1) +0.557142857<x63>[B] (+1) -0.557142857<x64>[B] (+1) +0.557142857<x65>[B] (+1) +0.557142857<x66>[B] (+1) +0.557142857<x67>[B] (+1) +0.557142857<x68>[B] (+1) +0.557142857<x69>[B] (+1) -0.557142857<x70>[B] (+0) -0.557142857<x71>[B] (+0) -0.557142857<x72>[B] (+0) -0.557142857<x73>[B] (+0) -0.557142857<x74>[B] (+0) +0.557142857<x75>[B] (+0) -0.557142857<x76>[B] (+0) +0.557142857<x77>[B] (+0) +0.557142857<x78>[B] (+0) -0.557142857<x79>[B] (+0) +0.557142857<x80>[B] (+0) +0.557142857<x81>[B] (+1) +0.557142857<x82>[B] (+0) +0.557142857<x83>[B] (+0) +0.557142857<x84>[B] (+0) -0.557142857<x85>[B] (+1) +0.557142857<x86>[B] (+1) +0.557142857<x87>[B] (+1) +0.557142857<x88>[B] (+1) -0.557142857<x89>[B] (+1) +0.557142857<x90>[B] (+1) +0.557142857<x91>[B] (+0) +0.557142857<x92>[B] (+1) +0.557142857<x93>[B] (+0) +0.557142857<x94>[B] (+0) +0.557142857<x95>[B] (+1) -0.557142857<x96>[B] (+1) +0.557142857<x97>[B] (+0) -0.557142857<x98>[B] (+0) +0.557142857<x99>[B] (+1) +0.557142857<x100>[B] (+0) -0.557142857<x101>[B] (+0) +0.557142857<x102>[B] (+0) -0.557142857<x103>[B] (+1) +0.557142857<x104>[B] (+1) +0.557142857<x105>[B] (+1) >= 14.9047619047619;
+;
+violation: left hand side is violated by 5.43333333333334
+2/4 feasible solutions given by solution candidate storage, new primal bound -9.999960e+05
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 930 constraints
+    930 constraints of type <linear>
+Presolving Time: 0.00
+transformed 2/2 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     2 |     - |   locks|   0 | 115 | 930 | 930 |   0 |  0 |   0 |   0 | 1.480000e+02 |-1.782905e+02 |    Inf | unknown
+  0.0s|     1 |     0 |   170 |     - |  5994k |   0 | 115 | 930 | 930 |   0 |  0 |   0 |   0 |-7.148950e+01 |-1.782905e+02 | 149.39%| unknown
+r 0.0s|     1 |     0 |   170 |     - |shifting|   0 | 115 | 930 | 930 |   0 |  0 |   0 |   0 |-7.148950e+01 |-8.341685e+01 |  16.68%| unknown
+  0.0s|     1 |     0 |   180 |     - |  6361k |   0 | 115 | 930 | 932 |   2 |  1 |   0 |   0 |-7.159471e+01 |-8.341685e+01 |  16.51%| unknown
+  0.0s|     1 |     0 |   180 |     - |  6370k |   0 | 115 | 930 | 932 |   2 |  1 |   0 |   0 |-7.159471e+01 |-8.341685e+01 |  16.51%| unknown
+  0.1s|     1 |     0 |   193 |     - |  6723k |   0 | 115 | 930 | 934 |   4 |  2 |   0 |   0 |-7.164308e+01 |-8.341685e+01 |  16.43%| unknown
+  0.1s|     1 |     0 |   206 |     - |  7017k |   0 | 115 | 930 | 935 |   5 |  3 |   0 |   0 |-7.166421e+01 |-8.341685e+01 |  16.40%| unknown
+  0.1s|     1 |     0 |   217 |     - |  7641k |   0 | 115 | 930 | 937 |   7 |  4 |   0 |   0 |-7.168966e+01 |-8.341685e+01 |  16.36%| unknown
+  0.1s|     1 |     0 |   233 |     - |  8072k |   0 | 115 | 930 | 938 |   8 |  5 |   0 |   0 |-7.171583e+01 |-8.341685e+01 |  16.32%| unknown
+  0.2s|     1 |     0 |   253 |     - |  8609k |   0 | 115 | 930 | 939 |   9 |  6 |   0 |   0 |-7.173897e+01 |-8.341685e+01 |  16.28%| unknown
+  0.2s|     1 |     0 |   265 |     - |  9236k |   0 | 115 | 930 | 940 |  10 |  7 |   0 |   0 |-7.174647e+01 |-8.341685e+01 |  16.27%| unknown
+  0.2s|     1 |     0 |   276 |     - |  9576k |   0 | 115 | 931 | 941 |  11 |  8 |   1 |   0 |-7.174982e+01 |-8.341685e+01 |  16.26%| unknown
+  0.3s|     1 |     0 |   288 |     - |    10M |   0 | 115 | 931 | 942 |  12 |  9 |   1 |   0 |-7.175140e+01 |-8.341685e+01 |  16.26%| unknown
+  0.3s|     1 |     0 |   322 |     - |    11M |   0 | 115 | 931 | 943 |  13 | 10 |   1 |   0 |-7.176001e+01 |-8.341685e+01 |  16.24%| unknown
+  0.3s|     1 |     0 |   323 |     - |    11M |   0 | 115 | 931 | 944 |  14 | 11 |   1 |   0 |-7.176005e+01 |-8.341685e+01 |  16.24%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.3s|     1 |     0 |   331 |     - |    11M |   0 | 115 | 931 | 946 |  16 | 12 |   1 |   0 |-7.176068e+01 |-8.341685e+01 |  16.24%| unknown
+  0.3s|     1 |     0 |   336 |     - |    11M |   0 | 115 | 931 | 947 |  17 | 13 |   1 |   0 |-7.176076e+01 |-8.341685e+01 |  16.24%| unknown
+  0.4s|     1 |     0 |   347 |     - |    11M |   0 | 115 | 931 | 949 |  19 | 14 |   1 |   0 |-7.176219e+01 |-8.341685e+01 |  16.24%| unknown
+  0.4s|     1 |     0 |   348 |     - |    11M |   0 | 115 | 931 | 950 |  20 | 15 |   1 |   0 |-7.176241e+01 |-8.341685e+01 |  16.24%| unknown
+  0.4s|     1 |     0 |   351 |     - |    11M |   0 | 115 | 931 | 950 |  21 | 16 |   1 |   0 |-7.176336e+01 |-8.341685e+01 |  16.24%| unknown
+  0.4s|     1 |     0 |   352 |     - |    11M |   0 | 115 | 931 | 951 |  22 | 17 |   1 |   0 |-7.176337e+01 |-8.341685e+01 |  16.24%| unknown
+  0.4s|     1 |     0 |   353 |     - |    11M |   0 | 115 | 931 | 952 |  23 | 18 |   1 |   0 |-7.176337e+01 |-8.341685e+01 |  16.24%| unknown
+  0.5s|     1 |     0 |   354 |     - |    11M |   0 | 115 | 931 | 953 |  24 | 19 |   1 |   0 |-7.176347e+01 |-8.341685e+01 |  16.24%| unknown
+  0.5s|     1 |     0 |   360 |     - |    12M |   0 | 115 | 931 | 955 |  26 | 20 |   1 |   0 |-7.176387e+01 |-8.341685e+01 |  16.24%| unknown
+d 0.5s|     1 |     0 |   455 |     - |farkasdi|   0 | 115 | 931 | 955 |   0 | 20 |   1 |   0 |-7.176387e+01 |-7.313810e+01 |   1.91%| unknown
+L 0.5s|     1 |     0 |   491 |     - |    rens|   0 | 115 | 931 | 955 |  26 | 20 |  23 |   0 |-7.176387e+01 |-7.194762e+01 |   0.26%| unknown
+(run 1, node 1) restarting after 22 global fixings of integer variables
+
+(restart) converted 25 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 956 constraints
+    955 constraints of type <linear>
+      1 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 23/26 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.5s|     1 |     0 |   697 |     - |    12M |   0 | 115 | 873 | 667 |   0 |  0 |  23 |   0 |-7.176387e+01 |-7.194762e+01 |   0.26%| unknown
+  0.5s|     1 |     0 |   697 |     - |    12M |   0 | 115 | 873 | 281 |   0 |  0 |  23 |   0 |-7.176387e+01 |-7.194762e+01 |   0.26%| unknown
+  0.6s|     1 |     0 |   708 |     - |    12M |   0 | 115 | 873 | 286 |   5 |  1 |  23 |   0 |-7.177381e+01 |-7.194762e+01 |   0.24%| unknown
+  0.6s|     1 |     0 |   727 |     - |    12M |   0 | 115 | 873 | 287 |   6 |  2 |  23 |   0 |-7.177998e+01 |-7.194762e+01 |   0.23%| unknown
+  0.6s|     1 |     0 |   740 |     - |    12M |   0 | 115 | 873 | 289 |   8 |  3 |  23 |   0 |-7.178229e+01 |-7.194762e+01 |   0.23%| unknown
+  0.7s|     1 |     0 |   764 |     - |    12M |   0 | 115 | 873 | 290 |   9 |  4 |  23 |   0 |-7.178738e+01 |-7.194762e+01 |   0.22%| unknown
+  0.7s|     1 |     0 |   788 |     - |    12M |   0 | 115 | 873 | 291 |  10 |  5 |  23 |   0 |-7.179616e+01 |-7.194762e+01 |   0.21%| unknown
+  0.7s|     1 |     0 |   808 |     - |    13M |   0 | 115 | 874 | 292 |  11 |  6 |  24 |   0 |-7.180055e+01 |-7.194762e+01 |   0.20%| unknown
+  0.7s|     1 |     0 |   808 |     - |    13M |   0 | 115 | 874 | 282 |  11 |  6 |  24 |   0 |-7.180055e+01 |-7.194762e+01 |   0.20%| unknown
+  0.8s|     1 |     0 |   819 |     - |    13M |   0 | 115 | 874 | 283 |  12 |  7 |  24 |   0 |-7.180250e+01 |-7.194762e+01 |   0.20%| unknown
+  0.8s|     1 |     0 |   832 |     - |    13M |   0 | 115 | 874 | 284 |  13 |  8 |  24 |   0 |-7.180385e+01 |-7.194762e+01 |   0.20%| unknown
+  0.8s|     1 |     0 |   849 |     - |    14M |   0 | 115 | 874 | 285 |  14 |  9 |  24 |   0 |-7.180426e+01 |-7.194762e+01 |   0.20%| unknown
+  0.9s|     1 |     0 |   865 |     - |    14M |   0 | 115 | 874 | 286 |  15 | 10 |  24 |   0 |-7.180546e+01 |-7.194762e+01 |   0.20%| unknown
+  0.9s|     1 |     0 |   871 |     - |    14M |   0 | 115 | 874 | 287 |  16 | 11 |  24 |   0 |-7.180567e+01 |-7.194762e+01 |   0.20%| unknown
+  0.9s|     1 |     0 |   887 |     - |    14M |   0 | 115 | 874 | 288 |  17 | 12 |  24 |   0 |-7.180735e+01 |-7.194762e+01 |   0.20%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  1.0s|     1 |     0 |   894 |     - |    14M |   0 | 115 | 874 | 275 |  18 | 13 |  24 |   0 |-7.180844e+01 |-7.194762e+01 |   0.19%| unknown
+  1.0s|     1 |     0 |   902 |     - |    14M |   0 | 115 | 874 | 276 |  19 | 14 |  24 |   0 |-7.180934e+01 |-7.194762e+01 |   0.19%| unknown
+  1.0s|     1 |     0 |   902 |     - |    14M |   0 | 115 | 325 | 276 |  19 | 15 |  24 |   0 |-7.180934e+01 |-7.194762e+01 |   0.19%| unknown
+  1.0s|     1 |     0 |  1010 |     - |    14M |   0 | 115 | 330 | 276 |  19 | 16 |  29 |   2 |-7.184950e+01 |-7.194762e+01 |   0.14%| unknown
+  1.1s|     1 |     0 |  1053 |     - |    14M |   0 | 115 | 293 | 276 |  19 | 17 |  31 |   3 |-7.191373e+01 |-7.194762e+01 |   0.05%| unknown
+  1.1s|     1 |     0 |  1053 |     - |    14M |   0 | 115 | 293 | 200 |  19 | 17 |  31 |   3 |-7.191373e+01 |-7.194762e+01 |   0.05%| unknown
+  1.1s|     1 |     0 |  1053 |     - |    14M |   0 | 115 | 216 | 200 |  19 | 18 |  31 |   3 |-7.191373e+01 |-7.194762e+01 |   0.05%| unknown
+  1.1s|     1 |     0 |  1059 |     - |    14M |   0 | 115 | 217 | 200 |  19 | 19 |  34 |   8 |-7.194762e+01 |-7.194762e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.10
+Solving Nodes      : 1 (total of 2 nodes in 2 runs)
+Primal Bound       : -7.19476190476190e+01 (44 solutions)
+Dual Bound         : -7.19476190476190e+01
+Gap                : 0.00 %
+  [linear] <c931>: <x106>[C] (+26.047619) -0.7<x1>[B] (+1) -0.7<x2>[B] (+1) -0.7<x3>[B] (+1) -0.7<x4>[B] (+0) -0.7<x5>[B] (+1) +0.7<x6>[B] (+0) +0.7<x7>[B] (+0) -0.7<x8>[B] (+1) +0.7<x9>[B] (+1) +0.7<x10>[B] (+1) +0.7<x11>[B] (+0) -0.7<x12>[B] (+0) -0.7<x13>[B] (+1) -0.7<x14>[B] (+1) +0.7<x15>[B] (+0) +0.7<x16>[B] (+0) -0.7<x17>[B] (+0) +0.7<x18>[B] (+1) +0.7<x19>[B] (+0) +0.7<x20>[B] (+0) +0.7<x21>[B] (+0) +0.7<x22>[B] (+0) +0.7<x23>[B] (+0) +0.7<x24>[B] (+0) +0.7<x25>[B] (+0) +0.7<x26>[B] (+1) +0.7<x27>[B] (+0) -0.7<x28>[B] (+1) -0.7<x29>[B] (+0) -0.7<x30>[B] (+1) +0.7<x31>[B] (+0) +0.7<x32>[B] (+0) +0.7<x33>[B] (+1) +0.7<x34>[B] (+1) +0.7<x35>[B] (+0) +0.7<x36>[B] (+0) +0.7<x37>[B] (+0) +0.7<x38>[B] (+1) +0.7<x39>[B] (+1) -0.7<x40>[B] (+0) -0.7<x41>[B] (+1) +0.7<x42>[B] (+0) +0.7<x43>[B] (+0) +0.7<x44>[B] (+1) +0.7<x45>[B] (+1) +0.7<x46>[B] (+0) +0.7<x47>[B] (+0) +0.7<x48>[B] (+0) +0.7<x49>[B] (+1) +0.7<x50>[B] (+1) +0.7<x51>[B] (+1) +0.7<x52>[B] (+0) +0.7<x53>[B] (+0) +0.7<x54>[B] (+1) +0.7<x55>[B] (+1) +0.7<x56>[B] (+1) +0.7<x57>[B] (+0) +0.7<x58>[B] (+1) +0.7<x59>[B] (+1) +0.7<x60>[B] (+1) +0.7<x61>[B] (+0) +0.7<x62>[B] (+0) +0.7<x63>[B] (+0) +0.7<x64>[B] (+0) +0.7<x65>[B] (+0) +0.7<x66>[B] (+0) +0.7<x67>[B] (+0) +0.7<x68>[B] (+0) +0.7<x69>[B] (+0) -0.7<x70>[B] (+1) -0.7<x71>[B] (+1) -0.7<x72>[B] (+1) -0.7<x73>[B] (+1) -0.7<x74>[B] (+1) -0.7<x75>[B] (+1) -0.7<x76>[B] (+1) -0.7<x77>[B] (+1) -0.7<x78>[B] (+1) -0.7<x79>[B] (+1) -0.7<x80>[B] (+1) -0.7<x81>[B] (+1) -0.7<x82>[B] (+1) -0.7<x83>[B] (+1) -0.7<x84>[B] (+1) +0.7<x85>[B] (+0) +0.7<x86>[B] (+0) +0.7<x87>[B] (+0) -0.7<x88>[B] (+0) -0.7<x89>[B] (+1) -0.7<x90>[B] (+0) -0.7<x91>[B] (+0) +0.7<x92>[B] (+0) -0.7<x93>[B] (+0) -0.7<x94>[B] (+1) -0.7<x95>[B] (+1) +0.7<x96>[B] (+0) -0.7<x97>[B] (+0) -0.7<x98>[B] (+1) -0.7<x99>[B] (+1) -0.7<x100>[B] (+1) -0.7<x101>[B] (+1) -0.7<x102>[B] (+1) +0.7<x103>[B] (+1) -0.7<x104>[B] (+1) -0.7<x105>[B] (+0) >= 16.2761904761905;
+;
+violation: left hand side is violated by 0.0285714285714178
+  [linear] <c932>: <x107>[C] (+22.147619) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+1) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+0) -0.661904762<x16>[B] (+0) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+0) -0.661904762<x22>[B] (+0) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+0) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) -0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+1) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+1) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+0) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+1) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+1) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.523809523809508
+  [linear] <c933>: <x108>[C] (+16.547619) +0.566666667<x1>[B] (+1) +0.566666667<x2>[B] (+1) +0.566666667<x3>[B] (+1) +0.566666667<x4>[B] (+1) +0.566666667<x5>[B] (+1) +0.566666667<x6>[B] (+0) +0.566666667<x7>[B] (+0) +0.566666667<x8>[B] (+1) +0.566666667<x9>[B] (+1) +0.566666667<x10>[B] (+1) -0.566666667<x11>[B] (+0) +0.566666667<x12>[B] (+1) +0.566666667<x13>[B] (+1) +0.566666667<x14>[B] (+0) +0.566666667<x15>[B] (+0) +0.566666667<x16>[B] (+1) +0.566666667<x17>[B] (+0) -0.566666667<x18>[B] (+1) +0.566666667<x19>[B] (+0) +0.566666667<x20>[B] (+0) +0.566666667<x21>[B] (+0) +0.566666667<x22>[B] (+0) +0.566666667<x23>[B] (+0) -0.566666667<x24>[B] (+0) +0.566666667<x25>[B] (+0) +0.566666667<x26>[B] (+1) +0.566666667<x27>[B] (+0) +0.566666667<x28>[B] (+1) -0.566666667<x29>[B] (+0) -0.566666667<x30>[B] (+1) +0.566666667<x31>[B] (+0) +0.566666667<x32>[B] (+0) -0.566666667<x33>[B] (+1) -0.566666667<x34>[B] (+1) +0.566666667<x35>[B] (+0) -0.566666667<x36>[B] (+0) -0.566666667<x37>[B] (+0) +0.566666667<x38>[B] (+1) +0.566666667<x39>[B] (+0) -0.566666667<x40>[B] (+0) -0.566666667<x41>[B] (+1) +0.566666667<x42>[B] (+0) -0.566666667<x43>[B] (+0) -0.566666667<x44>[B] (+0) -0.566666667<x45>[B] (+0) +0.566666667<x46>[B] (+0) -0.566666667<x47>[B] (+0) -0.566666667<x48>[B] (+0) -0.566666667<x49>[B] (+1) -0.566666667<x50>[B] (+0) -0.566666667<x51>[B] (+1) +0.566666667<x52>[B] (+0) +0.566666667<x53>[B] (+0) -0.566666667<x54>[B] (+1) +0.566666667<x55>[B] (+1) +0.566666667<x56>[B] (+1) -0.566666667<x57>[B] (+0) +0.566666667<x58>[B] (+0) +0.566666667<x59>[B] (+1) +0.566666667<x60>[B] (+0) +0.566666667<x61>[B] (+0) +0.566666667<x62>[B] (+0) +0.566666667<x63>[B] (+0) +0.566666667<x64>[B] (+0) +0.566666667<x65>[B] (+0) -0.566666667<x66>[B] (+0) +0.566666667<x67>[B] (+0) +0.566666667<x68>[B] (+0) +0.566666667<x69>[B] (+0) -0.566666667<x70>[B] (+1) -0.566666667<x71>[B] (+1) -0.566666667<x72>[B] (+1) -0.566666667<x73>[B] (+1) -0.566666667<x74>[B] (+1) -0.566666667<x75>[B] (+1) -0.566666667<x76>[B] (+1) -0.566666667<x77>[B] (+1) -0.566666667<x78>[B] (+1) -0.566666667<x79>[B] (+1) +0.566666667<x80>[B] (+1) -0.566666667<x81>[B] (+1) -0.566666667<x82>[B] (+1) +0.566666667<x83>[B] (+1) +0.566666667<x84>[B] (+1) +0.566666667<x85>[B] (+0) +0.566666667<x86>[B] (+0) -0.566666667<x87>[B] (+0) +0.566666667<x88>[B] (+0) +0.566666667<x89>[B] (+1) +0.566666667<x90>[B] (+0) +0.566666667<x91>[B] (+0) -0.566666667<x92>[B] (+0) +0.566666667<x93>[B] (+0) +0.566666667<x94>[B] (+1) +0.566666667<x95>[B] (+0) -0.566666667<x96>[B] (+0) -0.566666667<x97>[B] (+0) -0.566666667<x98>[B] (+1) -0.566666667<x99>[B] (+0) +0.566666667<x100>[B] (+1) +0.566666667<x101>[B] (+1) +0.566666667<x102>[B] (+1) +0.566666667<x103>[B] (+1) +0.566666667<x104>[B] (+3.49720253e-14) -0.566666667<x105>[B] (+0) >= 19.4095238095238;
+;
+violation: left hand side is violated by 0.0285714285714285
+  [linear] <c932>: <x107>[C] (+22.8095238) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+1) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+1) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+0) -0.661904762<x16>[B] (+1) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+1) -0.661904762<x22>[B] (+0) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+1) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+0) -0.661904762<x45>[B] (+0) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+0) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+1) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+1) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+1) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+1) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.523809523809504
+  [linear] <c932>: <x107>[C] (+22.8095238) -0.661904762<x1>[B] (+0) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+0) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+1) -0.661904762<x16>[B] (+1) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+1) -0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) -0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+1) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+0) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+0) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+1) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+0) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.523809523809497
+  [linear] <c932>: <x107>[C] (+23.5761905) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+1) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+1) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+0) -0.661904762<x16>[B] (+0) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+0) -0.661904762<x22>[B] (+0) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+0) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+0) -0.661904762<x45>[B] (+0) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+0) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+1) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+1) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+1) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+0) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.419047619047593
+  [linear] <c932>: <x107>[C] (+24.3428571) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+1) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+0) -0.661904762<x16>[B] (+1) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+0) -0.661904762<x22>[B] (+0) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+0) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+1) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+0) -0.661904762<x45>[B] (+0) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+0) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+1) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+1) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+1) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+0) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.314285714285692
+  [linear] <c932>: <x107>[C] (+22.3161391) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+1) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+0) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+1) -0.661904762<x16>[B] (+1) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+1) -0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+0) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) -0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+1) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+0) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+0) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+0) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+0) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+1) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.355289486609582
+  [linear] <c932>: <x107>[C] (+23.5761905) -0.661904762<x1>[B] (+1) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) +0.661904762<x4>[B] (+0) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) -0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) -0.661904762<x9>[B] (+1) -0.661904762<x10>[B] (+0) -0.661904762<x11>[B] (+0) +0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) +0.661904762<x14>[B] (+1) -0.661904762<x15>[B] (+0) -0.661904762<x16>[B] (+1) +0.661904762<x17>[B] (+0) -0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) -0.661904762<x20>[B] (+0) -0.661904762<x21>[B] (+1) -0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+0) -0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) -0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+1) +0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) -0.661904762<x32>[B] (+0) -0.661904762<x33>[B] (+1) -0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) -0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) +0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) -0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+1) -0.661904762<x51>[B] (+1) -0.661904762<x52>[B] (+0) -0.661904762<x53>[B] (+0) -0.661904762<x54>[B] (+1) -0.661904762<x55>[B] (+1) -0.661904762<x56>[B] (+0) -0.661904762<x57>[B] (+0) -0.661904762<x58>[B] (+0) -0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) -0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) +0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) +0.661904762<x77>[B] (+1) +0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) +0.661904762<x80>[B] (+1) +0.661904762<x81>[B] (+0) +0.661904762<x82>[B] (+1) +0.661904762<x83>[B] (+1) +0.661904762<x84>[B] (+1) -0.661904762<x85>[B] (+1) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) +0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) +0.661904762<x90>[B] (+0) +0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) +0.661904762<x93>[B] (+0) +0.661904762<x94>[B] (+1) +0.661904762<x95>[B] (+0) -0.661904762<x96>[B] (+0) +0.661904762<x97>[B] (+1) -0.661904762<x98>[B] (+1) +0.661904762<x99>[B] (+1) +0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) +0.661904762<x102>[B] (+1) -0.661904762<x103>[B] (+1) +0.661904762<x104>[B] (+1) +0.661904762<x105>[B] (+0) >= 14.0666666666667;
+;
+violation: left hand side is violated by 0.4190476190476
+1/10 feasible solution given by solution candidate storage, new primal bound -7.921754e+01
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 938 constraints
+    938 constraints of type <linear>
+Presolving Time: 0.00
+transformed 2/2 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.0s|     1 |     0 |   107 |     - |    14M |   0 | 115 | 938 | 938 |   0 |  0 |   0 |   0 |-7.246652e+01 |-7.921754e+01 |   9.32%| unknown
+  0.0s|     1 |     0 |   123 |     - |    14M |   0 | 115 | 938 | 939 |   1 |  1 |   0 |   0 |-7.256150e+01 |-7.921754e+01 |   9.17%| unknown
+  0.1s|     1 |     0 |   138 |     - |    14M |   0 | 115 | 938 | 942 |   4 |  2 |   0 |   0 |-7.262295e+01 |-7.921754e+01 |   9.08%| unknown
+  0.1s|     1 |     0 |   155 |     - |    14M |   0 | 115 | 938 | 943 |   5 |  3 |   0 |   0 |-7.264468e+01 |-7.921754e+01 |   9.05%| unknown
+  0.1s|     1 |     0 |   165 |     - |    14M |   0 | 115 | 938 | 944 |   6 |  4 |   0 |   0 |-7.265982e+01 |-7.921754e+01 |   9.03%| unknown
+  0.1s|     1 |     0 |   172 |     - |    14M |   0 | 115 | 938 | 945 |   7 |  5 |   0 |   0 |-7.266677e+01 |-7.921754e+01 |   9.01%| unknown
+  0.2s|     1 |     0 |   178 |     - |    14M |   0 | 115 | 938 | 946 |   8 |  6 |   0 |   0 |-7.266849e+01 |-7.921754e+01 |   9.01%| unknown
+  0.2s|     1 |     0 |   203 |     - |    14M |   0 | 115 | 938 | 947 |   9 |  7 |   0 |   0 |-7.269146e+01 |-7.921754e+01 |   8.98%| unknown
+  0.2s|     1 |     0 |   222 |     - |    14M |   0 | 115 | 938 | 948 |  10 |  8 |   0 |   0 |-7.270978e+01 |-7.921754e+01 |   8.95%| unknown
+  0.2s|     1 |     0 |   237 |     - |    14M |   0 | 115 | 938 | 949 |  11 |  9 |   0 |   0 |-7.271394e+01 |-7.921754e+01 |   8.94%| unknown
+  0.3s|     1 |     0 |   241 |     - |    14M |   0 | 115 | 939 | 950 |  12 | 10 |   1 |   0 |-7.271523e+01 |-7.921754e+01 |   8.94%| unknown
+  0.3s|     1 |     0 |   245 |     - |    14M |   0 | 115 | 939 | 951 |  13 | 11 |   1 |   0 |-7.271591e+01 |-7.921754e+01 |   8.94%| unknown
+  0.3s|     1 |     0 |   257 |     - |    14M |   0 | 115 | 939 | 952 |  14 | 12 |   1 |   0 |-7.271708e+01 |-7.921754e+01 |   8.94%| unknown
+  0.3s|     1 |     0 |   266 |     - |    14M |   0 | 115 | 939 | 953 |  15 | 13 |   1 |   0 |-7.271745e+01 |-7.921754e+01 |   8.94%| unknown
+  0.3s|     1 |     0 |   273 |     - |    14M |   0 | 115 | 939 | 954 |  16 | 14 |   1 |   0 |-7.271770e+01 |-7.921754e+01 |   8.94%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.3s|     1 |     0 |   278 |     - |    15M |   0 | 115 | 939 | 955 |  17 | 15 |   1 |   0 |-7.271825e+01 |-7.921754e+01 |   8.94%| unknown
+  0.4s|     1 |     0 |   283 |     - |    15M |   0 | 115 | 939 | 956 |  18 | 16 |   1 |   0 |-7.271854e+01 |-7.921754e+01 |   8.94%| unknown
+  0.4s|     1 |     0 |   285 |     - |    15M |   0 | 115 | 939 | 955 |  19 | 17 |   1 |   0 |-7.271876e+01 |-7.921754e+01 |   8.94%| unknown
+  0.4s|     1 |     0 |   290 |     - |    15M |   0 | 115 | 939 | 956 |  20 | 18 |   1 |   0 |-7.271902e+01 |-7.921754e+01 |   8.94%| unknown
+  0.4s|     1 |     0 |   309 |     - |    15M |   0 | 115 | 939 | 958 |  22 | 19 |   1 |   0 |-7.272108e+01 |-7.921754e+01 |   8.93%| unknown
+d 0.4s|     1 |     0 |   418 |     - |farkasdi|   0 | 115 | 939 | 958 |   0 | 19 |   1 |   0 |-7.272108e+01 |-7.349048e+01 |   1.06%| unknown
+d 0.4s|     1 |     0 |   473 |     - |conflict|   0 | 115 | 939 | 958 |   0 | 19 |  40 |   0 |-7.272108e+01 |-7.302381e+01 |   0.42%| unknown
+L 0.4s|     1 |     0 |   473 |     - |    rens|   0 | 115 | 939 | 958 |  22 | 19 |  40 |   0 |-7.272108e+01 |-7.293810e+01 |   0.30%| unknown
+(run 1, node 1) restarting after 39 global fixings of integer variables
+
+(restart) converted 20 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 959 constraints
+    958 constraints of type <linear>
+      1 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 24/26 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.5s|     1 |     0 |   639 |     - |    15M |   0 | 115 | 910 | 480 |   0 |  0 |  40 |   0 |-7.272108e+01 |-7.293810e+01 |   0.30%| unknown
+  0.5s|     1 |     0 |   639 |     - |    15M |   0 | 115 | 910 | 284 |   0 |  0 |  40 |   0 |-7.272108e+01 |-7.293810e+01 |   0.30%| unknown
+  0.5s|     1 |     0 |   654 |     - |    15M |   0 | 115 | 910 | 287 |   3 |  1 |  40 |   0 |-7.272511e+01 |-7.293810e+01 |   0.29%| unknown
+  0.5s|     1 |     0 |   682 |     - |    15M |   0 | 115 | 910 | 288 |   4 |  2 |  40 |   0 |-7.274222e+01 |-7.293810e+01 |   0.27%| unknown
+  0.5s|     1 |     0 |   682 |     - |    15M |   0 | 115 | 910 | 281 |   4 |  2 |  40 |   0 |-7.274222e+01 |-7.293810e+01 |   0.27%| unknown
+  0.5s|     1 |     0 |   695 |     - |    15M |   0 | 115 | 910 | 282 |   5 |  3 |  40 |   0 |-7.274972e+01 |-7.293810e+01 |   0.26%| unknown
+  0.6s|     1 |     0 |   712 |     - |    15M |   0 | 115 | 911 | 283 |   6 |  4 |  41 |   0 |-7.275287e+01 |-7.293810e+01 |   0.25%| unknown
+  0.6s|     1 |     0 |   738 |     - |    15M |   0 | 115 | 911 | 284 |   7 |  5 |  41 |   0 |-7.276680e+01 |-7.293810e+01 |   0.24%| unknown
+  0.6s|     1 |     0 |   751 |     - |    15M |   0 | 115 | 911 | 285 |   8 |  6 |  41 |   0 |-7.276835e+01 |-7.293810e+01 |   0.23%| unknown
+  0.7s|     1 |     0 |   763 |     - |    15M |   0 | 115 | 911 | 286 |   9 |  7 |  41 |   0 |-7.277111e+01 |-7.293810e+01 |   0.23%| unknown
+  0.7s|     1 |     0 |   784 |     - |    15M |   0 | 115 | 911 | 287 |  10 |  8 |  41 |   0 |-7.277473e+01 |-7.293810e+01 |   0.22%| unknown
+  0.7s|     1 |     0 |   789 |     - |    15M |   0 | 115 | 911 | 288 |  11 |  9 |  41 |   0 |-7.277535e+01 |-7.293810e+01 |   0.22%| unknown
+  0.8s|     1 |     0 |   798 |     - |    15M |   0 | 115 | 911 | 289 |  12 | 10 |  41 |   0 |-7.277618e+01 |-7.293810e+01 |   0.22%| unknown
+  0.8s|     1 |     0 |   812 |     - |    15M |   0 | 115 | 911 | 278 |  13 | 11 |  41 |   0 |-7.277826e+01 |-7.293810e+01 |   0.22%| unknown
+  0.8s|     1 |     0 |   813 |     - |    15M |   0 | 115 | 911 | 279 |  14 | 12 |  41 |   0 |-7.277826e+01 |-7.293810e+01 |   0.22%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.9s|     1 |     0 |   818 |     - |    15M |   0 | 115 | 911 | 280 |  15 | 13 |  41 |   0 |-7.277884e+01 |-7.293810e+01 |   0.22%| unknown
+  0.9s|     1 |     0 |   822 |     - |    15M |   0 | 115 | 911 | 281 |  16 | 14 |  41 |   0 |-7.277895e+01 |-7.293810e+01 |   0.22%| unknown
+  0.9s|     1 |     0 |   828 |     - |    15M |   0 | 115 | 911 | 282 |  17 | 15 |  41 |   0 |-7.277916e+01 |-7.293810e+01 |   0.22%| unknown
+  0.9s|     1 |     0 |   828 |     - |    15M |   0 | 115 | 497 | 282 |  17 | 15 |  41 |   0 |-7.277916e+01 |-7.293810e+01 |   0.22%| unknown
+  0.9s|     1 |     0 |   833 |     - |    15M |   0 | 115 | 497 | 283 |  18 | 16 |  41 |   0 |-7.277920e+01 |-7.293810e+01 |   0.22%| unknown
+  1.0s|     1 |     0 |  1051 |     - |    15M |   0 | 115 | 458 | 283 |  18 | 17 |  54 |   2 |-7.281671e+01 |-7.293810e+01 |   0.17%| unknown
+  1.0s|     1 |     0 |  1051 |     - |    15M |   0 | 115 | 459 | 209 |  18 | 17 |  55 |   2 |-7.281671e+01 |-7.293810e+01 |   0.17%| unknown
+  1.0s|     1 |     0 |  1073 |     - |    15M |   0 | 115 | 459 | 211 |  20 | 18 |  55 |   2 |-7.288168e+01 |-7.293810e+01 |   0.08%| unknown
+  1.0s|     1 |     0 |  1073 |     - |    15M |   0 | 115 | 460 | 195 |  20 | 18 |  56 |   2 |-7.288168e+01 |-7.293810e+01 |   0.08%| unknown
+  1.0s|     1 |     0 |  1073 |     - |    15M |   0 | 115 | 394 | 195 |  20 | 19 |  56 |   2 |-7.288168e+01 |-7.293810e+01 |   0.08%| unknown
+  1.0s|     1 |     0 |  1083 |     - |    15M |   0 | 115 | 280 | 195 |  20 | 20 |  60 |   5 |-7.293810e+01 |-7.293810e+01 |   0.00%| unknown
+  1.0s|     1 |     0 |  1083 |     - |    15M |   0 | 115 | 280 | 195 |  20 | 20 |  60 |   5 |-7.293810e+01 |-7.293810e+01 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.01
+Solving Nodes      : 1 (total of 2 nodes in 2 runs)
+Primal Bound       : -7.29380952380952e+01 (46 solutions)
+Dual Bound         : -7.29380952380952e+01
+Gap                : 0.00 %
+  [linear] <c939>: <x106>[C] (+23.2761905) -0.661904762<x1>[B] (+0) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) -0.661904762<x4>[B] (+1) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) +0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) +0.661904762<x9>[B] (+1) +0.661904762<x10>[B] (+1) +0.661904762<x11>[B] (+0) -0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) -0.661904762<x14>[B] (+1) +0.661904762<x15>[B] (+1) +0.661904762<x16>[B] (+1) -0.661904762<x17>[B] (+1) +0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) +0.661904762<x20>[B] (+0) +0.661904762<x21>[B] (+1) +0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+1) +0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) +0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+1) -0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) +0.661904762<x32>[B] (+0) +0.661904762<x33>[B] (+1) +0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+0) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) +0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+1) -0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) +0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+1) +0.661904762<x51>[B] (+1) +0.661904762<x52>[B] (+0) +0.661904762<x53>[B] (+0) +0.661904762<x54>[B] (+1) +0.661904762<x55>[B] (+1) +0.661904762<x56>[B] (+1) +0.661904762<x57>[B] (+0) +0.661904762<x58>[B] (+0) +0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+1) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) +0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) -0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) -0.661904762<x77>[B] (+1) -0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) -0.661904762<x80>[B] (+1) -0.661904762<x81>[B] (+1) -0.661904762<x82>[B] (+1) -0.661904762<x83>[B] (+1) -0.661904762<x84>[B] (+1) +0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) -0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) -0.661904762<x90>[B] (+0) -0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) -0.661904762<x93>[B] (+0) -0.661904762<x94>[B] (+1) -0.661904762<x95>[B] (+1) +0.661904762<x96>[B] (+0) -0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) -0.661904762<x99>[B] (+1) -0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) -0.661904762<x102>[B] (+1) +0.661904762<x103>[B] (+1) -0.661904762<x104>[B] (+1) -0.661904762<x105>[B] (+0) >= 16.7142857142857;
+;
+violation: left hand side is violated by 0.0571428571428534
+  [linear] <c939>: <x106>[C] (+22.6428571) -0.661904762<x1>[B] (+0) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) -0.661904762<x4>[B] (+1) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) +0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) +0.661904762<x9>[B] (+1) +0.661904762<x10>[B] (+1) +0.661904762<x11>[B] (+0) -0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) -0.661904762<x14>[B] (+0) +0.661904762<x15>[B] (+1) +0.661904762<x16>[B] (+1) -0.661904762<x17>[B] (+1) +0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) +0.661904762<x20>[B] (+0) +0.661904762<x21>[B] (+1) +0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+1) +0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) +0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+0) -0.661904762<x28>[B] (+1) -0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) +0.661904762<x32>[B] (+0) +0.661904762<x33>[B] (+1) +0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+1) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) +0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+0) -0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) +0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+0) +0.661904762<x51>[B] (+1) +0.661904762<x52>[B] (+0) +0.661904762<x53>[B] (+0) +0.661904762<x54>[B] (+1) +0.661904762<x55>[B] (+1) +0.661904762<x56>[B] (+1) +0.661904762<x57>[B] (+0) +0.661904762<x58>[B] (+0) +0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+0) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) +0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) -0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) -0.661904762<x77>[B] (+1) -0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) -0.661904762<x80>[B] (+1) -0.661904762<x81>[B] (+1) -0.661904762<x82>[B] (+1) -0.661904762<x83>[B] (+1) -0.661904762<x84>[B] (+1) +0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) -0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) -0.661904762<x90>[B] (+0) -0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) -0.661904762<x93>[B] (+0) -0.661904762<x94>[B] (+1) -0.661904762<x95>[B] (+0) +0.661904762<x96>[B] (+0) -0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) -0.661904762<x99>[B] (+0) -0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) -0.661904762<x102>[B] (+1) +0.661904762<x103>[B] (+1) -0.661904762<x104>[B] (+0) -0.661904762<x105>[B] (+0) >= 16.7142857142857;
+;
+violation: left hand side is violated by 0.0285714285714285
+  [linear] <c939>: <x106>[C] (+22.6428571) -0.661904762<x1>[B] (+0) -0.661904762<x2>[B] (+1) -0.661904762<x3>[B] (+1) -0.661904762<x4>[B] (+1) -0.661904762<x5>[B] (+1) +0.661904762<x6>[B] (+0) +0.661904762<x7>[B] (+0) -0.661904762<x8>[B] (+1) +0.661904762<x9>[B] (+1) +0.661904762<x10>[B] (+1) +0.661904762<x11>[B] (+0) -0.661904762<x12>[B] (+0) -0.661904762<x13>[B] (+1) -0.661904762<x14>[B] (+0) +0.661904762<x15>[B] (+1) +0.661904762<x16>[B] (+1) -0.661904762<x17>[B] (+1) +0.661904762<x18>[B] (+1) +0.661904762<x19>[B] (+0) +0.661904762<x20>[B] (+0) +0.661904762<x21>[B] (+1) +0.661904762<x22>[B] (+1) +0.661904762<x23>[B] (+1) +0.661904762<x24>[B] (+0) +0.661904762<x25>[B] (+0) +0.661904762<x26>[B] (+1) +0.661904762<x27>[B] (+1) -0.661904762<x28>[B] (+1) -0.661904762<x29>[B] (+0) -0.661904762<x30>[B] (+1) +0.661904762<x31>[B] (+0) +0.661904762<x32>[B] (+0) +0.661904762<x33>[B] (+1) +0.661904762<x34>[B] (+1) +0.661904762<x35>[B] (+1) +0.661904762<x36>[B] (+0) +0.661904762<x37>[B] (+0) +0.661904762<x38>[B] (+1) +0.661904762<x39>[B] (+0) -0.661904762<x40>[B] (+0) -0.661904762<x41>[B] (+1) +0.661904762<x42>[B] (+0) +0.661904762<x43>[B] (+0) +0.661904762<x44>[B] (+1) +0.661904762<x45>[B] (+1) +0.661904762<x46>[B] (+0) +0.661904762<x47>[B] (+0) +0.661904762<x48>[B] (+0) +0.661904762<x49>[B] (+1) +0.661904762<x50>[B] (+0) +0.661904762<x51>[B] (+1) +0.661904762<x52>[B] (+0) +0.661904762<x53>[B] (+0) +0.661904762<x54>[B] (+1) +0.661904762<x55>[B] (+1) +0.661904762<x56>[B] (+1) +0.661904762<x57>[B] (+0) +0.661904762<x58>[B] (+0) +0.661904762<x59>[B] (+1) +0.661904762<x60>[B] (+0) +0.661904762<x61>[B] (+0) +0.661904762<x62>[B] (+0) +0.661904762<x63>[B] (+0) +0.661904762<x64>[B] (+0) +0.661904762<x65>[B] (+0) +0.661904762<x66>[B] (+0) +0.661904762<x67>[B] (+0) +0.661904762<x68>[B] (+0) +0.661904762<x69>[B] (+0) -0.661904762<x70>[B] (+1) -0.661904762<x71>[B] (+1) -0.661904762<x72>[B] (+1) -0.661904762<x73>[B] (+1) -0.661904762<x74>[B] (+1) -0.661904762<x75>[B] (+1) -0.661904762<x76>[B] (+1) -0.661904762<x77>[B] (+1) -0.661904762<x78>[B] (+1) -0.661904762<x79>[B] (+1) -0.661904762<x80>[B] (+1) -0.661904762<x81>[B] (+1) -0.661904762<x82>[B] (+1) -0.661904762<x83>[B] (+1) -0.661904762<x84>[B] (+1) +0.661904762<x85>[B] (+0) +0.661904762<x86>[B] (+0) +0.661904762<x87>[B] (+0) -0.661904762<x88>[B] (+0) -0.661904762<x89>[B] (+1) -0.661904762<x90>[B] (+0) -0.661904762<x91>[B] (+0) +0.661904762<x92>[B] (+0) -0.661904762<x93>[B] (+0) -0.661904762<x94>[B] (+1) -0.661904762<x95>[B] (+0) +0.661904762<x96>[B] (+0) -0.661904762<x97>[B] (+0) -0.661904762<x98>[B] (+1) -0.661904762<x99>[B] (+0) -0.661904762<x100>[B] (+1) -0.661904762<x101>[B] (+1) -0.661904762<x102>[B] (+1) +0.661904762<x103>[B] (+1) -0.661904762<x104>[B] (+1) -0.661904762<x105>[B] (+0) >= 16.7142857142857;
+;
+violation: left hand side is violated by 0.0285714285714249
+  [linear] <c943>: <x110>[C] (+28.8761905) +0.757142857<x1>[B] (+1) +0.757142857<x2>[B] (+1) -0.757142857<x3>[B] (+1) +0.757142857<x4>[B] (+1) -0.757142857<x5>[B] (+1) +0.757142857<x6>[B] (+0) +0.757142857<x7>[B] (+0) -0.757142857<x8>[B] (+1) -0.757142857<x9>[B] (+1) -0.757142857<x10>[B] (+1) +0.757142857<x11>[B] (+0) -0.757142857<x12>[B] (+1) -0.757142857<x13>[B] (+1) +0.757142857<x14>[B] (+0) -0.757142857<x15>[B] (+0) -0.757142857<x16>[B] (+0) -0.757142857<x17>[B] (+0) -0.757142857<x18>[B] (+1) -0.757142857<x19>[B] (+0) -0.757142857<x20>[B] (+0) -0.757142857<x21>[B] (+0) -0.757142857<x22>[B] (+0) -0.757142857<x23>[B] (+0) -0.757142857<x24>[B] (+0) -0.757142857<x25>[B] (+0) -0.757142857<x26>[B] (+1) -0.757142857<x27>[B] (+0) -0.757142857<x28>[B] (+1) +0.757142857<x29>[B] (+0) -0.757142857<x30>[B] (+1) +0.757142857<x31>[B] (+0) +0.757142857<x32>[B] (+0) -0.757142857<x33>[B] (+1) -0.757142857<x34>[B] (+1) -0.757142857<x35>[B] (+0) +0.757142857<x36>[B] (+0) -0.757142857<x37>[B] (+0) -0.757142857<x38>[B] (+1) +0.757142857<x39>[B] (+0) +0.757142857<x40>[B] (+0) -0.757142857<x41>[B] (+1) +0.757142857<x42>[B] (+0) +0.757142857<x43>[B] (+0) -0.757142857<x44>[B] (+1) -0.757142857<x45>[B] (+1) -0.757142857<x46>[B] (+0) +0.757142857<x47>[B] (+0) -0.757142857<x48>[B] (+0) -0.757142857<x49>[B] (+1) +0.757142857<x50>[B] (+0) -0.757142857<x51>[B] (+1) +0.757142857<x52>[B] (+0) -0.757142857<x53>[B] (+0) -0.757142857<x54>[B] (+1) -0.757142857<x55>[B] (+1) -0.757142857<x56>[B] (+1) +0.757142857<x57>[B] (+0) -0.757142857<x58>[B] (+0) -0.757142857<x59>[B] (+1) -0.757142857<x60>[B] (+0) +0.757142857<x61>[B] (+0) +0.757142857<x62>[B] (+0) +0.757142857<x63>[B] (+0) +0.757142857<x64>[B] (+0) +0.757142857<x65>[B] (+0) +0.757142857<x66>[B] (+0) +0.757142857<x67>[B] (+0) +0.757142857<x68>[B] (+0) +0.757142857<x69>[B] (+0) -0.757142857<x70>[B] (+1) -0.757142857<x71>[B] (+1) -0.757142857<x72>[B] (+1) -0.757142857<x73>[B] (+1) -0.757142857<x74>[B] (+1) -0.757142857<x75>[B] (+1) -0.757142857<x76>[B] (+1) -0.757142857<x77>[B] (+1) -0.757142857<x78>[B] (+1) -0.757142857<x79>[B] (+1) -0.757142857<x80>[B] (+1) +0.757142857<x81>[B] (+1) -0.757142857<x82>[B] (+1) -0.757142857<x83>[B] (+1) -0.757142857<x84>[B] (+1) +0.757142857<x85>[B] (+0) +0.757142857<x86>[B] (+0) +0.757142857<x87>[B] (+0) +0.757142857<x88>[B] (+0) +0.757142857<x89>[B] (+1) +0.757142857<x90>[B] (+0) -0.757142857<x91>[B] (+0) +0.757142857<x92>[B] (+0) +0.757142857<x93>[B] (+0) +0.757142857<x94>[B] (+1) +0.757142857<x95>[B] (+0) +0.757142857<x96>[B] (+0) +0.757142857<x97>[B] (+0) +0.757142857<x98>[B] (+1) +0.757142857<x99>[B] (+0) -0.757142857<x100>[B] (+1) -0.757142857<x101>[B] (+1) -0.757142857<x102>[B] (+1) +0.757142857<x103>[B] (+1) +0.757142857<x104>[B] (+0) +0.757142857<x105>[B] (+0) >= 4.73333333333333;
+;
+violation: left hand side is violated by 0.0857142857142827
+  [linear] <c947>: <x115>[C] (+19.4095238) +0.633333333<x1>[B] (+0) -0.633333333<x2>[B] (+1) -0.633333333<x3>[B] (+1) -0.633333333<x4>[B] (+0) -0.633333333<x5>[B] (+1) -0.633333333<x6>[B] (+0) +0.633333333<x7>[B] (+0) +0.633333333<x8>[B] (+1) -0.633333333<x9>[B] (+1) -0.633333333<x10>[B] (+1) -0.633333333<x11>[B] (+0) -0.633333333<x12>[B] (+0) -0.633333333<x13>[B] (+1) -0.633333333<x14>[B] (+1) -0.633333333<x15>[B] (+1) -0.633333333<x16>[B] (+1) -0.633333333<x17>[B] (+0) -0.633333333<x18>[B] (+1) -0.633333333<x19>[B] (+0) +0.633333333<x20>[B] (+0) +0.633333333<x21>[B] (+1) -0.633333333<x22>[B] (+1) -0.633333333<x23>[B] (+1) -0.633333333<x24>[B] (+0) -0.633333333<x25>[B] (+0) -0.633333333<x26>[B] (+1) -0.633333333<x27>[B] (+1) -0.633333333<x28>[B] (+1) -0.633333333<x29>[B] (+0) -0.633333333<x30>[B] (+1) -0.633333333<x31>[B] (+0) +0.633333333<x32>[B] (+0) +0.633333333<x33>[B] (+1) -0.633333333<x34>[B] (+1) -0.633333333<x35>[B] (+1) -0.633333333<x36>[B] (+0) +0.633333333<x37>[B] (+0) -0.633333333<x38>[B] (+1) -0.633333333<x39>[B] (+1) +0.633333333<x40>[B] (+0) +0.633333333<x41>[B] (+1) +0.633333333<x42>[B] (+0) +0.633333333<x43>[B] (+0) +0.633333333<x44>[B] (+1) -0.633333333<x45>[B] (+1) +0.633333333<x46>[B] (+1) +0.633333333<x47>[B] (+0) +0.633333333<x48>[B] (+0) +0.633333333<x49>[B] (+1) -0.633333333<x50>[B] (+1) -0.633333333<x51>[B] (+1) +0.633333333<x52>[B] (+0) +0.633333333<x53>[B] (+0) +0.633333333<x54>[B] (+1) -0.633333333<x55>[B] (+1) +0.633333333<x56>[B] (+1) -0.633333333<x57>[B] (+0) +0.633333333<x58>[B] (+0) -0.633333333<x59>[B] (+1) -0.633333333<x60>[B] (+1) +0.633333333<x61>[B] (+0) +0.633333333<x62>[B] (+0) +0.633333333<x63>[B] (+0) -0.633333333<x64>[B] (+0) +0.633333333<x65>[B] (+0) -0.633333333<x66>[B] (+0) +0.633333333<x67>[B] (+0) -0.633333333<x68>[B] (+0) -0.633333333<x69>[B] (+0) +0.633333333<x70>[B] (+1) +0.633333333<x71>[B] (+1) -0.633333333<x72>[B] (+1) +0.633333333<x73>[B] (+1) -0.633333333<x74>[B] (+1) +0.633333333<x75>[B] (+1) -0.633333333<x76>[B] (+1) -0.633333333<x77>[B] (+1) +0.633333333<x78>[B] (+1) -0.633333333<x79>[B] (+1) -0.633333333<x80>[B] (+1) -0.633333333<x81>[B] (+1) -0.633333333<x82>[B] (+1) -0.633333333<x83>[B] (+1) -0.633333333<x84>[B] (+1) -0.633333333<x85>[B] (+0) -0.633333333<x86>[B] (+0) -0.633333333<x87>[B] (+0) -0.633333333<x88>[B] (+0) -0.633333333<x89>[B] (+1) -0.633333333<x90>[B] (+0) +0.633333333<x91>[B] (+0) +0.633333333<x92>[B] (+0) +0.633333333<x93>[B] (+0) +0.633333333<x94>[B] (+1) -0.633333333<x95>[B] (+0) -0.633333333<x96>[B] (+0) +0.633333333<x97>[B] (+0) -0.633333333<x98>[B] (+1) -0.633333333<x99>[B] (+1) +0.633333333<x100>[B] (+1) +0.633333333<x101>[B] (+1) -0.633333333<x102>[B] (+1) -0.633333333<x103>[B] (+1) -0.633333333<x104>[B] (+1) -0.633333333<x105>[B] (+0) >= 3.64285714285714;
+;
+violation: left hand side is violated by 0.0666666666666669
+  [linear] <c943>: <x110>[C] (+29.6619048) +0.757142857<x1>[B] (+1) +0.757142857<x2>[B] (+1) -0.757142857<x3>[B] (+1) +0.757142857<x4>[B] (+0) -0.757142857<x5>[B] (+1) +0.757142857<x6>[B] (+0) +0.757142857<x7>[B] (+0) -0.757142857<x8>[B] (+1) -0.757142857<x9>[B] (+1) -0.757142857<x10>[B] (+1) +0.757142857<x11>[B] (+0) -0.757142857<x12>[B] (+0) -0.757142857<x13>[B] (+1) +0.757142857<x14>[B] (+1) -0.757142857<x15>[B] (+1) -0.757142857<x16>[B] (+1) -0.757142857<x17>[B] (+0) -0.757142857<x18>[B] (+1) -0.757142857<x19>[B] (+0) -0.757142857<x20>[B] (+0) -0.757142857<x21>[B] (+1) -0.757142857<x22>[B] (+1) -0.757142857<x23>[B] (+0) -0.757142857<x24>[B] (+0) -0.757142857<x25>[B] (+0) -0.757142857<x26>[B] (+1) -0.757142857<x27>[B] (+1) -0.757142857<x28>[B] (+0) +0.757142857<x29>[B] (+0) -0.757142857<x30>[B] (+1) +0.757142857<x31>[B] (+0) +0.757142857<x32>[B] (+0) -0.757142857<x33>[B] (+1) -0.757142857<x34>[B] (+1) -0.757142857<x35>[B] (+0) +0.757142857<x36>[B] (+0) -0.757142857<x37>[B] (+0) -0.757142857<x38>[B] (+1) +0.757142857<x39>[B] (+1) +0.757142857<x40>[B] (+0) -0.757142857<x41>[B] (+1) +0.757142857<x42>[B] (+0) +0.757142857<x43>[B] (+0) -0.757142857<x44>[B] (+1) -0.757142857<x45>[B] (+1) -0.757142857<x46>[B] (+0) +0.757142857<x47>[B] (+0) -0.757142857<x48>[B] (+0) -0.757142857<x49>[B] (+1) +0.757142857<x50>[B] (+1) -0.757142857<x51>[B] (+1) +0.757142857<x52>[B] (+0) -0.757142857<x53>[B] (+0) -0.757142857<x54>[B] (+1) -0.757142857<x55>[B] (+1) -0.757142857<x56>[B] (+1) +0.757142857<x57>[B] (+0) -0.757142857<x58>[B] (+1) -0.757142857<x59>[B] (+1) -0.757142857<x60>[B] (+1) +0.757142857<x61>[B] (+0) +0.757142857<x62>[B] (+0) +0.757142857<x63>[B] (+0) +0.757142857<x64>[B] (+0) +0.757142857<x65>[B] (+0) +0.757142857<x66>[B] (+0) +0.757142857<x67>[B] (+0) +0.757142857<x68>[B] (+0) +0.757142857<x69>[B] (+0) -0.757142857<x70>[B] (+1) -0.757142857<x71>[B] (+1) -0.757142857<x72>[B] (+1) -0.757142857<x73>[B] (+1) -0.757142857<x74>[B] (+1) -0.757142857<x75>[B] (+1) -0.757142857<x76>[B] (+1) -0.757142857<x77>[B] (+1) -0.757142857<x78>[B] (+1) -0.757142857<x79>[B] (+1) -0.757142857<x80>[B] (+1) +0.757142857<x81>[B] (+1) -0.757142857<x82>[B] (+1) -0.757142857<x83>[B] (+1) -0.757142857<x84>[B] (+1) +0.757142857<x85>[B] (+0) +0.757142857<x86>[B] (+0) +0.757142857<x87>[B] (+0) +0.757142857<x88>[B] (+0) +0.757142857<x89>[B] (+1) +0.757142857<x90>[B] (+0) -0.757142857<x91>[B] (+0) +0.757142857<x92>[B] (+0) +0.757142857<x93>[B] (+0) +0.757142857<x94>[B] (+1) +0.757142857<x95>[B] (+0) +0.757142857<x96>[B] (+0) +0.757142857<x97>[B] (+0) +0.757142857<x98>[B] (+1) +0.757142857<x99>[B] (+1) -0.757142857<x100>[B] (+1) -0.757142857<x101>[B] (+1) -0.757142857<x102>[B] (+1) +0.757142857<x103>[B] (+1) +0.757142857<x104>[B] (+1) +0.757142857<x105>[B] (+0) >= 4.73333333333333;
+;
+violation: left hand side is violated by 0.0571428571428436
+4/10 feasible solutions given by solution candidate storage, new primal bound -7.921754e+01
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 947 constraints
+    947 constraints of type <linear>
+Presolving Time: 0.00
+transformed 5/5 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.0s|     1 |     0 |   161 |     - |    15M |   0 | 115 | 947 | 947 |   0 |  0 |   0 |   0 |-7.259353e+01 |-7.921754e+01 |   9.12%| unknown
+  0.0s|     1 |     0 |   176 |     - |    15M |   0 | 115 | 947 | 948 |   1 |  1 |   0 |   0 |-7.270674e+01 |-7.921754e+01 |   8.95%| unknown
+  0.1s|     1 |     0 |   200 |     - |    15M |   0 | 115 | 947 | 950 |   3 |  2 |   0 |   0 |-7.279286e+01 |-7.921754e+01 |   8.83%| unknown
+  0.1s|     1 |     0 |   216 |     - |    15M |   0 | 115 | 947 | 951 |   4 |  3 |   0 |   0 |-7.282125e+01 |-7.921754e+01 |   8.78%| unknown
+  0.1s|     1 |     0 |   244 |     - |    15M |   0 | 115 | 947 | 953 |   6 |  4 |   0 |   0 |-7.283876e+01 |-7.921754e+01 |   8.76%| unknown
+  0.1s|     1 |     0 |   250 |     - |    15M |   0 | 115 | 947 | 954 |   7 |  5 |   0 |   0 |-7.283970e+01 |-7.921754e+01 |   8.76%| unknown
+  0.2s|     1 |     0 |   259 |     - |    15M |   0 | 115 | 947 | 955 |   8 |  6 |   0 |   0 |-7.284397e+01 |-7.921754e+01 |   8.75%| unknown
+  0.2s|     1 |     0 |   276 |     - |    15M |   0 | 115 | 947 | 956 |   9 |  7 |   0 |   0 |-7.284911e+01 |-7.921754e+01 |   8.74%| unknown
+  0.2s|     1 |     0 |   296 |     - |    15M |   0 | 115 | 947 | 957 |  10 |  8 |   0 |   0 |-7.285346e+01 |-7.921754e+01 |   8.74%| unknown
+  0.3s|     1 |     0 |   304 |     - |    16M |   0 | 115 | 947 | 958 |  11 |  9 |   0 |   0 |-7.285574e+01 |-7.921754e+01 |   8.73%| unknown
+  0.3s|     1 |     0 |   320 |     - |    16M |   0 | 115 | 947 | 959 |  12 | 10 |   0 |   0 |-7.285930e+01 |-7.921754e+01 |   8.73%| unknown
+  0.3s|     1 |     0 |   327 |     - |    16M |   0 | 115 | 947 | 960 |  13 | 11 |   0 |   0 |-7.286074e+01 |-7.921754e+01 |   8.72%| unknown
+  0.3s|     1 |     0 |   328 |     - |    16M |   0 | 115 | 947 | 961 |  14 | 12 |   0 |   0 |-7.286086e+01 |-7.921754e+01 |   8.72%| unknown
+  0.4s|     1 |     0 |   334 |     - |    16M |   0 | 115 | 948 | 962 |  15 | 13 |   1 |   0 |-7.286137e+01 |-7.921754e+01 |   8.72%| unknown
+  0.4s|     1 |     0 |   340 |     - |    16M |   0 | 115 | 948 | 963 |  16 | 14 |   1 |   0 |-7.286146e+01 |-7.921754e+01 |   8.72%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+r 0.4s|     1 |     0 |   378 |     - |intshift|   0 | 115 | 948 | 963 |  16 | 14 |   1 |   0 |-7.286146e+01 |-7.530952e+01 |   3.36%| unknown
+d 0.4s|     1 |     0 |   490 |     - |farkasdi|   0 | 115 | 948 | 963 |   0 | 14 |   1 |   0 |-7.286146e+01 |-7.332857e+01 |   0.64%| unknown
+L 0.4s|     1 |     0 |   490 |     - |    rens|   0 | 115 | 948 | 963 |  16 | 14 |  54 |   0 |-7.286146e+01 |-7.308095e+01 |   0.30%| unknown
+(run 1, node 1) restarting after 53 global fixings of integer variables
+
+(restart) converted 16 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 964 constraints
+    963 constraints of type <linear>
+      1 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 22/24 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.4s|     1 |     0 |   667 |     - |    16M |   0 | 115 | 959 | 361 |   0 |  0 |  54 |   0 |-7.286146e+01 |-7.308095e+01 |   0.30%| unknown
+  0.4s|     1 |     0 |   667 |     - |    16M |   0 | 115 | 959 | 284 |   0 |  0 |  54 |   0 |-7.286146e+01 |-7.308095e+01 |   0.30%| unknown
+  0.4s|     1 |     0 |   692 |     - |    16M |   0 | 115 | 959 | 285 |   1 |  1 |  54 |   0 |-7.286915e+01 |-7.308095e+01 |   0.29%| unknown
+  0.5s|     1 |     0 |   710 |     - |    16M |   0 | 115 | 960 | 286 |   2 |  2 |  55 |   0 |-7.287168e+01 |-7.308095e+01 |   0.29%| unknown
+  0.5s|     1 |     0 |   710 |     - |    16M |   0 | 115 | 960 | 278 |   2 |  2 |  55 |   0 |-7.287168e+01 |-7.308095e+01 |   0.29%| unknown
+  0.5s|     1 |     0 |   721 |     - |    16M |   0 | 115 | 960 | 279 |   3 |  3 |  55 |   0 |-7.287248e+01 |-7.308095e+01 |   0.29%| unknown
+  0.5s|     1 |     0 |   723 |     - |    16M |   0 | 115 | 960 | 280 |   4 |  4 |  55 |   0 |-7.287273e+01 |-7.308095e+01 |   0.29%| unknown
+  0.6s|     1 |     0 |   728 |     - |    16M |   0 | 115 | 960 | 281 |   5 |  5 |  55 |   0 |-7.287287e+01 |-7.308095e+01 |   0.29%| unknown
+  0.6s|     1 |     0 |   749 |     - |    16M |   0 | 115 | 960 | 282 |   6 |  6 |  55 |   0 |-7.287405e+01 |-7.308095e+01 |   0.28%| unknown
+  0.6s|     1 |     0 |   760 |     - |    16M |   0 | 115 | 960 | 283 |   7 |  7 |  55 |   0 |-7.287443e+01 |-7.308095e+01 |   0.28%| unknown
+  0.6s|     1 |     0 |   769 |     - |    16M |   0 | 115 | 960 | 284 |   8 |  8 |  55 |   0 |-7.287452e+01 |-7.308095e+01 |   0.28%| unknown
+  0.7s|     1 |     0 |   785 |     - |    16M |   0 | 115 | 960 | 285 |   9 |  9 |  55 |   0 |-7.287515e+01 |-7.308095e+01 |   0.28%| unknown
+  0.7s|     1 |     0 |   794 |     - |    16M |   0 | 115 | 960 | 286 |  10 | 10 |  55 |   0 |-7.287522e+01 |-7.308095e+01 |   0.28%| unknown
+  0.7s|     1 |     0 |   795 |     - |    16M |   0 | 115 | 960 | 287 |  11 | 11 |  55 |   0 |-7.287525e+01 |-7.308095e+01 |   0.28%| unknown
+  0.7s|     1 |     0 |   795 |     - |    16M |   0 | 115 | 696 | 287 |  11 | 11 |  55 |   0 |-7.287525e+01 |-7.308095e+01 |   0.28%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.8s|     1 |     0 |   800 |     - |    16M |   0 | 115 | 696 | 279 |  12 | 12 |  55 |   0 |-7.287532e+01 |-7.308095e+01 |   0.28%| unknown
+  0.8s|     1 |     0 |   802 |     - |    16M |   0 | 115 | 696 | 280 |  13 | 13 |  55 |   0 |-7.287533e+01 |-7.308095e+01 |   0.28%| unknown
+  0.8s|     1 |     0 |   810 |     - |    16M |   0 | 115 | 696 | 281 |  14 | 14 |  55 |   0 |-7.287539e+01 |-7.308095e+01 |   0.28%| unknown
+  0.9s|     1 |     0 |   959 |     - |    16M |   0 | 115 | 695 | 281 |  14 | 15 |  64 |   3 |-7.290584e+01 |-7.308095e+01 |   0.24%| unknown
+  0.9s|     1 |     0 |   959 |     - |    16M |   0 | 115 | 681 | 281 |  14 | 16 |  64 |   5 |-7.290584e+01 |-7.308095e+01 |   0.24%| unknown
+  1.0s|     1 |     0 |   965 |     - |    16M |   0 | 115 | 665 | 281 |  14 | 17 |  66 |  21 |-7.290584e+01 |-7.308095e+01 |   0.24%| unknown
+  1.0s|     1 |     0 |   968 |     - |    16M |   0 | 115 | 666 | 281 |  14 | 18 |  68 |  23 |-7.290584e+01 |-7.308095e+01 |   0.24%| unknown
+  1.0s|     1 |     2 |   968 |     - |    16M |   0 | 115 | 666 | 281 |  14 | 19 |  68 |  23 |-7.290584e+01 |-7.308095e+01 |   0.24%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.01
+Solving Nodes      : 3 (total of 4 nodes in 2 runs)
+Primal Bound       : -7.30809523809524e+01 (43 solutions)
+Dual Bound         : -7.30809523809524e+01
+Gap                : 0.00 %
+  [linear] <c948>: <x107>[C] (+26.6428571) -0.70952381<x1>[B] (+0) -0.70952381<x2>[B] (+1) -0.70952381<x3>[B] (+1) +0.70952381<x4>[B] (+1) -0.70952381<x5>[B] (+1) +0.70952381<x6>[B] (+0) -0.70952381<x7>[B] (+0) -0.70952381<x8>[B] (+1) -0.70952381<x9>[B] (+1) -0.70952381<x10>[B] (+1) -0.70952381<x11>[B] (+0) +0.70952381<x12>[B] (+0) -0.70952381<x13>[B] (+1) +0.70952381<x14>[B] (+0) -0.70952381<x15>[B] (+1) -0.70952381<x16>[B] (+1) +0.70952381<x17>[B] (+1) -0.70952381<x18>[B] (+1) +0.70952381<x19>[B] (+0) -0.70952381<x20>[B] (+0) -0.70952381<x21>[B] (+1) -0.70952381<x22>[B] (+1) +0.70952381<x23>[B] (+1) -0.70952381<x24>[B] (+0) +0.70952381<x25>[B] (+0) -0.70952381<x26>[B] (+1) +0.70952381<x27>[B] (+5.08684004e-14) -0.70952381<x28>[B] (+1) +0.70952381<x29>[B] (+0) -0.70952381<x30>[B] (+1) +0.70952381<x31>[B] (+0) -0.70952381<x32>[B] (+0) -0.70952381<x33>[B] (+1) -0.70952381<x34>[B] (+1) +0.70952381<x35>[B] (+1) +0.70952381<x36>[B] (+0) +0.70952381<x37>[B] (+0) -0.70952381<x38>[B] (+1) +0.70952381<x39>[B] (+0) +0.70952381<x40>[B] (+0) -0.70952381<x41>[B] (+1) +0.70952381<x42>[B] (+0) +0.70952381<x43>[B] (+0) +0.70952381<x44>[B] (+1) -0.70952381<x45>[B] (+1) +0.70952381<x46>[B] (+0) +0.70952381<x47>[B] (+0) +0.70952381<x48>[B] (+0) +0.70952381<x49>[B] (+1) +0.70952381<x50>[B] (+0) -0.70952381<x51>[B] (+1) -0.70952381<x52>[B] (+0) -0.70952381<x53>[B] (+0) -0.70952381<x54>[B] (+1) -0.70952381<x55>[B] (+1) -0.70952381<x56>[B] (+1) -0.70952381<x57>[B] (+0) -0.70952381<x58>[B] (+0) -0.70952381<x59>[B] (+1) +0.70952381<x60>[B] (+0) +0.70952381<x61>[B] (+0) +0.70952381<x62>[B] (+0) +0.70952381<x63>[B] (+0) -0.70952381<x64>[B] (+0) +0.70952381<x65>[B] (+0) +0.70952381<x66>[B] (+0) +0.70952381<x67>[B] (+0) +0.70952381<x68>[B] (+0) +0.70952381<x69>[B] (+0) -0.70952381<x70>[B] (+1) -0.70952381<x71>[B] (+1) -0.70952381<x72>[B] (+1) -0.70952381<x73>[B] (+1) -0.70952381<x74>[B] (+1) +0.70952381<x75>[B] (+1) -0.70952381<x76>[B] (+1) +0.70952381<x77>[B] (+1) +0.70952381<x78>[B] (+1) -0.70952381<x79>[B] (+1) +0.70952381<x80>[B] (+1) +0.70952381<x81>[B] (+1) +0.70952381<x82>[B] (+1) +0.70952381<x83>[B] (+1) +0.70952381<x84>[B] (+1) -0.70952381<x85>[B] (+0) +0.70952381<x86>[B] (+0) +0.70952381<x87>[B] (+0) +0.70952381<x88>[B] (+0) -0.70952381<x89>[B] (+1) +0.70952381<x90>[B] (+0) +0.70952381<x91>[B] (+0) +0.70952381<x92>[B] (+0) +0.70952381<x93>[B] (+0) +0.70952381<x94>[B] (+1) +0.70952381<x95>[B] (+0) -0.70952381<x96>[B] (+0) +0.70952381<x97>[B] (+0) -0.70952381<x98>[B] (+1) +0.70952381<x99>[B] (+0) +0.70952381<x100>[B] (+1) -0.70952381<x101>[B] (+1) +0.70952381<x102>[B] (+1) -0.70952381<x103>[B] (+1) +0.70952381<x104>[B] (+5.08684004e-14) +0.70952381<x105>[B] (+0) >= 13.3047619047619;
+;
+violation: left hand side is violated by 0.142857142857132
+  [linear] <c948>: <x107>[C] (+27.4095238) -0.70952381<x1>[B] (+0) -0.70952381<x2>[B] (+1) -0.70952381<x3>[B] (+1) +0.70952381<x4>[B] (+1) -0.70952381<x5>[B] (+1) +0.70952381<x6>[B] (+0) -0.70952381<x7>[B] (+0) -0.70952381<x8>[B] (+1) -0.70952381<x9>[B] (+1) -0.70952381<x10>[B] (+1) -0.70952381<x11>[B] (+0) +0.70952381<x12>[B] (+0) -0.70952381<x13>[B] (+1) +0.70952381<x14>[B] (+0) -0.70952381<x15>[B] (+1) -0.70952381<x16>[B] (+1) +0.70952381<x17>[B] (+1) -0.70952381<x18>[B] (+1) +0.70952381<x19>[B] (+0) -0.70952381<x20>[B] (+0) -0.70952381<x21>[B] (+1) -0.70952381<x22>[B] (+1) +0.70952381<x23>[B] (+1) -0.70952381<x24>[B] (+0) +0.70952381<x25>[B] (+0) -0.70952381<x26>[B] (+1) +0.70952381<x27>[B] (+0) -0.70952381<x28>[B] (+1) +0.70952381<x29>[B] (+0) -0.70952381<x30>[B] (+1) +0.70952381<x31>[B] (+0) -0.70952381<x32>[B] (+0) -0.70952381<x33>[B] (+1) -0.70952381<x34>[B] (+1) +0.70952381<x35>[B] (+0) +0.70952381<x36>[B] (+0) +0.70952381<x37>[B] (+0) -0.70952381<x38>[B] (+1) +0.70952381<x39>[B] (+0) +0.70952381<x40>[B] (+0) -0.70952381<x41>[B] (+1) +0.70952381<x42>[B] (+0) +0.70952381<x43>[B] (+0) +0.70952381<x44>[B] (+1) -0.70952381<x45>[B] (+1) +0.70952381<x46>[B] (+0) +0.70952381<x47>[B] (+0) +0.70952381<x48>[B] (+0) +0.70952381<x49>[B] (+1) +0.70952381<x50>[B] (+0) -0.70952381<x51>[B] (+1) -0.70952381<x52>[B] (+0) -0.70952381<x53>[B] (+0) -0.70952381<x54>[B] (+1) -0.70952381<x55>[B] (+1) -0.70952381<x56>[B] (+1) -0.70952381<x57>[B] (+0) -0.70952381<x58>[B] (+0) -0.70952381<x59>[B] (+1) +0.70952381<x60>[B] (+0) +0.70952381<x61>[B] (+0) +0.70952381<x62>[B] (+0) +0.70952381<x63>[B] (+0) -0.70952381<x64>[B] (+0) +0.70952381<x65>[B] (+0) +0.70952381<x66>[B] (+0) +0.70952381<x67>[B] (+0) +0.70952381<x68>[B] (+0) +0.70952381<x69>[B] (+0) -0.70952381<x70>[B] (+1) -0.70952381<x71>[B] (+1) -0.70952381<x72>[B] (+1) -0.70952381<x73>[B] (+1) -0.70952381<x74>[B] (+1) +0.70952381<x75>[B] (+1) -0.70952381<x76>[B] (+1) +0.70952381<x77>[B] (+1) +0.70952381<x78>[B] (+1) -0.70952381<x79>[B] (+1) +0.70952381<x80>[B] (+1) +0.70952381<x81>[B] (+1) +0.70952381<x82>[B] (+1) +0.70952381<x83>[B] (+1) +0.70952381<x84>[B] (+1) -0.70952381<x85>[B] (+0) +0.70952381<x86>[B] (+0) +0.70952381<x87>[B] (+0) +0.70952381<x88>[B] (+0) -0.70952381<x89>[B] (+1) +0.70952381<x90>[B] (+0) +0.70952381<x91>[B] (+0) +0.70952381<x92>[B] (+0) +0.70952381<x93>[B] (+0) +0.70952381<x94>[B] (+1) +0.70952381<x95>[B] (+0) -0.70952381<x96>[B] (+0) +0.70952381<x97>[B] (+0) -0.70952381<x98>[B] (+1) +0.70952381<x99>[B] (+0) +0.70952381<x100>[B] (+1) -0.70952381<x101>[B] (+1) +0.70952381<x102>[B] (+1) -0.70952381<x103>[B] (+1) +0.70952381<x104>[B] (+0) +0.70952381<x105>[B] (+0) >= 13.3047619047619;
+;
+violation: left hand side is violated by 0.0857142857142712
+  [linear] <c948>: <x107>[C] (+26.6428571) -0.70952381<x1>[B] (+1) -0.70952381<x2>[B] (+1) -0.70952381<x3>[B] (+1) +0.70952381<x4>[B] (+1) -0.70952381<x5>[B] (+1) +0.70952381<x6>[B] (+0) -0.70952381<x7>[B] (+0) -0.70952381<x8>[B] (+1) -0.70952381<x9>[B] (+1) -0.70952381<x10>[B] (+1) -0.70952381<x11>[B] (+0) +0.70952381<x12>[B] (+1) -0.70952381<x13>[B] (+1) +0.70952381<x14>[B] (+0) -0.70952381<x15>[B] (+0) -0.70952381<x16>[B] (+1) +0.70952381<x17>[B] (+0) -0.70952381<x18>[B] (+1) +0.70952381<x19>[B] (+0) -0.70952381<x20>[B] (+0) -0.70952381<x21>[B] (+0) -0.70952381<x22>[B] (+0) +0.70952381<x23>[B] (+0) -0.70952381<x24>[B] (+0) +0.70952381<x25>[B] (+0) -0.70952381<x26>[B] (+1) +0.70952381<x27>[B] (+0) -0.70952381<x28>[B] (+1) +0.70952381<x29>[B] (+0) -0.70952381<x30>[B] (+1) +0.70952381<x31>[B] (+0) -0.70952381<x32>[B] (+0) -0.70952381<x33>[B] (+1) -0.70952381<x34>[B] (+1) +0.70952381<x35>[B] (+0) +0.70952381<x36>[B] (+0) +0.70952381<x37>[B] (+0) -0.70952381<x38>[B] (+1) +0.70952381<x39>[B] (+0) +0.70952381<x40>[B] (+0) -0.70952381<x41>[B] (+1) +0.70952381<x42>[B] (+0) +0.70952381<x43>[B] (+0) +0.70952381<x44>[B] (-5.08684004e-14) -0.70952381<x45>[B] (-5.08684004e-14) +0.70952381<x46>[B] (+0) +0.70952381<x47>[B] (+0) +0.70952381<x48>[B] (+0) +0.70952381<x49>[B] (+1) +0.70952381<x50>[B] (+0) -0.70952381<x51>[B] (+1) -0.70952381<x52>[B] (+0) -0.70952381<x53>[B] (+0) -0.70952381<x54>[B] (+1) -0.70952381<x55>[B] (+1) -0.70952381<x56>[B] (+1) -0.70952381<x57>[B] (+0) -0.70952381<x58>[B] (-1.52605201e-13) -0.70952381<x59>[B] (+1) +0.70952381<x60>[B] (+0) +0.70952381<x61>[B] (+0) +0.70952381<x62>[B] (+0) +0.70952381<x63>[B] (+0) -0.70952381<x64>[B] (+0) +0.70952381<x65>[B] (+0) +0.70952381<x66>[B] (+0) +0.70952381<x67>[B] (+0) +0.70952381<x68>[B] (+0) +0.70952381<x69>[B] (+0) -0.70952381<x70>[B] (+1) -0.70952381<x71>[B] (+1) -0.70952381<x72>[B] (+1) -0.70952381<x73>[B] (+1) -0.70952381<x74>[B] (+1) +0.70952381<x75>[B] (+1) -0.70952381<x76>[B] (+1) +0.70952381<x77>[B] (+1) +0.70952381<x78>[B] (+1) -0.70952381<x79>[B] (+1) +0.70952381<x80>[B] (+1) +0.70952381<x81>[B] (+1) +0.70952381<x82>[B] (+1) +0.70952381<x83>[B] (+1) +0.70952381<x84>[B] (+1) -0.70952381<x85>[B] (+0) +0.70952381<x86>[B] (+0) +0.70952381<x87>[B] (+0) +0.70952381<x88>[B] (+0) -0.70952381<x89>[B] (+1) +0.70952381<x90>[B] (+0) +0.70952381<x91>[B] (+0) +0.70952381<x92>[B] (+0) +0.70952381<x93>[B] (+0) +0.70952381<x94>[B] (+1) +0.70952381<x95>[B] (+0) -0.70952381<x96>[B] (+0) +0.70952381<x97>[B] (+0) -0.70952381<x98>[B] (+1) +0.70952381<x99>[B] (+0) +0.70952381<x100>[B] (+1) -0.70952381<x101>[B] (+1) +0.70952381<x102>[B] (+1) -0.70952381<x103>[B] (+1) +0.70952381<x104>[B] (+0) +0.70952381<x105>[B] (+0) >= 13.3047619047619;
+;
+violation: left hand side is violated by 0.142857142857141
+  [linear] <c951>: <x111>[C] (+17.7095238) +0.576190476<x1>[B] (+1) +0.576190476<x2>[B] (+1) +0.576190476<x3>[B] (+1) +0.576190476<x4>[B] (+0) +0.576190476<x5>[B] (+1) +0.576190476<x6>[B] (+0) +0.576190476<x7>[B] (+0) +0.576190476<x8>[B] (+1) +0.576190476<x9>[B] (+1) +0.576190476<x10>[B] (+1) +0.576190476<x11>[B] (+0) +0.576190476<x12>[B] (+0) +0.576190476<x13>[B] (+1) +0.576190476<x14>[B] (+1) +0.576190476<x15>[B] (+0) -0.576190476<x16>[B] (+1) -0.576190476<x17>[B] (+0) -0.576190476<x18>[B] (+1) +0.576190476<x19>[B] (+0) +0.576190476<x20>[B] (+0) -0.576190476<x21>[B] (+1) +0.576190476<x22>[B] (+1) +0.576190476<x23>[B] (+0) +0.576190476<x24>[B] (+0) -0.576190476<x25>[B] (+0) +0.576190476<x26>[B] (+1) -0.576190476<x27>[B] (+1) -0.576190476<x28>[B] (+1) -0.576190476<x29>[B] (+0) -0.576190476<x30>[B] (+1) -0.576190476<x31>[B] (+0) -0.576190476<x32>[B] (+0) -0.576190476<x33>[B] (+1) -0.576190476<x34>[B] (+1) -0.576190476<x35>[B] (+1) -0.576190476<x36>[B] (+0) -0.576190476<x37>[B] (+0) -0.576190476<x38>[B] (+1) -0.576190476<x39>[B] (+1) +0.576190476<x40>[B] (+0) +0.576190476<x41>[B] (+1) +0.576190476<x42>[B] (+0) +0.576190476<x43>[B] (+0) +0.576190476<x44>[B] (+1) +0.576190476<x45>[B] (+1) +0.576190476<x46>[B] (+0) +0.576190476<x47>[B] (+0) -0.576190476<x48>[B] (+0) +0.576190476<x49>[B] (+1) +0.576190476<x50>[B] (+1) -0.576190476<x51>[B] (+1) +0.576190476<x52>[B] (+0) +0.576190476<x53>[B] (+0) -0.576190476<x54>[B] (+1) +0.576190476<x55>[B] (+1) +0.576190476<x56>[B] (+1) +0.576190476<x57>[B] (+0) -0.576190476<x58>[B] (+0) +0.576190476<x59>[B] (+1) +0.576190476<x60>[B] (+1) +0.576190476<x61>[B] (+0) +0.576190476<x62>[B] (+0) -0.576190476<x63>[B] (+0) +0.576190476<x64>[B] (+0) +0.576190476<x65>[B] (+0) +0.576190476<x66>[B] (+0) -0.576190476<x67>[B] (+0) +0.576190476<x68>[B] (+0) +0.576190476<x69>[B] (+0) -0.576190476<x70>[B] (+1) -0.576190476<x71>[B] (+1) -0.576190476<x72>[B] (+1) +0.576190476<x73>[B] (+1) -0.576190476<x74>[B] (+1) -0.576190476<x75>[B] (+1) -0.576190476<x76>[B] (+1) -0.576190476<x77>[B] (+1) -0.576190476<x78>[B] (+1) -0.576190476<x79>[B] (+1) +0.576190476<x80>[B] (+1) -0.576190476<x81>[B] (+1) -0.576190476<x82>[B] (+1) -0.576190476<x83>[B] (+1) -0.576190476<x84>[B] (+1) +0.576190476<x85>[B] (+0) +0.576190476<x86>[B] (+0) +0.576190476<x87>[B] (+0) -0.576190476<x88>[B] (+0) +0.576190476<x89>[B] (+1) +0.576190476<x90>[B] (+0) +0.576190476<x91>[B] (+0) -0.576190476<x92>[B] (+0) -0.576190476<x93>[B] (+0) -0.576190476<x94>[B] (+1) -0.576190476<x95>[B] (+0) -0.576190476<x96>[B] (+0) -0.576190476<x97>[B] (+0) -0.576190476<x98>[B] (+1) -0.576190476<x99>[B] (+1) -0.576190476<x100>[B] (+1) +0.576190476<x101>[B] (+1) -0.576190476<x102>[B] (+1) +0.576190476<x103>[B] (+1) +0.576190476<x104>[B] (+1) -0.576190476<x105>[B] (+0) >= 14.8380952380952;
+;
+violation: left hand side is violated by 0.00952380952380949
+  [linear] <c948>: <x107>[C] (+25.3190476) -0.70952381<x1>[B] (+1) -0.70952381<x2>[B] (+1) -0.70952381<x3>[B] (+1) +0.70952381<x4>[B] (+0) -0.70952381<x5>[B] (+1) +0.70952381<x6>[B] (+0) -0.70952381<x7>[B] (+0) -0.70952381<x8>[B] (+1) -0.70952381<x9>[B] (+1) -0.70952381<x10>[B] (+1) -0.70952381<x11>[B] (+0) +0.70952381<x12>[B] (+0) -0.70952381<x13>[B] (+1) +0.70952381<x14>[B] (+1) -0.70952381<x15>[B] (+1) -0.70952381<x16>[B] (+1) +0.70952381<x17>[B] (+0) -0.70952381<x18>[B] (+1) +0.70952381<x19>[B] (+0) -0.70952381<x20>[B] (+0) -0.70952381<x21>[B] (+1) -0.70952381<x22>[B] (+1) +0.70952381<x23>[B] (+0) -0.70952381<x24>[B] (+0) +0.70952381<x25>[B] (+0) -0.70952381<x26>[B] (+1) +0.70952381<x27>[B] (+1) -0.70952381<x28>[B] (+1) +0.70952381<x29>[B] (+0) -0.70952381<x30>[B] (+1) +0.70952381<x31>[B] (+0) -0.70952381<x32>[B] (+0) -0.70952381<x33>[B] (+1) -0.70952381<x34>[B] (+1) +0.70952381<x35>[B] (+0) +0.70952381<x36>[B] (+0) +0.70952381<x37>[B] (+0) -0.70952381<x38>[B] (+1) +0.70952381<x39>[B] (+1) +0.70952381<x40>[B] (+0) -0.70952381<x41>[B] (+1) +0.70952381<x42>[B] (+0) +0.70952381<x43>[B] (+0) +0.70952381<x44>[B] (+1) -0.70952381<x45>[B] (+1) +0.70952381<x46>[B] (+0) +0.70952381<x47>[B] (+0) +0.70952381<x48>[B] (+0) +0.70952381<x49>[B] (+1) +0.70952381<x50>[B] (+1) -0.70952381<x51>[B] (+1) -0.70952381<x52>[B] (+0) -0.70952381<x53>[B] (+0) -0.70952381<x54>[B] (+1) -0.70952381<x55>[B] (+1) -0.70952381<x56>[B] (+1) -0.70952381<x57>[B] (+0) -0.70952381<x58>[B] (+0) -0.70952381<x59>[B] (+1) +0.70952381<x60>[B] (+1) +0.70952381<x61>[B] (+0) +0.70952381<x62>[B] (+0) +0.70952381<x63>[B] (+0) -0.70952381<x64>[B] (+0) +0.70952381<x65>[B] (+0) +0.70952381<x66>[B] (+0) +0.70952381<x67>[B] (+0) +0.70952381<x68>[B] (+0) +0.70952381<x69>[B] (+0) -0.70952381<x70>[B] (+1) -0.70952381<x71>[B] (+1) -0.70952381<x72>[B] (+1) -0.70952381<x73>[B] (+1) -0.70952381<x74>[B] (+1) +0.70952381<x75>[B] (+1) -0.70952381<x76>[B] (+1) +0.70952381<x77>[B] (+1) +0.70952381<x78>[B] (+1) -0.70952381<x79>[B] (+1) +0.70952381<x80>[B] (+1) +0.70952381<x81>[B] (+1) +0.70952381<x82>[B] (+1) +0.70952381<x83>[B] (+1) +0.70952381<x84>[B] (+1) -0.70952381<x85>[B] (+0) +0.70952381<x86>[B] (+0) +0.70952381<x87>[B] (+0) +0.70952381<x88>[B] (+0) -0.70952381<x89>[B] (+1) +0.70952381<x90>[B] (+0) +0.70952381<x91>[B] (+0) +0.70952381<x92>[B] (+0) +0.70952381<x93>[B] (+0) +0.70952381<x94>[B] (+1) +0.70952381<x95>[B] (+0) -0.70952381<x96>[B] (+0) +0.70952381<x97>[B] (+0) -0.70952381<x98>[B] (+1) +0.70952381<x99>[B] (+1) +0.70952381<x100>[B] (+1) -0.70952381<x101>[B] (+1) +0.70952381<x102>[B] (+1) -0.70952381<x103>[B] (+1) +0.70952381<x104>[B] (+1) +0.70952381<x105>[B] (+0) >= 13.3047619047619;
+;
+violation: left hand side is violated by 0.0476190476190439
+5/10 feasible solutions given by solution candidate storage, new primal bound -7.530952e+01
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 951 constraints
+    951 constraints of type <linear>
+Presolving Time: 0.00
+transformed 6/6 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.0s|     1 |     0 |   157 |     - |    16M |   0 | 115 | 951 | 951 |   0 |  0 |   0 |   0 |-7.260678e+01 |-7.530952e+01 |   3.72%| unknown
+  0.0s|     1 |     0 |   157 |     - |    17M |   0 | 115 | 951 | 912 |   0 |  0 |   0 |   0 |-7.260678e+01 |-7.530952e+01 |   3.72%| unknown
+  0.0s|     1 |     0 |   173 |     - |    17M |   0 | 115 | 951 | 913 |   1 |  1 |   0 |   0 |-7.276181e+01 |-7.530952e+01 |   3.50%| unknown
+  0.1s|     1 |     0 |   189 |     - |    17M |   0 | 115 | 951 | 914 |   2 |  2 |   0 |   0 |-7.279290e+01 |-7.530952e+01 |   3.46%| unknown
+  0.1s|     1 |     0 |   200 |     - |    17M |   0 | 115 | 951 | 916 |   4 |  3 |   0 |   0 |-7.280073e+01 |-7.530952e+01 |   3.45%| unknown
+  0.1s|     1 |     0 |   205 |     - |    17M |   0 | 115 | 952 | 918 |   6 |  4 |   1 |   0 |-7.280314e+01 |-7.530952e+01 |   3.44%| unknown
+  0.1s|     1 |     0 |   212 |     - |    17M |   0 | 115 | 952 | 919 |   7 |  5 |   1 |   0 |-7.280432e+01 |-7.530952e+01 |   3.44%| unknown
+  0.2s|     1 |     0 |   225 |     - |    17M |   0 | 115 | 952 | 921 |   9 |  6 |   1 |   0 |-7.281309e+01 |-7.530952e+01 |   3.43%| unknown
+  0.2s|     1 |     0 |   235 |     - |    17M |   0 | 115 | 952 | 922 |  10 |  7 |   1 |   0 |-7.281442e+01 |-7.530952e+01 |   3.43%| unknown
+  0.2s|     1 |     0 |   248 |     - |    17M |   0 | 115 | 952 | 923 |  11 |  8 |   1 |   0 |-7.281974e+01 |-7.530952e+01 |   3.42%| unknown
+  0.3s|     1 |     0 |   258 |     - |    17M |   0 | 115 | 952 | 924 |  12 |  9 |   1 |   0 |-7.282274e+01 |-7.530952e+01 |   3.41%| unknown
+  0.3s|     1 |     0 |   262 |     - |    17M |   0 | 115 | 952 | 925 |  13 | 10 |   1 |   0 |-7.282451e+01 |-7.530952e+01 |   3.41%| unknown
+  0.3s|     1 |     0 |   266 |     - |    18M |   0 | 115 | 952 | 926 |  14 | 11 |   1 |   0 |-7.282507e+01 |-7.530952e+01 |   3.41%| unknown
+  0.3s|     1 |     0 |   269 |     - |    18M |   0 | 115 | 952 | 927 |  15 | 12 |   1 |   0 |-7.282586e+01 |-7.530952e+01 |   3.41%| unknown
+  0.4s|     1 |     0 |   291 |     - |    18M |   0 | 115 | 952 | 928 |  16 | 13 |   1 |   0 |-7.282943e+01 |-7.530952e+01 |   3.41%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.4s|     1 |     0 |   298 |     - |    18M |   0 | 115 | 952 | 929 |  17 | 14 |   1 |   0 |-7.283012e+01 |-7.530952e+01 |   3.40%| unknown
+  0.4s|     1 |     0 |   301 |     - |    18M |   0 | 115 | 952 | 930 |  18 | 15 |   1 |   0 |-7.283053e+01 |-7.530952e+01 |   3.40%| unknown
+  0.4s|     1 |     0 |   305 |     - |    18M |   0 | 115 | 952 | 932 |  20 | 16 |   1 |   0 |-7.283152e+01 |-7.530952e+01 |   3.40%| unknown
+  0.5s|     1 |     0 |   307 |     - |    18M |   0 | 115 | 952 | 931 |  22 | 17 |   1 |   0 |-7.283178e+01 |-7.530952e+01 |   3.40%| unknown
+d 0.5s|     1 |     0 |   447 |     - |farkasdi|   0 | 115 | 913 | 931 |   0 | 17 |   1 |   0 |-7.283178e+01 |-7.455714e+01 |   2.37%| unknown
+L 0.5s|     1 |     0 |   497 |     - |    rens|   0 | 115 | 917 | 931 |  22 | 17 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+  0.5s|     1 |     0 |   497 |     - |    18M |   0 | 115 | 917 | 931 |  22 | 17 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+  0.5s|     1 |     0 |   497 |     - |    18M |   0 | 115 | 917 | 342 |  22 | 17 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+  0.5s|     1 |     0 |   497 |     - |    18M |   0 | 115 | 288 | 342 |  22 | 18 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+(run 1, node 1) restarting after 60 global fixings of integer variables
+
+(restart) converted 19 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 307 constraints
+    303 constraints of type <linear>
+      4 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 26/28 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.5s|     1 |     0 |   665 |     - |    18M |   0 | 115 | 307 | 303 |   0 |  0 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+  0.5s|     1 |     0 |   665 |     - |    18M |   0 | 115 | 307 | 286 |   0 |  0 |   5 |   0 |-7.283178e+01 |-7.322381e+01 |   0.54%| unknown
+  0.6s|     1 |     0 |   679 |     - |    18M |   0 | 115 | 307 | 287 |   1 |  1 |   5 |   0 |-7.284015e+01 |-7.322381e+01 |   0.53%| unknown
+  0.6s|     1 |     0 |   697 |     - |    18M |   0 | 115 | 307 | 288 |   2 |  2 |   5 |   0 |-7.284503e+01 |-7.322381e+01 |   0.52%| unknown
+  0.6s|     1 |     0 |   703 |     - |    18M |   0 | 115 | 307 | 289 |   3 |  3 |   5 |   0 |-7.284551e+01 |-7.322381e+01 |   0.52%| unknown
+  0.7s|     1 |     0 |   709 |     - |    18M |   0 | 115 | 307 | 291 |   5 |  4 |   5 |   0 |-7.284623e+01 |-7.322381e+01 |   0.52%| unknown
+  0.7s|     1 |     0 |   727 |     - |    18M |   0 | 115 | 307 | 292 |   6 |  5 |   5 |   0 |-7.284782e+01 |-7.322381e+01 |   0.52%| unknown
+  0.7s|     1 |     0 |   741 |     - |    18M |   0 | 115 | 307 | 293 |   7 |  6 |   5 |   0 |-7.284852e+01 |-7.322381e+01 |   0.52%| unknown
+  0.8s|     1 |     0 |   758 |     - |    18M |   0 | 115 | 307 | 294 |   8 |  7 |   5 |   0 |-7.284970e+01 |-7.322381e+01 |   0.51%| unknown
+  0.8s|     1 |     0 |   769 |     - |    18M |   0 | 115 | 307 | 295 |   9 |  8 |   5 |   0 |-7.285020e+01 |-7.322381e+01 |   0.51%| unknown
+  0.8s|     1 |     0 |   786 |     - |    18M |   0 | 115 | 307 | 296 |  10 |  9 |   5 |   0 |-7.285073e+01 |-7.322381e+01 |   0.51%| unknown
+  0.9s|     1 |     0 |   802 |     - |    18M |   0 | 115 | 307 | 297 |  11 | 10 |   5 |   0 |-7.285125e+01 |-7.322381e+01 |   0.51%| unknown
+  0.9s|     1 |     0 |   804 |     - |    18M |   0 | 115 | 307 | 298 |  12 | 11 |   5 |   0 |-7.285128e+01 |-7.322381e+01 |   0.51%| unknown
+  0.9s|     1 |     0 |   804 |     - |    18M |   0 | 115 | 282 | 298 |  12 | 11 |   6 |   0 |-7.285128e+01 |-7.322381e+01 |   0.51%| unknown
+  0.9s|     1 |     0 |   811 |     - |    18M |   0 | 115 | 282 | 299 |  13 | 12 |   6 |   0 |-7.285138e+01 |-7.322381e+01 |   0.51%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  1.0s|     1 |     0 |   818 |     - |    18M |   0 | 115 | 282 | 289 |  14 | 13 |   6 |   0 |-7.285144e+01 |-7.322381e+01 |   0.51%| unknown
+  1.0s|     1 |     0 |   829 |     - |    18M |   0 | 115 | 283 | 290 |  15 | 14 |   7 |   0 |-7.285152e+01 |-7.322381e+01 |   0.51%| unknown
+  1.0s|     1 |     0 |   833 |     - |    18M |   0 | 115 | 283 | 291 |  16 | 15 |   7 |   0 |-7.285161e+01 |-7.322381e+01 |   0.51%| unknown
+  1.1s|     1 |     0 |   834 |     - |    18M |   0 | 115 | 283 | 292 |  17 | 16 |   7 |   0 |-7.285168e+01 |-7.322381e+01 |   0.51%| unknown
+  1.1s|     1 |     0 |   836 |     - |    18M |   0 | 115 | 283 | 293 |  18 | 17 |   7 |   0 |-7.285177e+01 |-7.322381e+01 |   0.51%| unknown
+  1.1s|     1 |     0 |   841 |     - |    18M |   0 | 115 | 283 | 294 |  19 | 18 |   7 |   0 |-7.285189e+01 |-7.322381e+01 |   0.51%| unknown
+  1.2s|     1 |     0 |   843 |     - |    18M |   0 | 115 | 283 | 287 |  20 | 19 |   7 |   0 |-7.285191e+01 |-7.322381e+01 |   0.51%| unknown
+  1.2s|     1 |     0 |   845 |     - |    18M |   0 | 115 | 283 | 288 |  21 | 20 |   7 |   0 |-7.285193e+01 |-7.322381e+01 |   0.51%| unknown
+  1.2s|     1 |     0 |   995 |     - |    18M |   0 | 115 | 293 | 288 |  21 | 21 |  17 |   2 |-7.286450e+01 |-7.322381e+01 |   0.49%| unknown
+  1.3s|     1 |     0 |   995 |     - |    18M |   0 | 115 | 293 | 288 |  21 | 22 |  17 |   7 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+  1.3s|     1 |     0 |   995 |     - |    18M |   0 | 115 | 293 | 288 |  21 | 23 |  17 |  13 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+  1.4s|     1 |     0 |  1004 |     - |    18M |   0 | 115 | 269 | 288 |  21 | 24 |  19 |  22 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+  1.4s|     1 |     0 |  1006 |     - |    18M |   0 | 115 | 269 | 289 |  22 | 25 |  19 |  22 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+  1.4s|     1 |     0 |  1009 |     - |    18M |   0 | 115 | 260 | 289 |  22 | 26 |  20 |  25 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+  1.4s|     1 |     2 |  1009 |     - |    18M |   0 | 115 | 260 | 289 |  22 | 27 |  20 |  25 |-7.289932e+01 |-7.322381e+01 |   0.45%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+* 1.4s|     2 |     1 |  1064 | 202.0 |strongbr|   1 | 115 | 264 | 278 |  22 |  5 |  24 |  28 |-7.289932e+01 |-7.311905e+01 |   0.30%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.43
+Solving Nodes      : 3 (total of 4 nodes in 2 runs)
+Primal Bound       : -7.31190476190475e+01 (55 solutions)
+Dual Bound         : -7.31190476190475e+01
+Gap                : 0.00 %
+  [linear] <c952>: <x109>[C] (+25.3666667) -0.69047619<x1>[B] (+1) -0.69047619<x2>[B] (+1) -0.69047619<x3>[B] (+1) -0.69047619<x4>[B] (+0) +0.69047619<x5>[B] (+1) -0.69047619<x6>[B] (+0) -0.69047619<x7>[B] (+0) -0.69047619<x8>[B] (+1) -0.69047619<x9>[B] (+1) -0.69047619<x10>[B] (+1) +0.69047619<x11>[B] (+0) +0.69047619<x12>[B] (+0) -0.69047619<x13>[B] (+1) +0.69047619<x14>[B] (+1) +0.69047619<x15>[B] (+0) -0.69047619<x16>[B] (+0) +0.69047619<x17>[B] (+0) +0.69047619<x18>[B] (+1) +0.69047619<x19>[B] (+0) +0.69047619<x20>[B] (+0) +0.69047619<x21>[B] (+0) +0.69047619<x22>[B] (+0) +0.69047619<x23>[B] (+0) +0.69047619<x24>[B] (+0) +0.69047619<x25>[B] (+0) -0.69047619<x26>[B] (+1) +0.69047619<x27>[B] (+0) -0.69047619<x28>[B] (+1) +0.69047619<x29>[B] (+0) +0.69047619<x30>[B] (+1) +0.69047619<x31>[B] (+0) +0.69047619<x32>[B] (+0) -0.69047619<x33>[B] (+1) -0.69047619<x34>[B] (+1) -0.69047619<x35>[B] (+1) +0.69047619<x36>[B] (+0) +0.69047619<x37>[B] (+0) -0.69047619<x38>[B] (+1) +0.69047619<x39>[B] (+1) +0.69047619<x40>[B] (+0) +0.69047619<x41>[B] (+1) +0.69047619<x42>[B] (+0) +0.69047619<x43>[B] (+0) +0.69047619<x44>[B] (+1) +0.69047619<x45>[B] (+1) +0.69047619<x46>[B] (+0) +0.69047619<x47>[B] (+0) +0.69047619<x48>[B] (+0) -0.69047619<x49>[B] (+1) +0.69047619<x50>[B] (+1) +0.69047619<x51>[B] (+1) +0.69047619<x52>[B] (+0) +0.69047619<x53>[B] (+0) -0.69047619<x54>[B] (+1) -0.69047619<x55>[B] (+1) -0.69047619<x56>[B] (+1) +0.69047619<x57>[B] (+0) +0.69047619<x58>[B] (+1) -0.69047619<x59>[B] (+1) +0.69047619<x60>[B] (+1) -0.69047619<x61>[B] (+0) -0.69047619<x62>[B] (+0) -0.69047619<x63>[B] (+0) -0.69047619<x64>[B] (+0) -0.69047619<x65>[B] (+0) +0.69047619<x66>[B] (+0) +0.69047619<x67>[B] (+0) -0.69047619<x68>[B] (+0) +0.69047619<x69>[B] (+0) +0.69047619<x70>[B] (+1) -0.69047619<x71>[B] (+1) -0.69047619<x72>[B] (+1) -0.69047619<x73>[B] (+1) +0.69047619<x74>[B] (+1) +0.69047619<x75>[B] (+1) -0.69047619<x76>[B] (+1) +0.69047619<x77>[B] (+1) -0.69047619<x78>[B] (+1) -0.69047619<x79>[B] (+1) -0.69047619<x80>[B] (+1) +0.69047619<x81>[B] (+1) +0.69047619<x82>[B] (+1) -0.69047619<x83>[B] (+1) +0.69047619<x84>[B] (+1) -0.69047619<x85>[B] (+0) +0.69047619<x86>[B] (+0) +0.69047619<x87>[B] (+0) +0.69047619<x88>[B] (+0) -0.69047619<x89>[B] (+1) +0.69047619<x90>[B] (+0) +0.69047619<x91>[B] (+0) +0.69047619<x92>[B] (+0) +0.69047619<x93>[B] (+0) -0.69047619<x94>[B] (+1) +0.69047619<x95>[B] (+1) +0.69047619<x96>[B] (+0) +0.69047619<x97>[B] (+0) -0.69047619<x98>[B] (+1) +0.69047619<x99>[B] (+1) -0.69047619<x100>[B] (+1) -0.69047619<x101>[B] (+1) -0.69047619<x102>[B] (+1) -0.69047619<x103>[B] (+1) -0.69047619<x104>[B] (+1) +0.69047619<x105>[B] (+0) >= 16.4;
+;
+violation: left hand side is violated by 0.00952380952380594
+  [linear] <c953>: <x110>[C] (+27.4761905) +0.70952381<x1>[B] (+1) +0.70952381<x2>[B] (+1) -0.70952381<x3>[B] (+1) +0.70952381<x4>[B] (+1) -0.70952381<x5>[B] (+1) +0.70952381<x6>[B] (+0) +0.70952381<x7>[B] (+0) -0.70952381<x8>[B] (+1) -0.70952381<x9>[B] (+1) -0.70952381<x10>[B] (+1) +0.70952381<x11>[B] (+0) -0.70952381<x12>[B] (+0) -0.70952381<x13>[B] (+1) +0.70952381<x14>[B] (+1) -0.70952381<x15>[B] (+0) -0.70952381<x16>[B] (+1) -0.70952381<x17>[B] (+1) -0.70952381<x18>[B] (+1) -0.70952381<x19>[B] (+0) -0.70952381<x20>[B] (+0) -0.70952381<x21>[B] (+1) -0.70952381<x22>[B] (+0) -0.70952381<x23>[B] (+1) -0.70952381<x24>[B] (+0) -0.70952381<x25>[B] (+0) -0.70952381<x26>[B] (+1) -0.70952381<x27>[B] (+1) -0.70952381<x28>[B] (+1) +0.70952381<x29>[B] (+1) -0.70952381<x30>[B] (+1) +0.70952381<x31>[B] (+0) +0.70952381<x32>[B] (+0) -0.70952381<x33>[B] (+1) -0.70952381<x34>[B] (+1) -0.70952381<x35>[B] (+1) +0.70952381<x36>[B] (+0) -0.70952381<x37>[B] (+0) -0.70952381<x38>[B] (+1) +0.70952381<x39>[B] (+1) +0.70952381<x40>[B] (+0) -0.70952381<x41>[B] (+1) +0.70952381<x42>[B] (+0) +0.70952381<x43>[B] (+0) -0.70952381<x44>[B] (+0) -0.70952381<x45>[B] (+0) -0.70952381<x46>[B] (+0) +0.70952381<x47>[B] (+0) -0.70952381<x48>[B] (+0) -0.70952381<x49>[B] (+1) +0.70952381<x50>[B] (+0) -0.70952381<x51>[B] (+1) +0.70952381<x52>[B] (+0) -0.70952381<x53>[B] (+0) -0.70952381<x54>[B] (+1) -0.70952381<x55>[B] (+0) -0.70952381<x56>[B] (+1) +0.70952381<x57>[B] (+0) -0.70952381<x58>[B] (+0) -0.70952381<x59>[B] (+1) -0.70952381<x60>[B] (+0) +0.70952381<x61>[B] (+0) +0.70952381<x62>[B] (+0) +0.70952381<x63>[B] (+0) +0.70952381<x64>[B] (+0) +0.70952381<x65>[B] (+0) +0.70952381<x66>[B] (+0) +0.70952381<x67>[B] (+0) +0.70952381<x68>[B] (+0) +0.70952381<x69>[B] (+0) -0.70952381<x70>[B] (+1) -0.70952381<x71>[B] (+1) -0.70952381<x72>[B] (+1) -0.70952381<x73>[B] (+1) -0.70952381<x74>[B] (+1) -0.70952381<x75>[B] (+1) -0.70952381<x76>[B] (+1) -0.70952381<x77>[B] (+1) -0.70952381<x78>[B] (+1) -0.70952381<x79>[B] (+1) -0.70952381<x80>[B] (+1) +0.70952381<x81>[B] (+1) -0.70952381<x82>[B] (+1) -0.70952381<x83>[B] (+1) -0.70952381<x84>[B] (+1) +0.70952381<x85>[B] (+0) +0.70952381<x86>[B] (+0) +0.70952381<x87>[B] (+0) +0.70952381<x88>[B] (+0) +0.70952381<x89>[B] (+1) +0.70952381<x90>[B] (+0) -0.70952381<x91>[B] (+1) +0.70952381<x92>[B] (+0) +0.70952381<x93>[B] (+0) +0.70952381<x94>[B] (+1) +0.70952381<x95>[B] (+1) +0.70952381<x96>[B] (+0) +0.70952381<x97>[B] (+0) +0.70952381<x98>[B] (+1) +0.70952381<x99>[B] (+0) -0.70952381<x100>[B] (+1) -0.70952381<x101>[B] (+1) -0.70952381<x102>[B] (+1) +0.70952381<x103>[B] (+1) +0.70952381<x104>[B] (+1) +0.70952381<x105>[B] (+0) >= 6.20952380952381;
+;
+violation: left hand side is violated by 0.0190476190476252
+  [linear] <c952>: <x109>[C] (+25.3666667) -0.69047619<x1>[B] (+1) -0.69047619<x2>[B] (+1) -0.69047619<x3>[B] (+1) -0.69047619<x4>[B] (+0) +0.69047619<x5>[B] (+1) -0.69047619<x6>[B] (+0) -0.69047619<x7>[B] (+0) -0.69047619<x8>[B] (+1) -0.69047619<x9>[B] (+1) -0.69047619<x10>[B] (+1) +0.69047619<x11>[B] (+0) +0.69047619<x12>[B] (+0) -0.69047619<x13>[B] (+1) +0.69047619<x14>[B] (+1) +0.69047619<x15>[B] (+1) -0.69047619<x16>[B] (+1) +0.69047619<x17>[B] (+0) +0.69047619<x18>[B] (+1) +0.69047619<x19>[B] (+0) +0.69047619<x20>[B] (+0) +0.69047619<x21>[B] (+1) +0.69047619<x22>[B] (+1) +0.69047619<x23>[B] (+1) +0.69047619<x24>[B] (+0) +0.69047619<x25>[B] (+0) -0.69047619<x26>[B] (+1) +0.69047619<x27>[B] (+1) -0.69047619<x28>[B] (+1) +0.69047619<x29>[B] (+0) +0.69047619<x30>[B] (+1) +0.69047619<x31>[B] (+0) +0.69047619<x32>[B] (+0) -0.69047619<x33>[B] (+1) -0.69047619<x34>[B] (+1) -0.69047619<x35>[B] (+1) +0.69047619<x36>[B] (+0) +0.69047619<x37>[B] (+0) -0.69047619<x38>[B] (+1) +0.69047619<x39>[B] (+1) +0.69047619<x40>[B] (+0) +0.69047619<x41>[B] (+1) +0.69047619<x42>[B] (+0) +0.69047619<x43>[B] (+0) +0.69047619<x44>[B] (+0) +0.69047619<x45>[B] (+0) +0.69047619<x46>[B] (+0) +0.69047619<x47>[B] (+0) +0.69047619<x48>[B] (+0) -0.69047619<x49>[B] (+1) +0.69047619<x50>[B] (+0) +0.69047619<x51>[B] (+1) +0.69047619<x52>[B] (+0) +0.69047619<x53>[B] (+0) -0.69047619<x54>[B] (+1) -0.69047619<x55>[B] (+1) -0.69047619<x56>[B] (+1) +0.69047619<x57>[B] (+0) +0.69047619<x58>[B] (+0) -0.69047619<x59>[B] (+1) +0.69047619<x60>[B] (+1) -0.69047619<x61>[B] (+0) -0.69047619<x62>[B] (+0) -0.69047619<x63>[B] (+0) -0.69047619<x64>[B] (+0) -0.69047619<x65>[B] (+0) +0.69047619<x66>[B] (+0) +0.69047619<x67>[B] (+0) -0.69047619<x68>[B] (+0) +0.69047619<x69>[B] (+0) +0.69047619<x70>[B] (+1) -0.69047619<x71>[B] (+1) -0.69047619<x72>[B] (+1) -0.69047619<x73>[B] (+1) +0.69047619<x74>[B] (+1) +0.69047619<x75>[B] (+1) -0.69047619<x76>[B] (+1) +0.69047619<x77>[B] (+1) -0.69047619<x78>[B] (+1) -0.69047619<x79>[B] (+1) -0.69047619<x80>[B] (+1) +0.69047619<x81>[B] (+1) +0.69047619<x82>[B] (+1) -0.69047619<x83>[B] (+1) +0.69047619<x84>[B] (+1) -0.69047619<x85>[B] (+0) +0.69047619<x86>[B] (+0) +0.69047619<x87>[B] (+0) +0.69047619<x88>[B] (+0) -0.69047619<x89>[B] (+1) +0.69047619<x90>[B] (+0) +0.69047619<x91>[B] (+0) +0.69047619<x92>[B] (+0) +0.69047619<x93>[B] (+0) -0.69047619<x94>[B] (+1) +0.69047619<x95>[B] (+1) +0.69047619<x96>[B] (+0) +0.69047619<x97>[B] (+0) -0.69047619<x98>[B] (+1) +0.69047619<x99>[B] (+1) -0.69047619<x100>[B] (+1) -0.69047619<x101>[B] (+1) -0.69047619<x102>[B] (+1) -0.69047619<x103>[B] (+1) -0.69047619<x104>[B] (+1) +0.69047619<x105>[B] (+0) >= 16.4;
+;
+violation: left hand side is violated by 0.00952380952380594
+7/10 feasible solutions given by solution candidate storage, new primal bound -7.322381e+01
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 955 constraints
+    955 constraints of type <linear>
+Presolving Time: 0.00
+transformed 8/8 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.0s|     1 |     0 |   169 |     - |    18M |   0 | 115 | 955 | 955 |   0 |  0 |   0 |   0 |-7.261424e+01 |-7.322381e+01 |   0.84%| unknown
+  0.0s|     1 |     0 |   169 |     - |    18M |   0 | 115 | 955 | 377 |   0 |  0 |   0 |   0 |-7.261424e+01 |-7.322381e+01 |   0.84%| unknown
+  0.0s|     1 |     0 |   187 |     - |    18M |   0 | 115 | 955 | 378 |   1 |  1 |   0 |   0 |-7.265821e+01 |-7.322381e+01 |   0.78%| unknown
+  0.0s|     1 |     0 |   187 |     - |    18M |   0 | 115 | 955 | 369 |   1 |  1 |   0 |   0 |-7.265821e+01 |-7.322381e+01 |   0.78%| unknown
+  0.0s|     1 |     0 |   207 |     - |    19M |   0 | 115 | 955 | 370 |   2 |  2 |   0 |   0 |-7.269571e+01 |-7.322381e+01 |   0.73%| unknown
+  0.0s|     1 |     0 |   207 |     - |    19M |   0 | 115 | 955 | 360 |   2 |  2 |   0 |   0 |-7.269571e+01 |-7.322381e+01 |   0.73%| unknown
+  0.1s|     1 |     0 |   227 |     - |    19M |   0 | 115 | 955 | 361 |   3 |  3 |   0 |   0 |-7.274050e+01 |-7.322381e+01 |   0.66%| unknown
+  0.1s|     1 |     0 |   227 |     - |    19M |   0 | 115 | 955 | 352 |   3 |  3 |   0 |   0 |-7.274050e+01 |-7.322381e+01 |   0.66%| unknown
+  0.1s|     1 |     0 |   240 |     - |    19M |   0 | 115 | 955 | 353 |   4 |  4 |   0 |   0 |-7.274890e+01 |-7.322381e+01 |   0.65%| unknown
+  0.1s|     1 |     0 |   259 |     - |    19M |   0 | 115 | 955 | 355 |   6 |  5 |   0 |   0 |-7.278100e+01 |-7.322381e+01 |   0.61%| unknown
+  0.1s|     1 |     0 |   259 |     - |    19M |   0 | 115 | 955 | 333 |   6 |  5 |   0 |   0 |-7.278100e+01 |-7.322381e+01 |   0.61%| unknown
+  0.1s|     1 |     0 |   292 |     - |    19M |   0 | 115 | 955 | 335 |   8 |  6 |   0 |   0 |-7.280388e+01 |-7.322381e+01 |   0.58%| unknown
+  0.1s|     1 |     0 |   292 |     - |    19M |   0 | 115 | 955 | 330 |   8 |  6 |   0 |   0 |-7.280388e+01 |-7.322381e+01 |   0.58%| unknown
+  0.2s|     1 |     0 |   315 |     - |    19M |   0 | 115 | 955 | 332 |  10 |  7 |   0 |   0 |-7.283003e+01 |-7.322381e+01 |   0.54%| unknown
+  0.2s|     1 |     0 |   323 |     - |    19M |   0 | 115 | 955 | 333 |  11 |  8 |   0 |   0 |-7.283386e+01 |-7.322381e+01 |   0.54%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.2s|     1 |     0 |   341 |     - |    19M |   0 | 115 | 955 | 335 |  13 |  9 |   0 |   0 |-7.283909e+01 |-7.322381e+01 |   0.53%| unknown
+  0.3s|     1 |     0 |   349 |     - |    19M |   0 | 115 | 955 | 336 |  14 | 10 |   0 |   0 |-7.284038e+01 |-7.322381e+01 |   0.53%| unknown
+  0.3s|     1 |     0 |   354 |     - |    19M |   0 | 115 | 955 | 337 |  15 | 11 |   0 |   0 |-7.284056e+01 |-7.322381e+01 |   0.53%| unknown
+  0.3s|     1 |     0 |   364 |     - |    19M |   0 | 115 | 955 | 338 |  16 | 12 |   0 |   0 |-7.284162e+01 |-7.322381e+01 |   0.52%| unknown
+  0.3s|     1 |     0 |   364 |     - |    19M |   0 | 115 | 955 | 329 |  16 | 12 |   0 |   0 |-7.284162e+01 |-7.322381e+01 |   0.52%| unknown
+  0.4s|     1 |     0 |   372 |     - |    19M |   0 | 115 | 955 | 330 |  17 | 13 |   0 |   0 |-7.284191e+01 |-7.322381e+01 |   0.52%| unknown
+  0.4s|     1 |     0 |   374 |     - |    19M |   0 | 115 | 955 | 331 |  18 | 14 |   0 |   0 |-7.284210e+01 |-7.322381e+01 |   0.52%| unknown
+  0.4s|     1 |     0 |   377 |     - |    19M |   0 | 115 | 955 | 332 |  19 | 15 |   0 |   0 |-7.284214e+01 |-7.322381e+01 |   0.52%| unknown
+  0.4s|     1 |     0 |   381 |     - |    19M |   0 | 115 | 956 | 333 |  20 | 16 |   1 |   0 |-7.284226e+01 |-7.322381e+01 |   0.52%| unknown
+  0.5s|     1 |     0 |   381 |     - |    19M |   0 | 115 | 292 | 333 |  20 | 17 |   1 |   0 |-7.284226e+01 |-7.322381e+01 |   0.52%| unknown
+L 0.5s|     1 |     0 |   520 |     - |    rens|   0 | 115 | 296 | 333 |  20 | 18 |   6 |   0 |-7.284407e+01 |-7.315714e+01 |   0.43%| unknown
+(run 1, node 1) restarting after 60 global fixings of integer variables
+
+(restart) converted 20 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 315 constraints
+      1 constraints of type <setppc>
+    312 constraints of type <linear>
+      2 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 25/27 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.5s|     1 |     0 |   694 |     - |    19M |   0 | 115 | 306 | 303 |   0 |  0 |   6 |   0 |-7.284407e+01 |-7.315714e+01 |   0.43%| unknown
+  0.5s|     1 |     0 |   694 |     - |    19M |   0 | 115 | 308 | 275 |   0 |  0 |   8 |   0 |-7.284407e+01 |-7.315714e+01 |   0.43%| unknown
+  0.6s|     1 |     0 |   703 |     - |    19M |   0 | 115 | 308 | 276 |   1 |  1 |   8 |   0 |-7.285024e+01 |-7.315714e+01 |   0.42%| unknown
+  0.6s|     1 |     0 |   716 |     - |    19M |   0 | 115 | 308 | 277 |   2 |  2 |   8 |   0 |-7.285549e+01 |-7.315714e+01 |   0.41%| unknown
+  0.6s|     1 |     0 |   722 |     - |    19M |   0 | 115 | 308 | 278 |   3 |  3 |   8 |   0 |-7.286002e+01 |-7.315714e+01 |   0.41%| unknown
+  0.6s|     1 |     0 |   729 |     - |    19M |   0 | 115 | 308 | 279 |   4 |  4 |   8 |   0 |-7.286637e+01 |-7.315714e+01 |   0.40%| unknown
+  0.7s|     1 |     0 |   729 |     - |    19M |   0 | 115 | 308 | 271 |   4 |  4 |   8 |   0 |-7.286637e+01 |-7.315714e+01 |   0.40%| unknown
+  0.7s|     1 |     0 |   755 |     - |    19M |   0 | 115 | 308 | 272 |   5 |  5 |   8 |   0 |-7.288922e+01 |-7.315714e+01 |   0.37%| unknown
+  0.7s|     1 |     0 |   771 |     - |    19M |   0 | 115 | 308 | 273 |   6 |  6 |   8 |   0 |-7.289499e+01 |-7.315714e+01 |   0.36%| unknown
+  0.7s|     1 |     0 |   798 |     - |    19M |   0 | 115 | 308 | 274 |   7 |  7 |   8 |   0 |-7.290456e+01 |-7.315714e+01 |   0.35%| unknown
+  0.8s|     1 |     0 |   811 |     - |    19M |   0 | 115 | 308 | 275 |   8 |  8 |   8 |   0 |-7.290558e+01 |-7.315714e+01 |   0.35%| unknown
+  0.8s|     1 |     0 |   822 |     - |    19M |   0 | 115 | 309 | 276 |   9 |  9 |   9 |   0 |-7.290652e+01 |-7.315714e+01 |   0.34%| unknown
+  0.8s|     1 |     0 |   837 |     - |    19M |   0 | 115 | 309 | 277 |  10 | 10 |   9 |   0 |-7.290695e+01 |-7.315714e+01 |   0.34%| unknown
+  0.9s|     1 |     0 |   842 |     - |    19M |   0 | 115 | 309 | 278 |  11 | 11 |   9 |   0 |-7.290728e+01 |-7.315714e+01 |   0.34%| unknown
+  0.9s|     1 |     0 |   846 |     - |    19M |   0 | 115 | 309 | 280 |  13 | 12 |   9 |   0 |-7.290742e+01 |-7.315714e+01 |   0.34%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.9s|     1 |     0 |   846 |     - |    19M |   0 | 115 | 265 | 280 |  13 | 13 |   9 |   0 |-7.290742e+01 |-7.315714e+01 |   0.34%| unknown
+  1.0s|     1 |     0 |   956 |     - |    19M |   0 | 115 | 271 | 280 |  13 | 14 |  15 |   3 |-7.292571e+01 |-7.315714e+01 |   0.32%| unknown
+  1.0s|     1 |     0 |   956 |     - |    19M |   0 | 115 | 271 | 280 |  13 | 15 |  15 |   7 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.1s|     1 |     0 |   956 |     - |    19M |   0 | 115 | 271 | 280 |  13 | 16 |  15 |  13 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.1s|     1 |     0 |   968 |     - |    19M |   0 | 115 | 247 | 280 |  13 | 17 |  17 |  14 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.1s|     1 |     0 |   968 |     - |    19M |   0 | 115 | 247 | 280 |  13 | 18 |  17 |  15 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.2s|     1 |     0 |   983 |     - |    19M |   0 | 115 | 227 | 280 |  13 | 19 |  19 |  19 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.2s|     1 |     0 |   983 |     - |    19M |   0 | 115 | 227 | 227 |  13 | 19 |  19 |  19 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.2s|     1 |     0 |   983 |     - |    19M |   0 | 115 | 208 | 227 |  13 | 20 |  19 |  19 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.2s|     1 |     0 |   983 |     - |    19M |   0 | 115 | 208 | 227 |  13 | 21 |  19 |  20 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+  1.2s|     1 |     2 |   983 |     - |    19M |   0 | 115 | 208 | 227 |  13 | 22 |  19 |  20 |-7.293890e+01 |-7.315714e+01 |   0.30%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.23
+Solving Nodes      : 7 (total of 8 nodes in 2 runs)
+Primal Bound       : -7.31571428571428e+01 (44 solutions)
+Dual Bound         : -7.31571428571428e+01
+Gap                : 0.00 %
+  [linear] <c956>: <x113>[C] (+18.2952381) +0.585714286<x1>[B] (+1) -0.585714286<x2>[B] (+1) +0.585714286<x3>[B] (+1) -0.585714286<x4>[B] (+0) -0.585714286<x5>[B] (+1) +0.585714286<x6>[B] (+0) +0.585714286<x7>[B] (+0) -0.585714286<x8>[B] (+1) -0.585714286<x9>[B] (+1) -0.585714286<x10>[B] (+1) -0.585714286<x11>[B] (+0) -0.585714286<x12>[B] (+0) -0.585714286<x13>[B] (+1) -0.585714286<x14>[B] (+1) -0.585714286<x15>[B] (+0) -0.585714286<x16>[B] (+0) -0.585714286<x17>[B] (+0) -0.585714286<x18>[B] (+1) -0.585714286<x19>[B] (+0) +0.585714286<x20>[B] (+0) -0.585714286<x21>[B] (+0) -0.585714286<x22>[B] (+0) -0.585714286<x23>[B] (+0) -0.585714286<x24>[B] (+0) -0.585714286<x25>[B] (+0) -0.585714286<x26>[B] (+1) -0.585714286<x27>[B] (+0) +0.585714286<x28>[B] (+1) +0.585714286<x29>[B] (+0) +0.585714286<x30>[B] (+1) +0.585714286<x31>[B] (+0) +0.585714286<x32>[B] (+0) -0.585714286<x33>[B] (+1) +0.585714286<x34>[B] (+1) +0.585714286<x35>[B] (+1) +0.585714286<x36>[B] (+0) +0.585714286<x37>[B] (+0) +0.585714286<x38>[B] (+1) -0.585714286<x39>[B] (+1) -0.585714286<x40>[B] (+0) -0.585714286<x41>[B] (+1) +0.585714286<x42>[B] (+0) +0.585714286<x43>[B] (+0) -0.585714286<x44>[B] (+1) -0.585714286<x45>[B] (+1) -0.585714286<x46>[B] (+0) -0.585714286<x47>[B] (+0) -0.585714286<x48>[B] (+0) -0.585714286<x49>[B] (+1) -0.585714286<x50>[B] (+1) -0.585714286<x51>[B] (+1) +0.585714286<x52>[B] (+0) +0.585714286<x53>[B] (+0) -0.585714286<x54>[B] (+1) -0.585714286<x55>[B] (+1) -0.585714286<x56>[B] (+1) -0.585714286<x57>[B] (+0) -0.585714286<x58>[B] (+0) -0.585714286<x59>[B] (+1) -0.585714286<x60>[B] (+1) +0.585714286<x61>[B] (+0) +0.585714286<x62>[B] (+0) -0.585714286<x63>[B] (+0) +0.585714286<x64>[B] (+0) -0.585714286<x65>[B] (+0) -0.585714286<x66>[B] (+0) -0.585714286<x67>[B] (+0) +0.585714286<x68>[B] (+0) -0.585714286<x69>[B] (+0) +0.585714286<x70>[B] (+1) -0.585714286<x71>[B] (+1) -0.585714286<x72>[B] (+1) -0.585714286<x73>[B] (+1) -0.585714286<x74>[B] (+1) -0.585714286<x75>[B] (+1) -0.585714286<x76>[B] (+1) -0.585714286<x77>[B] (+1) -0.585714286<x78>[B] (+1) -0.585714286<x79>[B] (+1) -0.585714286<x80>[B] (+1) -0.585714286<x81>[B] (+1) -0.585714286<x82>[B] (+1) -0.585714286<x83>[B] (+1) -0.585714286<x84>[B] (+1) +0.585714286<x85>[B] (+0) +0.585714286<x86>[B] (+0) +0.585714286<x87>[B] (+0) +0.585714286<x88>[B] (+0) +0.585714286<x89>[B] (+1) -0.585714286<x90>[B] (+0) -0.585714286<x91>[B] (+0) -0.585714286<x92>[B] (+0) -0.585714286<x93>[B] (+0) -0.585714286<x94>[B] (+1) -0.585714286<x95>[B] (+1) -0.585714286<x96>[B] (+0) -0.585714286<x97>[B] (+0) +0.585714286<x98>[B] (+1) -0.585714286<x99>[B] (+1) -0.585714286<x100>[B] (+1) +0.585714286<x101>[B] (+1) -0.585714286<x102>[B] (+1) +0.585714286<x103>[B] (+1) -0.585714286<x104>[B] (+1) -0.585714286<x105>[B] (+0) >= 0.733333333333334;
+;
+violation: left hand side is violated by 0.00952380952380871
+  [linear] <c957>: <x115>[C] (+17.7095238) +0.576190476<x1>[B] (+0) -0.576190476<x2>[B] (+1) -0.576190476<x3>[B] (+1) -0.576190476<x4>[B] (+1) -0.576190476<x5>[B] (+1) -0.576190476<x6>[B] (+0) +0.576190476<x7>[B] (+0) +0.576190476<x8>[B] (+1) -0.576190476<x9>[B] (+1) -0.576190476<x10>[B] (+1) -0.576190476<x11>[B] (+0) -0.576190476<x12>[B] (+0) -0.576190476<x13>[B] (+1) -0.576190476<x14>[B] (+0) -0.576190476<x15>[B] (+1) -0.576190476<x16>[B] (+1) -0.576190476<x17>[B] (+1) -0.576190476<x18>[B] (+1) -0.576190476<x19>[B] (+0) +0.576190476<x20>[B] (+0) +0.576190476<x21>[B] (+1) -0.576190476<x22>[B] (+1) -0.576190476<x23>[B] (+1) -0.576190476<x24>[B] (+0) -0.576190476<x25>[B] (+0) -0.576190476<x26>[B] (+1) -0.576190476<x27>[B] (+1) -0.576190476<x28>[B] (+1) -0.576190476<x29>[B] (+0) -0.576190476<x30>[B] (+1) -0.576190476<x31>[B] (+0) +0.576190476<x32>[B] (+0) +0.576190476<x33>[B] (+1) -0.576190476<x34>[B] (+1) -0.576190476<x35>[B] (+0) -0.576190476<x36>[B] (+0) +0.576190476<x37>[B] (+0) -0.576190476<x38>[B] (+1) -0.576190476<x39>[B] (+0) +0.576190476<x40>[B] (+0) +0.576190476<x41>[B] (+1) +0.576190476<x42>[B] (+0) +0.576190476<x43>[B] (+0) +0.576190476<x44>[B] (+1) -0.576190476<x45>[B] (+1) +0.576190476<x46>[B] (+0) +0.576190476<x47>[B] (+0) +0.576190476<x48>[B] (+0) +0.576190476<x49>[B] (+1) -0.576190476<x50>[B] (+0) -0.576190476<x51>[B] (+1) +0.576190476<x52>[B] (+0) +0.576190476<x53>[B] (+0) +0.576190476<x54>[B] (+1) -0.576190476<x55>[B] (+1) +0.576190476<x56>[B] (+1) -0.576190476<x57>[B] (+0) +0.576190476<x58>[B] (+0) -0.576190476<x59>[B] (+1) -0.576190476<x60>[B] (+0) +0.576190476<x61>[B] (+0) +0.576190476<x62>[B] (+0) +0.576190476<x63>[B] (+0) -0.576190476<x64>[B] (+0) +0.576190476<x65>[B] (+0) -0.576190476<x66>[B] (+0) +0.576190476<x67>[B] (+0) -0.576190476<x68>[B] (+0) -0.576190476<x69>[B] (+0) +0.576190476<x70>[B] (+1) +0.576190476<x71>[B] (+1) -0.576190476<x72>[B] (+1) +0.576190476<x73>[B] (+1) -0.576190476<x74>[B] (+1) +0.576190476<x75>[B] (+1) -0.576190476<x76>[B] (+1) -0.576190476<x77>[B] (+1) +0.576190476<x78>[B] (+1) -0.576190476<x79>[B] (+1) -0.576190476<x80>[B] (+1) -0.576190476<x81>[B] (+1) -0.576190476<x82>[B] (+1) -0.576190476<x83>[B] (+1) -0.576190476<x84>[B] (+1) -0.576190476<x85>[B] (+0) -0.576190476<x86>[B] (+0) -0.576190476<x87>[B] (+0) -0.576190476<x88>[B] (+0) -0.576190476<x89>[B] (+1) -0.576190476<x90>[B] (+0) +0.576190476<x91>[B] (+0) +0.576190476<x92>[B] (+0) +0.576190476<x93>[B] (+0) +0.576190476<x94>[B] (+1) -0.576190476<x95>[B] (+0) -0.576190476<x96>[B] (+0) +0.576190476<x97>[B] (+0) -0.576190476<x98>[B] (+1) -0.576190476<x99>[B] (+0) +0.576190476<x100>[B] (+1) +0.576190476<x101>[B] (+1) -0.576190476<x102>[B] (+1) -0.576190476<x103>[B] (+1) -0.576190476<x104>[B] (+1) -0.576190476<x105>[B] (+0) >= 5.04285714285714;
+;
+violation: left hand side is violated by 0.00952380952380949
+  [linear] <c957>: <x115>[C] (+18.8428571) +0.576190476<x1>[B] (+0) -0.576190476<x2>[B] (+1) -0.576190476<x3>[B] (+1) -0.576190476<x4>[B] (+1) -0.576190476<x5>[B] (+1) -0.576190476<x6>[B] (+0) +0.576190476<x7>[B] (+0) +0.576190476<x8>[B] (+1) -0.576190476<x9>[B] (+1) -0.576190476<x10>[B] (+1) -0.576190476<x11>[B] (+0) -0.576190476<x12>[B] (+0) -0.576190476<x13>[B] (+1) -0.576190476<x14>[B] (+1) -0.576190476<x15>[B] (+1) -0.576190476<x16>[B] (+1) -0.576190476<x17>[B] (+1) -0.576190476<x18>[B] (+1) -0.576190476<x19>[B] (+0) +0.576190476<x20>[B] (+0) +0.576190476<x21>[B] (+1) -0.576190476<x22>[B] (+1) -0.576190476<x23>[B] (+1) -0.576190476<x24>[B] (+0) -0.576190476<x25>[B] (+0) -0.576190476<x26>[B] (+1) -0.576190476<x27>[B] (+1) -0.576190476<x28>[B] (+1) -0.576190476<x29>[B] (+0) -0.576190476<x30>[B] (+1) -0.576190476<x31>[B] (+0) +0.576190476<x32>[B] (+0) +0.576190476<x33>[B] (+1) -0.576190476<x34>[B] (+1) -0.576190476<x35>[B] (+1) -0.576190476<x36>[B] (+0) +0.576190476<x37>[B] (+0) -0.576190476<x38>[B] (+1) -0.576190476<x39>[B] (+0) +0.576190476<x40>[B] (+0) +0.576190476<x41>[B] (+1) +0.576190476<x42>[B] (+0) +0.576190476<x43>[B] (+0) +0.576190476<x44>[B] (+1) -0.576190476<x45>[B] (+1) +0.576190476<x46>[B] (+0) +0.576190476<x47>[B] (+0) +0.576190476<x48>[B] (+0) +0.576190476<x49>[B] (+1) -0.576190476<x50>[B] (+0) -0.576190476<x51>[B] (+1) +0.576190476<x52>[B] (+0) +0.576190476<x53>[B] (+0) +0.576190476<x54>[B] (+1) -0.576190476<x55>[B] (+1) +0.576190476<x56>[B] (+1) -0.576190476<x57>[B] (+0) +0.576190476<x58>[B] (+0) -0.576190476<x59>[B] (+1) -0.576190476<x60>[B] (+0) +0.576190476<x61>[B] (+0) +0.576190476<x62>[B] (+0) +0.576190476<x63>[B] (+0) -0.576190476<x64>[B] (+0) +0.576190476<x65>[B] (+0) -0.576190476<x66>[B] (+0) +0.576190476<x67>[B] (+0) -0.576190476<x68>[B] (+0) -0.576190476<x69>[B] (+0) +0.576190476<x70>[B] (+1) +0.576190476<x71>[B] (+1) -0.576190476<x72>[B] (+1) +0.576190476<x73>[B] (+1) -0.576190476<x74>[B] (+1) +0.576190476<x75>[B] (+1) -0.576190476<x76>[B] (+1) -0.576190476<x77>[B] (+1) +0.576190476<x78>[B] (+1) -0.576190476<x79>[B] (+1) -0.576190476<x80>[B] (+1) -0.576190476<x81>[B] (+1) -0.576190476<x82>[B] (+1) -0.576190476<x83>[B] (+1) -0.576190476<x84>[B] (+1) -0.576190476<x85>[B] (+0) -0.576190476<x86>[B] (+0) -0.576190476<x87>[B] (+0) -0.576190476<x88>[B] (+0) -0.576190476<x89>[B] (+1) -0.576190476<x90>[B] (+0) +0.576190476<x91>[B] (+0) +0.576190476<x92>[B] (+0) +0.576190476<x93>[B] (+0) +0.576190476<x94>[B] (+1) -0.576190476<x95>[B] (+0) -0.576190476<x96>[B] (+0) +0.576190476<x97>[B] (+0) -0.576190476<x98>[B] (+1) -0.576190476<x99>[B] (+0) +0.576190476<x100>[B] (+1) +0.576190476<x101>[B] (+1) -0.576190476<x102>[B] (+1) -0.576190476<x103>[B] (+1) -0.576190476<x104>[B] (+1) -0.576190476<x105>[B] (+0) >= 5.04285714285714;
+;
+violation: left hand side is violated by 0.0285714285714498
+  [linear] <c957>: <x115>[C] (+18.2761905) +0.576190476<x1>[B] (+1) -0.576190476<x2>[B] (+1) -0.576190476<x3>[B] (+1) -0.576190476<x4>[B] (+0) -0.576190476<x5>[B] (+1) -0.576190476<x6>[B] (+0) +0.576190476<x7>[B] (+0) +0.576190476<x8>[B] (+1) -0.576190476<x9>[B] (+1) -0.576190476<x10>[B] (+1) -0.576190476<x11>[B] (+0) -0.576190476<x12>[B] (+0) -0.576190476<x13>[B] (+1) -0.576190476<x14>[B] (+1) -0.576190476<x15>[B] (+0) -0.576190476<x16>[B] (+1) -0.576190476<x17>[B] (+0) -0.576190476<x18>[B] (+1) -0.576190476<x19>[B] (+0) +0.576190476<x20>[B] (+0) +0.576190476<x21>[B] (+1) -0.576190476<x22>[B] (+1) -0.576190476<x23>[B] (+0) -0.576190476<x24>[B] (+0) -0.576190476<x25>[B] (+0) -0.576190476<x26>[B] (+1) -0.576190476<x27>[B] (+1) -0.576190476<x28>[B] (+1) -0.576190476<x29>[B] (+0) -0.576190476<x30>[B] (+1) -0.576190476<x31>[B] (+0) +0.576190476<x32>[B] (+0) +0.576190476<x33>[B] (+1) -0.576190476<x34>[B] (+1) -0.576190476<x35>[B] (+1) -0.576190476<x36>[B] (+0) +0.576190476<x37>[B] (+0) -0.576190476<x38>[B] (+1) -0.576190476<x39>[B] (+1) +0.576190476<x40>[B] (+0) +0.576190476<x41>[B] (+1) +0.576190476<x42>[B] (+0) +0.576190476<x43>[B] (+0) +0.576190476<x44>[B] (+1) -0.576190476<x45>[B] (+1) +0.576190476<x46>[B] (+0) +0.576190476<x47>[B] (+0) +0.576190476<x48>[B] (+0) +0.576190476<x49>[B] (+1) -0.576190476<x50>[B] (+1) -0.576190476<x51>[B] (+1) +0.576190476<x52>[B] (+0) +0.576190476<x53>[B] (+0) +0.576190476<x54>[B] (+1) -0.576190476<x55>[B] (+1) +0.576190476<x56>[B] (+1) -0.576190476<x57>[B] (+0) +0.576190476<x58>[B] (+0) -0.576190476<x59>[B] (+1) -0.576190476<x60>[B] (+1) +0.576190476<x61>[B] (+0) +0.576190476<x62>[B] (+0) +0.576190476<x63>[B] (+0) -0.576190476<x64>[B] (+0) +0.576190476<x65>[B] (+0) -0.576190476<x66>[B] (+0) +0.576190476<x67>[B] (+0) -0.576190476<x68>[B] (+0) -0.576190476<x69>[B] (+0) +0.576190476<x70>[B] (+1) +0.576190476<x71>[B] (+1) -0.576190476<x72>[B] (+1) +0.576190476<x73>[B] (+1) -0.576190476<x74>[B] (+1) +0.576190476<x75>[B] (+1) -0.576190476<x76>[B] (+1) -0.576190476<x77>[B] (+1) +0.576190476<x78>[B] (+1) -0.576190476<x79>[B] (+1) -0.576190476<x80>[B] (+1) -0.576190476<x81>[B] (+1) -0.576190476<x82>[B] (+1) -0.576190476<x83>[B] (+1) -0.576190476<x84>[B] (+1) -0.576190476<x85>[B] (+0) -0.576190476<x86>[B] (+0) -0.576190476<x87>[B] (+0) -0.576190476<x88>[B] (+0) -0.576190476<x89>[B] (+1) -0.576190476<x90>[B] (+0) +0.576190476<x91>[B] (+0) +0.576190476<x92>[B] (+0) +0.576190476<x93>[B] (+0) +0.576190476<x94>[B] (+1) -0.576190476<x95>[B] (+0) -0.576190476<x96>[B] (+0) +0.576190476<x97>[B] (+0) -0.576190476<x98>[B] (+1) -0.576190476<x99>[B] (+1) +0.576190476<x100>[B] (+1) +0.576190476<x101>[B] (+1) -0.576190476<x102>[B] (+1) -0.576190476<x103>[B] (+1) -0.576190476<x104>[B] (+1) -0.576190476<x105>[B] (+0) >= 5.04285714285714;
+;
+violation: left hand side is violated by 0.0190476190476154
+  [linear] <c957>: <x115>[C] (+17.7095238) +0.576190476<x1>[B] (+1) -0.576190476<x2>[B] (+1) -0.576190476<x3>[B] (+1) -0.576190476<x4>[B] (+0) -0.576190476<x5>[B] (+1) -0.576190476<x6>[B] (+0) +0.576190476<x7>[B] (+0) +0.576190476<x8>[B] (+1) -0.576190476<x9>[B] (+1) -0.576190476<x10>[B] (+1) -0.576190476<x11>[B] (+0) -0.576190476<x12>[B] (+0) -0.576190476<x13>[B] (+1) -0.576190476<x14>[B] (+1) -0.576190476<x15>[B] (+0) -0.576190476<x16>[B] (+1) -0.576190476<x17>[B] (+0) -0.576190476<x18>[B] (+1) -0.576190476<x19>[B] (+0) +0.576190476<x20>[B] (+0) +0.576190476<x21>[B] (+1) -0.576190476<x22>[B] (+1) -0.576190476<x23>[B] (+0) -0.576190476<x24>[B] (+0) -0.576190476<x25>[B] (+0) -0.576190476<x26>[B] (+1) -0.576190476<x27>[B] (+1) -0.576190476<x28>[B] (+1) -0.576190476<x29>[B] (+0) -0.576190476<x30>[B] (+1) -0.576190476<x31>[B] (+0) +0.576190476<x32>[B] (+0) +0.576190476<x33>[B] (+1) -0.576190476<x34>[B] (+1) -0.576190476<x35>[B] (+0) -0.576190476<x36>[B] (+0) +0.576190476<x37>[B] (+0) -0.576190476<x38>[B] (+1) -0.576190476<x39>[B] (+1) +0.576190476<x40>[B] (+0) +0.576190476<x41>[B] (+1) +0.576190476<x42>[B] (+0) +0.576190476<x43>[B] (+0) +0.576190476<x44>[B] (+1) -0.576190476<x45>[B] (+1) +0.576190476<x46>[B] (+0) +0.576190476<x47>[B] (+0) +0.576190476<x48>[B] (+0) +0.576190476<x49>[B] (+1) -0.576190476<x50>[B] (+1) -0.576190476<x51>[B] (+1) +0.576190476<x52>[B] (+0) +0.576190476<x53>[B] (+0) +0.576190476<x54>[B] (+1) -0.576190476<x55>[B] (+1) +0.576190476<x56>[B] (+1) -0.576190476<x57>[B] (+0) +0.576190476<x58>[B] (+0) -0.576190476<x59>[B] (+1) -0.576190476<x60>[B] (+1) +0.576190476<x61>[B] (+0) +0.576190476<x62>[B] (+0) +0.576190476<x63>[B] (+0) -0.576190476<x64>[B] (+0) +0.576190476<x65>[B] (+0) -0.576190476<x66>[B] (+0) +0.576190476<x67>[B] (+0) -0.576190476<x68>[B] (+0) -0.576190476<x69>[B] (+0) +0.576190476<x70>[B] (+1) +0.576190476<x71>[B] (+1) -0.576190476<x72>[B] (+1) +0.576190476<x73>[B] (+1) -0.576190476<x74>[B] (+1) +0.576190476<x75>[B] (+1) -0.576190476<x76>[B] (+1) -0.576190476<x77>[B] (+1) +0.576190476<x78>[B] (+1) -0.576190476<x79>[B] (+1) -0.576190476<x80>[B] (+1) -0.576190476<x81>[B] (+1) -0.576190476<x82>[B] (+1) -0.576190476<x83>[B] (+1) -0.576190476<x84>[B] (+1) -0.576190476<x85>[B] (+0) -0.576190476<x86>[B] (+0) -0.576190476<x87>[B] (+0) -0.576190476<x88>[B] (+0) -0.576190476<x89>[B] (+1) -0.576190476<x90>[B] (+0) +0.576190476<x91>[B] (+0) +0.576190476<x92>[B] (+0) +0.576190476<x93>[B] (+0) +0.576190476<x94>[B] (+1) -0.576190476<x95>[B] (+0) -0.576190476<x96>[B] (+0) +0.576190476<x97>[B] (+0) -0.576190476<x98>[B] (+1) -0.576190476<x99>[B] (+1) +0.576190476<x100>[B] (+1) +0.576190476<x101>[B] (+1) -0.576190476<x102>[B] (+1) -0.576190476<x103>[B] (+1) -0.576190476<x104>[B] (+1) -0.576190476<x105>[B] (+0) >= 5.04285714285714;
+;
+violation: left hand side is violated by 0.00952380952380238
+5/10 feasible solutions given by solution candidate storage, new primal bound -7.322381e+01
+
+presolving:
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 0 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 957 constraints
+    957 constraints of type <linear>
+Presolving Time: 0.00
+transformed 6/6 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.0s|     1 |     0 |   163 |     - |    19M |   0 | 115 | 957 | 957 |   0 |  0 |   0 |   0 |-7.262144e+01 |-7.322381e+01 |   0.83%| unknown
+  0.0s|     1 |     0 |   163 |     - |    19M |   0 | 115 | 957 | 374 |   0 |  0 |   0 |   0 |-7.262144e+01 |-7.322381e+01 |   0.83%| unknown
+  0.0s|     1 |     0 |   170 |     - |    19M |   0 | 115 | 957 | 375 |   1 |  1 |   0 |   0 |-7.267051e+01 |-7.322381e+01 |   0.76%| unknown
+  0.0s|     1 |     0 |   170 |     - |    19M |   0 | 115 | 957 | 358 |   1 |  1 |   0 |   0 |-7.267051e+01 |-7.322381e+01 |   0.76%| unknown
+  0.0s|     1 |     0 |   185 |     - |    19M |   0 | 115 | 957 | 359 |   2 |  2 |   0 |   0 |-7.273175e+01 |-7.322381e+01 |   0.68%| unknown
+  0.0s|     1 |     0 |   185 |     - |    19M |   0 | 115 | 957 | 339 |   2 |  2 |   0 |   0 |-7.273175e+01 |-7.322381e+01 |   0.68%| unknown
+  0.1s|     1 |     0 |   209 |     - |    19M |   0 | 115 | 957 | 340 |   3 |  3 |   0 |   0 |-7.279530e+01 |-7.322381e+01 |   0.59%| unknown
+  0.1s|     1 |     0 |   209 |     - |    19M |   0 | 115 | 957 | 320 |   3 |  3 |   0 |   0 |-7.279530e+01 |-7.322381e+01 |   0.59%| unknown
+  0.1s|     1 |     0 |   216 |     - |    19M |   0 | 115 | 957 | 321 |   4 |  4 |   0 |   0 |-7.280142e+01 |-7.322381e+01 |   0.58%| unknown
+  0.1s|     1 |     0 |   230 |     - |    19M |   0 | 115 | 957 | 323 |   6 |  5 |   0 |   0 |-7.282647e+01 |-7.322381e+01 |   0.55%| unknown
+  0.1s|     1 |     0 |   241 |     - |    19M |   0 | 115 | 957 | 324 |   7 |  6 |   0 |   0 |-7.282952e+01 |-7.322381e+01 |   0.54%| unknown
+  0.2s|     1 |     0 |   271 |     - |    19M |   0 | 115 | 958 | 325 |   8 |  7 |   1 |   0 |-7.284644e+01 |-7.322381e+01 |   0.52%| unknown
+  0.2s|     1 |     0 |   271 |     - |    19M |   0 | 115 | 958 | 311 |   8 |  7 |   1 |   0 |-7.284644e+01 |-7.322381e+01 |   0.52%| unknown
+  0.2s|     1 |     0 |   280 |     - |    19M |   0 | 115 | 958 | 314 |  11 |  8 |   1 |   0 |-7.284994e+01 |-7.322381e+01 |   0.51%| unknown
+  0.2s|     1 |     0 |   292 |     - |    20M |   0 | 115 | 958 | 317 |  14 |  9 |   1 |   0 |-7.285231e+01 |-7.322381e+01 |   0.51%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.3s|     1 |     0 |   299 |     - |    20M |   0 | 115 | 959 | 319 |  16 | 10 |   2 |   0 |-7.285300e+01 |-7.322381e+01 |   0.51%| unknown
+  0.3s|     1 |     0 |   307 |     - |    20M |   0 | 115 | 959 | 322 |  19 | 11 |   2 |   0 |-7.285350e+01 |-7.322381e+01 |   0.51%| unknown
+  0.3s|     1 |     0 |   307 |     - |    20M |   0 | 115 | 959 | 313 |  19 | 11 |   2 |   0 |-7.285350e+01 |-7.322381e+01 |   0.51%| unknown
+  0.3s|     1 |     0 |   329 |     - |    20M |   0 | 115 | 959 | 316 |  22 | 12 |   2 |   0 |-7.285483e+01 |-7.322381e+01 |   0.51%| unknown
+  0.4s|     1 |     0 |   337 |     - |    20M |   0 | 115 | 959 | 318 |  24 | 13 |   2 |   0 |-7.285591e+01 |-7.322381e+01 |   0.50%| unknown
+  0.4s|     1 |     0 |   352 |     - |    20M |   0 | 115 | 959 | 319 |  25 | 14 |   2 |   0 |-7.285631e+01 |-7.322381e+01 |   0.50%| unknown
+  0.4s|     1 |     0 |   370 |     - |    20M |   0 | 115 | 959 | 320 |  26 | 15 |   2 |   0 |-7.285700e+01 |-7.322381e+01 |   0.50%| unknown
+  0.5s|     1 |     0 |   370 |     - |    20M |   0 | 115 | 259 | 320 |  26 | 16 |   2 |   0 |-7.285700e+01 |-7.322381e+01 |   0.50%| unknown
+L 0.5s|     1 |     0 |   531 |     - |    rens|   0 | 115 | 270 | 320 |  26 | 17 |  13 |   0 |-7.285700e+01 |-7.315714e+01 |   0.41%| unknown
+(run 1, node 1) restarting after 64 global fixings of integer variables
+
+(restart) converted 26 cuts from the global cut pool into linear constraints
+
+presolving:
+presolving (0 rounds: 0 fast, 0 medium, 0 exhaustive):
+ 0 deleted vars, 0 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 0 implications, 1 cliques, 0 implied integral variables (0 bin, 0 int, 0 cont)
+presolved problem has 115 variables (105 bin, 0 int, 10 cont) and 296 constraints
+      1 constraints of type <setppc>
+    287 constraints of type <linear>
+      8 constraints of type <logicor>
+Presolving Time: 0.00
+transformed 22/24 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  0.5s|     1 |     0 |   717 |     - |    20M |   0 | 115 | 296 | 283 |   0 |  0 |  13 |   0 |-7.285700e+01 |-7.315714e+01 |   0.41%| unknown
+  0.6s|     1 |     0 |   734 |     - |    20M |   0 | 115 | 296 | 284 |   1 |  1 |  13 |   0 |-7.285996e+01 |-7.315714e+01 |   0.41%| unknown
+  0.6s|     1 |     0 |   752 |     - |    20M |   0 | 115 | 296 | 285 |   2 |  2 |  13 |   0 |-7.286315e+01 |-7.315714e+01 |   0.40%| unknown
+  0.6s|     1 |     0 |   755 |     - |    20M |   0 | 115 | 296 | 286 |   3 |  3 |  13 |   0 |-7.286321e+01 |-7.315714e+01 |   0.40%| unknown
+  0.7s|     1 |     0 |   758 |     - |    20M |   0 | 115 | 296 | 287 |   4 |  4 |  13 |   0 |-7.286357e+01 |-7.315714e+01 |   0.40%| unknown
+  0.7s|     1 |     0 |   781 |     - |    20M |   0 | 115 | 296 | 288 |   5 |  5 |  13 |   0 |-7.286623e+01 |-7.315714e+01 |   0.40%| unknown
+  0.8s|     1 |     0 |   802 |     - |    20M |   0 | 115 | 296 | 290 |   7 |  6 |  13 |   0 |-7.286717e+01 |-7.315714e+01 |   0.40%| unknown
+  0.8s|     1 |     0 |   807 |     - |    20M |   0 | 115 | 297 | 291 |   8 |  7 |  14 |   0 |-7.286728e+01 |-7.315714e+01 |   0.40%| unknown
+  0.9s|     1 |     0 |   833 |     - |    20M |   0 | 115 | 297 | 292 |   9 |  8 |  14 |   0 |-7.286846e+01 |-7.315714e+01 |   0.40%| unknown
+  0.9s|     1 |     0 |   860 |     - |    20M |   0 | 115 | 298 | 293 |  10 |  9 |  15 |   0 |-7.287033e+01 |-7.315714e+01 |   0.39%| unknown
+  0.9s|     1 |     0 |   876 |     - |    20M |   0 | 115 | 298 | 294 |  11 | 10 |  15 |   0 |-7.287105e+01 |-7.315714e+01 |   0.39%| unknown
+  1.0s|     1 |     0 |   888 |     - |    20M |   0 | 115 | 298 | 283 |  12 | 11 |  15 |   0 |-7.287204e+01 |-7.315714e+01 |   0.39%| unknown
+  1.0s|     1 |     0 |  1078 |     - |    20M |   0 | 115 | 222 | 283 |  12 | 11 |  32 |   3 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+  1.0s|     1 |     0 |  1078 |     - |    20M |   0 | 115 | 222 | 151 |  12 | 11 |  32 |   3 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+  1.0s|     1 |     0 |  1078 |     - |    20M |   0 | 115 | 220 | 148 |  12 | 12 |  32 |   3 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  1.0s|     1 |     0 |  1078 |     - |    20M |   0 | 115 | 110 | 148 |  12 | 12 |  32 |   3 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+  1.0s|     1 |     0 |  1079 |     - |    20M |   0 | 115 | 103 | 147 |  12 | 13 |  32 |   4 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+  1.0s|     1 |     2 |  1079 |     - |    20M |   0 | 115 | 103 | 147 |  12 | 14 |  32 |   4 |-7.314762e+01 |-7.315714e+01 |   0.01%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.03
+Solving Nodes      : 3 (total of 4 nodes in 2 runs)
+Primal Bound       : -7.31571428571428e+01 (39 solutions)
+Dual Bound         : -7.31571428571428e+01
+Gap                : 0.00 %
